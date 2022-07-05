@@ -5,16 +5,16 @@
                         <div class="navbar-brand-box">
                             <a href="/dashboard" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <b>S</b>
+                                    <b>P</b>
                                 </span>
                                 <span class="logo-lg">
-                                    <b><strong>SENSE INT</strong></b>
+                                    <b><strong>ADMIN</strong></b>
                                 </span>
                             </a>
 
                             <a href="/dashboard" class="logo logo-light">
                             <span class="logo-sm">
-                                    <b>S</b>
+                                    <b>P</b>
                                 </span>
                                 <span class="logo-lg">
                                     <b>SENSE</b>

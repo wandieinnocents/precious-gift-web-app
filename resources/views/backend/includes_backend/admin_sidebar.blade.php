@@ -13,12 +13,12 @@
                     </a>
                 </li>
                 <!-- analytics -->
-                <li>
+                {{-- <li>
                     <a href="/analytics">
                     <i class="fas fa-chart-bar"></i>
                         <span data-key="t-dashboard">Analytics</span>
                     </a>
-                </li>
+                </li> --}}
                 <!-- Feedback -->
                 <li>
                     <a href="/feedbacks">
@@ -61,7 +61,7 @@
                     </ul>
                 </li>
                 <!-- Gallery -->
-                <!-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-photo-video"></i>
                         
@@ -92,10 +92,10 @@
                             </a>
                         </li>
                     </ul>
-                </li> -->
+                </li> 
 
                 <!-- Services -->
-                <!-- <li>
+               <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-people-carry"></i>
                         <span data-key="t-apps">Services</span>
@@ -127,10 +127,10 @@
                             </a>
                         </li>
                     </ul>
-                </li> -->
+                </li> 
 
                 <!-- Projects -->
-                <!-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-university"></i>
                         <span data-key="t-apps">Projects</span>
@@ -162,7 +162,41 @@
                             </a>
                         </li>
                     </ul>
-                </li> -->
+                </li> 
+                {{-- Team --}}
+                   <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i class="fas fa-university"></i>
+                        <span data-key="t-apps">Staff</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li>
+                            <a href="/project_categories/create">
+                                <span data-key="t-calendar">Add Category</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/project_categories">
+                                <span data-key="t-calendar"
+                                    >View Categories</span
+                                >
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/projects/create">
+                                <span data-key="t-chat">Add Staff</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/projects">
+                                <span data-key="t-chat">View Staffs</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li> 
 
 
                 <hr>
