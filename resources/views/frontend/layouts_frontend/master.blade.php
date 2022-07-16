@@ -11,7 +11,7 @@
 <link href="{{ asset('assets/frontend_assets/css/responsive.css') }}" rel="stylesheet">
 
 <link rel="shortcut icon" href="{{ asset('assets/frontend_assets/images/favicon.png') }}" type="image/x-icon">
-<link rel="icon" href="{{ asset('assets/frontend_assets/images/favicon.png') }}" type="image/x-icon">
+<link rel="icon" href="assets/frontend_assets/images/favicon.png" type="image/x-icon">
 
 <!-- Responsive Settings -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +24,7 @@
 
 <div class="page-wrapper">
     <!-- Preloader -->
-    {{-- <div class="preloader"><div class="icon"></div></div> --}}
+    <div class="preloader"><div class="icon"></div></div>
 
     <!-- Main Header -->
     <header class="main-header header-style-two">
@@ -185,7 +185,7 @@
 		<div class="banner-carousel kausid-carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
 			<!-- Slide Item -->
 			<div class="slide-item">
-				<div class="image-layer" style="background-image:url('images/main-slider/4.jpg')"></div>
+				<div class="image-layer" style="background-image:url('assets/frontend_assets/images/main-slider/4.jpg')"></div>
 
 				<div class="auto-container">
 					<div class="content-box">
