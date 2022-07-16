@@ -47,8 +47,8 @@
             <div class="inner-container clearfix">
                 <!--Logo-->
                 <div class="logo-box">
-                    <div class="logo"><a href="index.html" title="Precious Gift"><img
-                                src="assets/frontend_assets/images/logo-2.png" alt="Precious Gift"
+                    <div class="logo"><a href="/" title="Precious Gift"><img
+                                src="{{ asset('assets/frontend_assets/images/logo-2.png') }}" alt="Precious Gift"
                                 title="Precious Gift"></a></div>
                 </div>
 
@@ -61,19 +61,21 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li ><a href="index.html">Home</a></li>
+                                <li ><a href="/">Home</a></li>
                                 <li class="dropdown"><a href="javascript::void(0)">Know Us</a>
                                     <ul>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="volunteers.html">Our Staff</a></li>
-                                    <li><a href="faq.html">Faq's</a></li>
+                                        <li><a href="/about">About Us</a></li>
+                                        <li><a href="/team">Our Staff</a></li>
+                                    <li><a href="/faq">Faq's</a></li>
+                                    
                                     </ul>
                                 </li>
                                  <li><a href="blog.html">Projects</a></li>
                                 <li><a href="blog.html">News</a></li>
+                                 <li><a href="/pictures">Gallery</a></li>
 
 
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="/contact/create">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -94,7 +96,7 @@
         <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="index.html" title=""><img src="assets/frontend_assets/images/sticky-logo.png"
+                <a href="index.html" title=""><img src="{{ asset('assets/frontend_assets/images/sticky-logo.png') }}"
                         alt="" title=""></a>
             </div>
             <!--Right Col-->
@@ -113,7 +115,7 @@
         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="assets/frontend_assets/images/nav-logo.png"
+            <div class="nav-logo"><a href="index.html"><img src="{{ asset('assets/frontend_assets/images/nav-logo.png') }}"
                         alt="" title=""></a></div>
             <div class="menu-outer">
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->

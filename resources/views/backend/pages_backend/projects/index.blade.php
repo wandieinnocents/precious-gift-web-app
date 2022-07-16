@@ -1,279 +1,223 @@
-@extends('backend.layouts_backend.master')
+@extends('frontend.layouts_frontend.master')
 
 @section('title')
-
-@endsection
-
-@section('extra_styles')
-
-<style>
-    body.modal-open { 
-  padding-right: 0 !important;
-  overflow-y: scroll;
-}
-</style>
-
+Gallery
 @endsection
 
 @section('content')
+<!-- content  -->
+  <!-- Page Banner Section -->
+    <section class="page-banner">
+        <div class="image-layer" style="background-image: url(assets/frontend_assets/images/background/bg-page-title-2.jpg);"></div>
 
-<!-- Main content dashboard  -->
+        <div class="auto-container">
+            <h1>About Us</h1>
+        </div>
+
+        <div class="breadcrumb-box">
+            <div class="auto-container">
+                <ul class="bread-crumb clearfix">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Pages</a></li>
+                    <li class="active">About</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <!--End Banner Section -->
+
+    <!--About Section-->
+    <section class="about-section-three">
+        
+        <div class="icon-two paroller" data-paroller-factor="0.20" data-paroller-factor-lg="0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-donation"></span></div>
 
 
-                       
-                <div class="page-content">
-                    <div class="container-fluid">
+        <div class="icon-four paroller" data-paroller-factor="-0.10" data-paroller-factor-lg="-0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="vertical"><span class="flaticon-money-jar"></span></div>
 
-                       
+        <div class="icon-five paroller" data-paroller-factor="-0.10" data-paroller-factor-lg="-0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-gift-box"></span></div>
+        
+        <div class="icon-six paroller" data-paroller-factor="0.10" data-paroller-factor-lg="0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-dove-2"></span></div>
 
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <h5 class="card-title">Projects <span class="text-muted fw-normal ms-2">({{ $count_projects }})</span></h5>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
-                                   
-                                    <div>
-                                        <a href="{{ route('projects.create') }}" class="btn bg-primary text-light"><i class="bx bx-plus me-1"></i> Add Project</a>
-                                    </div>
-                                    
-                                   
-                                </div>
-
-                            </div>
+        <div class="auto-container">
+            <div class="row clearfix">
+                <!--Text Column-->
+                <div class="text-column col-lg-7 col-md-12 col-sm-12">
+                    <div class="inner">
+                        <div class="sec-title">
+                            <div class="sub-title"><span class="icon"></span> We believe what we achieve</div>
+                            <h2>Warmth & True Support <br>For Needed People</h2>
+                            <div class="lower-title">We make ways to good things happen</div>
                         </div>
-                        <!-- end row -->
-
-
-
-                        <!-- FETCH FEEDBACKS -->
-
-                        <div class="table-responsive mb-4">
-                            <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
-                                <thead>
-                                  <tr>
-                                    <th scope="col" style="width: 50px;">
-                                        <div class="form-check font-size-16">
-                                            <input type="checkbox" class="form-check-input" id="checkAll">
-                                            <label class="form-check-label" for="checkAll"></label>
-                                        </div>
-                                    </th>
-                                    <th scope="col">#ID</th>
-                                    <th scope="col">Category</th>
-                                    <th scope="col">Name</th>
-                                    <th scope="col">Photo</th>
-                                   
-                                    <th scope="col">Description</th>
-                                    <th style="width: 150px; min-width: 80px;">Action</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                   
-                                    
-                                @foreach($projects as $project)
-                                      <tr>
-                                        <th scope="row">
-                                            <div class="form-check font-size-16">
-                                                <input type="checkbox" class="form-check-input" id="contacusercheck11">
-                                                <label class="form-check-label" for="contacusercheck11"></label>
-                                            </div>
-                                        </th>
-                                        <td>{{ $project->id }}</td>
-
-                                        <td>
-                                            <a href="#" class="text-body">{{ $project->project_category_r->project_category_name }} </a>
-                                        </td>
-                                        <td>{{ $project->project_name }}</td>
-                                        <td>  
-
-                                        @if (($project->project_photo))
-                                                <a href="{!! asset($project->project_photo) !!}" target="_blank">
-                                                    <img class="img-thumbnail avatar-sm rounded-circle me-2" class="user-img" style="width: 100px; height:100px;"
-                                                        onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}';"
-                                                        src="{{ asset($project->project_photo) }}" alt="preview"
-                                                        style="height:120px !important; width:80px !important; margin-left:20px;">
-                                                </a>
-
-                                        @else
-                                            <p class="text-danger">No Photo</p>
-                                        @endif
-                                            
-                                        
-                                        
-                                        
-                                        <!-- <img src="assets/backend_assets/assets/images/users/avatar-2.jpg" alt="" class="avatar-sm rounded-circle me-2">  -->
-                                    </td> 
-                                      
-                                       
-                                        <td>{{ $project->project_description }}</td>
-                                        <td colspan="6">
-                                            <div class="row">
-                                             <div class="col-md-4">
-                                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal{{ $project->id }}" data-bs-whatever="@getbootstrap"><i class=" far fa-eye  "></i></button>
-                                            </div>
-                                                
-                                            <div class="col-md-4">
-                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editFoodOrder{{ $project->id }}" data-bs-whatever="@getbootstrap"><i class="fas fa-pencil-alt "></i></button>
-
-                                            </div>
-                                            
-                                            <!-- delete food menu -->
-                                            <div class="col-md-4">
-                                            <form action="{{ route('projects.update', $project->id) }}" method="post">
-                                                        @csrf
-                                                        @method('DELETE')
-                                                        <a >  <button class="btn btn-danger shadow btn-xs sharp"> <span class="fa fa-trash"> </button> </a>  
-                                                        
-                                            </form>
-
-
-
-                                        </div>
-                                                
-                                                
-                                               
-                                            </div>
-                                        </td>
-                                      </tr>
-
-
-
-
-
-                <!-- VIEW DETAILS MODEL -->
-                <div class="modal fade" id="exampleModal{{ $project->id }}" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-scrollable">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Product Details</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                               
-                                    
-
-                                    <div class="modal-body">
-
-                                    <img src="{{ asset($project->project_photo) }} " style="width: 100%; height:60%;">
-                                    <hr>
-                                    <p>Food : {{ $project->project_name }}</p>
-                                    <hr>
-
-                                    <p>Category : {{ $project->project_category_r->project_category_name }}</p>
-                                    <hr>
-                                    <p>Description : {{ $project->project_description }}</p>
-
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close </button>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editFoodOrder{{ $project->id }}" data-bs-whatever="@getbootstrap">Edit Project</button>
-                                    </div>
-                                </div>
-                              </div>
-                 </div>
-                <!-- END OF VIEW DETAILS MODEL -->
-
-
-
-
-                <!-- edit  FOOD MENU DETAILS MODEL -->
-                <div class="modal fade" id="editFoodOrder{{ $project->id }}" tabindex="-1" aria-labelledby="editFoodOrderLabel" style="display: none;" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-scrollable">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Edit Project Details</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-
-
-                                        <!-- form update food menu items -->
-                                    
-                            <form action="{{ route('projects.update', $project->id) }}" method="post" enctype="multipart/form-data">
-                            @csrf
-                            @method('PATCH')
-
-                                            <div class="mb-3">
-                                                    <label class="form-label" for="validationCustom01">Category</label>
-
-                                                    <select name="project_category_id" class="form-select">
-                                                           @foreach($project_categories as $project_category)
-                                                            <option value="{{ $project_category->id }}">{{ $project_category->project_category_name }}</option>
-                                                           
-                                                            @endforeach
-                                                        </select>
-
-                
-                                                    </div>
-
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Name:</label>
-                                                <input type="text" class="form-control" name="project_name" value="{{  $project->project_name }}" id="recipient-name">
-                                            </div>
-                                            <div class="col-md-6">
-                                                    <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom05">Photo</label>
-                                                        <input type="file" class="form-control" name="project_photo" value="{{ $project->project_photo }}"  placeholder="Zip">
-                                                        
-                                                    </div>
-                                                </div>
-                                            <div class="mb-3">
-                                                <label for="message-text" class="col-form-label">Description:</label>
-                                                <textarea class="form-control" name="project_description" value="" id="message-text">{{  $project->project_description }}</textarea>
-                                            </div>
-
-                                            <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <!-- <button  type="submit" class="btn btn-primary">Submit</button> -->
-                                        <button class="btn btn-primary" type="submit">Update Project</button>
-                                    </div>
-
-
-                                        </form>
-                                    </div>
-                                  
-
-                                </div>
-                              </div>
-                 </div>
-                <!-- END OF edit DETAILS MODEL -->
-
-
-
-
-
-
-                                    @endforeach
-                                </tbody>
-                            </table>
-                            <!-- end table -->
-                        </div>
-                        <!-- end table responsive -->
-                        
-                    </div> <!-- container-fluid -->
+                        <div class="lower-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incids dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercital tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore euy fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.</div>
+                    </div>
                 </div>
-                <!-- End Page-content -->
+                <!--Image Column-->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12">
+                    <figure class="image wow slideInRight" data-wow-delay="0ms"><img src="assets/frontend_assets/images/resource/featured-image-5.jpg" alt="" /></figure>
+                </div>
+            </div>
 
-                
+            <!--Featured Blocks-->
+            <div class="featured-blocks">
+                <div class="row clearfix">
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-care"></span></div>
+                                <h3>Helping Mankind</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-pigeon"></span></div>
+                                <h3>Love Your World</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-harvest"></span></div>
+                                <h3>Food for Everyone</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                        
+    <!--Fun Facts Section-->
+    <section class="fun-facts-section">
+        <div class="auto-container">
+            <div class="fact-counter">
+                <div class="row clearfix">
+                    
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="98520">0</span></div>
+                            <div class="counter-title">raised Donations</div>
+                        </div>
+                    </div>
 
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="1500" data-stop="306">0</span></div>
+                            <div class="counter-title">Causes Solved</div>
+                        </div>
+                    </div>
 
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="1500" data-stop="84">0</span></div>
+                            <div class="counter-title">Volunteers</div>
+                        </div>
+                    </div>
 
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="1369">0</span></div>
+                            <div class="counter-title">Projects Done</div>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </section>
 
+  
+    <section class="call-to-action alternate-two">
+        <div class="image-layer" style="background-image:url('assets/frontend_assets/images/background/bg-pattern-1.png')"></div>
+        
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="title-column col-xl-9 col-lg-12 col-md-12 col-sm-12">
+                    <h2>Become a vital part of Kausid &amp; make a real difference to lives of many!</h2>
+                </div>
+                <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
+                    <div class="link-box">
+                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">join to Volunteer</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                   
+    <!--Default Section-->
+    <section class="default-section">
+        <div class="auto-container">
+
+            <div class="row clearfix">
+                <!--Text Column-->
+                <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner">
+                        <h2>Don’t Just Give. Make Your Money Count Everywhere!</h2>
+                        <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut psum dolore magna aliqua minim.</div>
+                        <div class="info-list">
+                            <ul class="clearfix">
+                                <li><div class="icon"><span class="flaticon-first-aid-kit"></span></div><span class="title">Medical</span></li>
+                                <li><div class="icon"><span class="flaticon-book"></span></div><span class="title">Education</span></li>
+                                <li><div class="icon"><span class="flaticon-shelter"></span></div><span class="title">Shelter</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Faq Column-->
+                <div class="faq-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="accordion-box">
+                        <!--Block-->
+                        <div class="accordion block current wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> We better help the people in need <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <!--Block-->
+                        <div class="accordion block wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                            <div class="acc-btn"><span class="icon-box flaticon-blood-2"></span> Our aim to provide clean water <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Block-->
+                        <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Raise funds in response to a disaster <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
-                    <!-- container-fluid -->
                 </div>
+            </div>
 
+        </div>
+    </section>
 
+   
 
-
-
+    
 
 @endsection

@@ -1,184 +1,223 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-
+Gallery
 @endsection
 
 @section('content')
 <!-- content  -->
+  <!-- Page Banner Section -->
+    <section class="page-banner">
+        <div class="image-layer" style="background-image: url(assets/frontend_assets/images/background/bg-page-title-2.jpg);"></div>
 
-<!-- Page Title -->
-<section class="page-title" style="background-image: url(assets/frontend_assets/assets/images/background/11.jpg)">
-			<div class="auto-container">
-				<h1>Gallery</h1>
-				<ul class="bread-crumb clearfix">
-					<li><a href="/">Home</a></li>
-					<li>Gallery</li>
-				</ul>
-			</div>
-		</section>
-		<!-- End Page Title -->
+        <div class="auto-container">
+            <h1>About Us</h1>
+        </div>
 
-		<!-- Gallery Page Section -->
-		<section class="gallery-page-section">
-			<div class="auto-container">
-				<div class="row clearfix">
+        <div class="breadcrumb-box">
+            <div class="auto-container">
+                <ul class="bread-crumb clearfix">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Pages</a></li>
+                    <li class="active">About</li>
+                </ul>
+            </div>
+        </div>
 
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/6.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/6.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+    </section>
+    <!--End Banner Section -->
 
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/7.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/7.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+    <!--About Section-->
+    <section class="about-section-three">
+        
+        <div class="icon-two paroller" data-paroller-factor="0.20" data-paroller-factor-lg="0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-donation"></span></div>
 
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/8.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/8.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/9.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/9.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+        <div class="icon-four paroller" data-paroller-factor="-0.10" data-paroller-factor-lg="-0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="vertical"><span class="flaticon-money-jar"></span></div>
 
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/10.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/10.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+        <div class="icon-five paroller" data-paroller-factor="-0.10" data-paroller-factor-lg="-0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-gift-box"></span></div>
+        
+        <div class="icon-six paroller" data-paroller-factor="0.10" data-paroller-factor-lg="0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-dove-2"></span></div>
 
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/11.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/11.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+        <div class="auto-container">
+            <div class="row clearfix">
+                <!--Text Column-->
+                <div class="text-column col-lg-7 col-md-12 col-sm-12">
+                    <div class="inner">
+                        <div class="sec-title">
+                            <div class="sub-title"><span class="icon"></span> We believe what we achieve</div>
+                            <h2>Warmth & True Support <br>For Needed People</h2>
+                            <div class="lower-title">We make ways to good things happen</div>
+                        </div>
+                        <div class="lower-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incids dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercital tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore euy fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.</div>
+                    </div>
+                </div>
+                <!--Image Column-->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12">
+                    <figure class="image wow slideInRight" data-wow-delay="0ms"><img src="assets/frontend_assets/images/resource/featured-image-5.jpg" alt="" /></figure>
+                </div>
+            </div>
 
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/12.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/12.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+            <!--Featured Blocks-->
+            <div class="featured-blocks">
+                <div class="row clearfix">
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-care"></span></div>
+                                <h3>Helping Mankind</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-pigeon"></span></div>
+                                <h3>Love Your World</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-harvest"></span></div>
+                                <h3>Food for Everyone</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/13.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/13.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+    <!--Fun Facts Section-->
+    <section class="fun-facts-section">
+        <div class="auto-container">
+            <div class="fact-counter">
+                <div class="row clearfix">
+                    
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="98520">0</span></div>
+                            <div class="counter-title">raised Donations</div>
+                        </div>
+                    </div>
 
-					<!-- Gallery Block Two -->
-					<div class="gallery-block-two col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<img src="assets/frontend_assets/assets/images/gallery/14.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<a href="assets/frontend_assets/assets/images/gallery/14.jpg" data-fancybox="gallery" data-caption=""
-											class="link"><span class="icon flaticon-expand"></span></a>
-										<h5><a href="#">People tast food</a></h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="1500" data-stop="306">0</span></div>
+                            <div class="counter-title">Causes Solved</div>
+                        </div>
+                    </div>
 
-				</div>
-			</div>
-		</section>
-		<!-- End Gallery Page Section -->
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="1500" data-stop="84">0</span></div>
+                            <div class="counter-title">Volunteers</div>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="1369">0</span></div>
+                            <div class="counter-title">Projects Done</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="call-to-action alternate-two">
+        <div class="image-layer" style="background-image:url('assets/frontend_assets/images/background/bg-pattern-1.png')"></div>
+        
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="title-column col-xl-9 col-lg-12 col-md-12 col-sm-12">
+                    <h2>Become a vital part of Kausid &amp; make a real difference to lives of many!</h2>
+                </div>
+                <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
+                    <div class="link-box">
+                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">join to Volunteer</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Default Section-->
+    <section class="default-section">
+        <div class="auto-container">
+
+            <div class="row clearfix">
+                <!--Text Column-->
+                <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner">
+                        <h2>Don’t Just Give. Make Your Money Count Everywhere!</h2>
+                        <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut psum dolore magna aliqua minim.</div>
+                        <div class="info-list">
+                            <ul class="clearfix">
+                                <li><div class="icon"><span class="flaticon-first-aid-kit"></span></div><span class="title">Medical</span></li>
+                                <li><div class="icon"><span class="flaticon-book"></span></div><span class="title">Education</span></li>
+                                <li><div class="icon"><span class="flaticon-shelter"></span></div><span class="title">Shelter</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Faq Column-->
+                <div class="faq-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="accordion-box">
+                        <!--Block-->
+                        <div class="accordion block current wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> We better help the people in need <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <!--Block-->
+                        <div class="accordion block wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                            <div class="acc-btn"><span class="icon-box flaticon-blood-2"></span> Our aim to provide clean water <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Block-->
+                        <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Raise funds in response to a disaster <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+   
+
+    
+
 @endsection

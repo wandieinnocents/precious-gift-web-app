@@ -28,8 +28,6 @@ Route::get('/', function () {
 // about us
 Route::resource('/about', 'App\Http\Controllers\FrontEnd\FrontEndAboutController');
 
-// resources
-Route::resource('/our_resources', 'App\Http\Controllers\FrontEnd\FrontEndResourceController');
 // careers
 Route::resource('/careers', 'App\Http\Controllers\FrontEnd\FrontEndCareerController');
 // testimonials

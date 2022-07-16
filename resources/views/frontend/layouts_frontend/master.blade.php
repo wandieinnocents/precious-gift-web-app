@@ -10,8 +10,9 @@
     <!-- Responsive File -->
     <link href="{{ asset('assets/frontend_assets/css/responsive.css') }}" rel="stylesheet">
 
-    <link rel="{{ asset('assets/frontend_assets/shortcut icon" href="assets/frontend_assets//favicon.png') }}"
-        type="image/x-icon">
+   <link rel="shortcut icon" href="{{ asset('assets/frontend_assetsimages/favicon.png') }}" type="image/x-icon">
+
+
     <link rel="icon" href="{{ asset('assets/frontend_assets/images/favicon.png') }}" type="image/x-icon">
 
     <!-- Responsive Settings -->
