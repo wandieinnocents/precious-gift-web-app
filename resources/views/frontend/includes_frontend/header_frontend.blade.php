@@ -61,23 +61,18 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current dropdown"><a href="index.html">Home</a></li>
+                                <li ><a href="index.html">Home</a></li>
                                 <li class="dropdown"><a href="javascript::void(0)">Know Us</a>
                                     <ul>
                                         <li><a href="about.html">About Us</a></li>
-                                        <li><a href="volunteers.html">Our Team</a></li>
+                                        <li><a href="volunteers.html">Our Staff</a></li>
                                         <li><a href="faq.html">Faq's</a></li>
                                     </ul>
                                 </li>
-                                
-                                <li class="dropdown"><a href="blog.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Visit Our Blog</a></li>
-                                        <li><a href="blog-single.html">Blog Post Details</a></li>
-                                    </ul>
-                                </li>
+                                 <li><a href="blog.html">Projects</a></li>
+                                <li><a href="blog.html">News</a></li>
 
-                                
+
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
