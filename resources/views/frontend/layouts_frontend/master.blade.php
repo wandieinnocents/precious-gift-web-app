@@ -3,15 +3,15 @@
 
 <head>
 <meta charset="utf-8">
-<title>Kausid - Charity and Fundraising HTML Template | Home Page 02</title>
+<title>Precious Gift</title>
 <!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/css/bootstrap.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/css/style.css') }}" rel="stylesheet">
 <!-- Responsive File -->
-<link href="css/responsive.css" rel="stylesheet">
+<link href="{{ asset('assets/frontend_assets/css/responsive.css') }}" rel="stylesheet">
 
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="{{ asset('assets/frontend_assets/images/favicon.png') }}" type="image/x-icon">
+<link rel="icon" href="{{ asset('assets/frontend_assets/images/favicon.png') }}" type="image/x-icon">
 
 <!-- Responsive Settings -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +24,7 @@
 
 <div class="page-wrapper">
     <!-- Preloader -->
-    <div class="preloader"><div class="icon"></div></div>
+    {{-- <div class="preloader"><div class="icon"></div></div> --}}
 
     <!-- Main Header -->
     <header class="main-header header-style-two">
@@ -1148,21 +1148,20 @@
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-up-arrow"></span></div>
 
-<script src="js/jquery.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/wow.js"></script>
+<script src="{{ asset('assets/frontend_assets/js/jquery.js') }}"></script>
+<script src="{{ asset('assets/frontend_assets/js/popper.min.js') }}"></script>
+<script src="{{ asset('assets/frontend_assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/frontend_assets/js/jquery-ui.js') }}"></script>
+<script src="{{ asset('assets/frontend_assets/js/jquery.fancybox.js') }}"></script>
+<script src="{{ asset('assets/frontend_assets/js/owl.js') }}"></script>
+<script src="{{ asset('assets/frontend_assets/js/appear.js') }}s}}"></script>
+<script src="{{ asset('assets/frontend_assets/js/wow.js') }}"></script>
 
-<script src="js/scrollbar.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/paroller.js"></script>
-<script src="js/custom-script.js"></script>
+<script src="{{ asset('assets/frontend_assets/js/scrollbar.js') }}}"></script>
+<script src="{{ asset('assets/frontend_assets/js/isotope.js') }}"></script>
+<script src="{{ asset('assets/frontend_assets/js/paroller.js') }}"></script>
+<script src="{{ asset('assets/frontend_assets/js/custom-script.js') }}"></script>
 
 </body>
 
-<!-- Mirrored from t.commonsupport.xyz/kausid/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Jul 2022 09:05:43 GMT -->
 </html>
