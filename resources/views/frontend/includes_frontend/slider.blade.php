@@ -1,55 +1,77 @@
- <!-- slider-seven -->
- <section class="slider-seven p_relative">
-            <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
-                <!-- SLIDE ITEM -->
-                <div class="slide-item p_relative pb_180">
-                    <div class="image-layer p_absolute" style="background-image:url(assets/frontend_assets/assets/images/sense/carpenter.JPG)"></div>
+<section class="banner-section style-two">
+            <div class="banner-carousel kausid-carousel owl-theme owl-carousel"
+                data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
+                <!-- Slide Item -->
+                <div class="slide-item">
+                    <div class="image-layer"
+                        style="background-image:url('assets/frontend_assets/images/main-slider/4.jpg')"></div>
+
                     <div class="auto-container">
-                        <div class="content-box p_relative d_block z_5">
-                            <h2 class="p_relative d_block fw_exbold fs_60 lh_65 mb_20 font_family_spartan">
-                                <span class="slider-text-anim">A youth is guided during a carpentry class.</span>
-                                <span class="slider-text-anim"></span></h2>
-                            <div class="btn-box clearfix">
-                                <a href="/contact/create" class="theme-btn theme-btn-eight">Talk to Us</a>
+                        <div class="content-box">
+                            <div class="content">
+                                <div class="inner">
+                                    <div class="sub-title">support the causes that matters</div>
+                                    <h2>Empowering the lives of needy people</h2>
+                                    <div class="links-box">
+                                        <a href="donate.html" class="theme-btn btn-style-two"><span
+                                                class="btn-title">Get involved</span></a>
+                                        <span class="theme-icon"></span>
+                                        <a href="about.html" class="theme-btn btn-style-three"><span
+                                                class="btn-title">who we are</span></a>
+                                    </div>
+                                </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
 
-                 <!-- SLIDE ITEM -->
-                 <div class="slide-item p_relative pb_180">
-                    <div class="image-layer p_absolute" style="background-image:url(assets/frontend_assets/assets/images/sense/tailor.jpg)"></div>
+                <!-- Slide Item -->
+                <div class="slide-item">
+                    <div class="image-layer"
+                        style="background-image:url('assets/frontend_assets/images/main-slider/5.jpg')"></div>
+
                     <div class="auto-container">
-                        <div class="content-box p_relative d_block z_5">
-                            <h2 class="p_relative d_block fw_exbold fs_60 lh_65 mb_20 font_family_spartan">
-                                <span class="slider-text-anim">A youth at Mafuubira VTC being guided on toiloring.</span>
-                                <span class="slider-text-anim"></span></h2>
-                            <div class="btn-box clearfix">
-                            <a href="/contact/create" class="theme-btn theme-btn-eight">Talk to Us</a>
+                        <div class="content-box">
+                            <div class="content">
+                                <div class="inner">
+                                    <div class="sub-title">support the causes that matters</div>
+                                    <h2>Empowering the lives of needy people</h2>
+                                    <div class="links-box">
+                                        <a href="donate.html" class="theme-btn btn-style-two"><span
+                                                class="btn-title">Get involved</span></a>
+                                        <span class="theme-icon"></span>
+                                        <a href="about.html" class="theme-btn btn-style-three"><span
+                                                class="btn-title">who we are</span></a>
+                                    </div>
+                                </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
 
-                <!-- SLIDE ITEM -->
-                  <!-- SLIDE ITEM -->
-                  <div class="slide-item p_relative pb_180">
-                    <div class="image-layer p_absolute" style="background-image:url(assets/frontend_assets/assets/images/sense/teachers.JPG)"></div>
+                <!-- Slide Item -->
+                <div class="slide-item">
+                    <div class="image-layer"
+                        style="background-image:url('assets/frontend_assets/images/main-slider/6.jpg')"></div>
+
                     <div class="auto-container">
-                        <div class="content-box p_relative d_block z_5">
-                            <h2 class="p_relative d_block fw_exbold fs_60 lh_65 mb_20 font_family_spartan">
-                                <span class="slider-text-anim">Teachers and parents training in Kalaki.</span>
-                                <span class="slider-text-anim"></span></h2>
-                            <div class="btn-box clearfix">
-                            <a href="/contact/create" class="theme-btn theme-btn-eight">Talk to Us</a>
+                        <div class="content-box">
+                            <div class="content">
+                                <div class="inner">
+                                    <div class="sub-title">support the causes that matters</div>
+                                    <h2>Empowering the lives of needy people</h2>
+                                    <div class="links-box">
+                                        <a href="donate.html" class="theme-btn btn-style-two"><span
+                                                class="btn-title">Get involved</span></a>
+                                        <span class="theme-icon"></span>
+                                        <a href="about.html" class="theme-btn btn-style-three"><span
+                                                class="btn-title">who we are</span></a>
+                                    </div>
+                                </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
 
-
-                
-              
             </div>
         </section>
-        <!-- slider-seven end -->
