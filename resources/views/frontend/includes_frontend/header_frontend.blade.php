@@ -66,7 +66,7 @@
                                     <ul>
                                         <li><a href="about.html">About Us</a></li>
                                         <li><a href="volunteers.html">Our Staff</a></li>
-                                        <li><a href="faq.html">Faq's</a></li>
+                                    <li><a href="faq.html">Faq's</a></li>
                                     </ul>
                                 </li>
                                  <li><a href="blog.html">Projects</a></li>

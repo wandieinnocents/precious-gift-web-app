@@ -7,260 +7,284 @@ About Us
 
 @section('content')
 <!-- content  -->
+  <!-- Page Banner Section -->
+    <section class="page-banner">
+        <div class="image-layer" style="background-image: url(assets/frontend_assets/images/background/bg-page-title-2.jpg);"></div>
 
+        <div class="auto-container">
+            <h1>About Us</h1>
+        </div>
 
-        <!-- Page Title -->
-        <section class="page-title about-page-3 p_relative centred">
-            <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/frontend_assets/assets/images/sense/carpenter.JPG);"></div>
+        <div class="breadcrumb-box">
             <div class="auto-container">
-                <div class="content-box">
-                    <h1 class="d_block fs_60 lh_70 fw_bold mb_10">About Us </h1>
-                    <ul class="bread-crumb p_relative d_block mb_8 clearfix">
-                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="/">Home</a></li>
-                        <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">About Us</li>
-                    </ul>
-                </div>
+                <ul class="bread-crumb clearfix">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Pages</a></li>
+                    <li class="active">About</li>
+                </ul>
             </div>
-        </section>
-        <!-- End Page Title -->
+        </div>
 
+    </section>
+    <!--End Banner Section -->
 
-        <!-- about-nine -->
-        <section class="about-nine p_relative">
-            <div class="auto-container">
-                <div class="row align-items-center clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                        <div class="image_block_nine">
-                            <div class="image-box p_relative d_block mr_50">
-                                <!-- <div class="shape parallax-scene parallax-scene-1">
-                                    <div data-depth="0.40" class="shape-1 p_absolute" style="background-image: url(assets/frontend_assets/assets/images/shape/shape-66.png);"></div>
-                                    <div data-depth="0.50" class="shape-2 p_absolute l_0" style="background-image: url(assets/frontend_assets/assets/images/shape/shape-66.png);"></div>
-                                    <div data-depth="0.40" class="shape-3 p_absolute l_0" style="background-image: url(assets/frontend_assets/assets/images/shape/shape-122.png);"></div>
-                                </div> -->
-                               
-                                    <img src="assets/frontend_assets/assets/images/sense/father.png" alt=""  style="margin-top:250px;">
-                                
-
+    <!--About Section-->
+    <section class="about-section-three">
         
+        <div class="icon-two paroller" data-paroller-factor="0.20" data-paroller-factor-lg="0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-donation"></span></div>
+
+
+        <div class="icon-four paroller" data-paroller-factor="-0.10" data-paroller-factor-lg="-0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="vertical"><span class="flaticon-money-jar"></span></div>
+
+        <div class="icon-five paroller" data-paroller-factor="-0.10" data-paroller-factor-lg="-0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-gift-box"></span></div>
+        
+        <div class="icon-six paroller" data-paroller-factor="0.10" data-paroller-factor-lg="0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-dove-2"></span></div>
+
+        <div class="auto-container">
+            <div class="row clearfix">
+                <!--Text Column-->
+                <div class="text-column col-lg-7 col-md-12 col-sm-12">
+                    <div class="inner">
+                        <div class="sec-title">
+                            <div class="sub-title"><span class="icon"></span> We believe what we achieve</div>
+                            <h2>Warmth & True Support <br>For Needed People</h2>
+                            <div class="lower-title">We make ways to good things happen</div>
+                        </div>
+                        <div class="lower-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incids dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercital tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore euy fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.</div>
+                    </div>
+                </div>
+                <!--Image Column-->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12">
+                    <figure class="image wow slideInRight" data-wow-delay="0ms"><img src="assets/frontend_assets/images/resource/featured-image-5.jpg" alt="" /></figure>
+                </div>
+            </div>
+
+            <!--Featured Blocks-->
+            <div class="featured-blocks">
+                <div class="row clearfix">
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-care"></span></div>
+                                <h3>Helping Mankind</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                        <div class="content_block_nine">
-                            <div class="content-box p_relative d_block ml_30 pt_170 pb_1">
-                                <div class="sec-title p_relative d_block mb_30">
-                                    <h2  class="d_block fs_45 lh_55 fw_bold font_family_spartan">Who we are.</h2>
-                                </div>
-                                <div class="text p_relative d_block mb_35">
-                                    <p class="font_family_oxygen mb_25">Sense International Uganda (SIU) was established in 2005 and registered as a local NGO in
-                                                2008. SIU is part of Sense International, a UK registered Non-Government global
-                                                organization that supports people with deafblindness and multi-sensory impairments (MSI)
-                                                across a range of often resource poor countries, including; India, Bangladesh, Kenya,
-                                                Uganda, Tanzania, Peru, Nepal and Romania..</p>
-                                                                                    <p class="font_family_oxygen">Children with deafblindness in Uganda
-                                                desperately need to receive education and healthcare. Without this, many will lead short,
-                                                lonely lives. By working with a variety of partners, we can support people with
-                                                deafblindness/MSI and their families to communicate, learn skills for activities of daily living,
-                                                as well as receive an education and vocational training – to thrive. </p>
-                                                                                </div>
-                                <!-- <ul class="list-style-two clearfix p_relative d_block mb_30">
-                                    <li class="p_relative d_block fs_16 fw_bold font_family_oxygen mb_10 pl_30">Clients Focused</li>
-                                    <li class="p_relative d_block fs_16 fw_bold font_family_oxygen pl_30">We Can Save You Money.</li>
-                                </ul> -->
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-pigeon"></span></div>
+                                <h3>Love Your World</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-harvest"></span></div>
+                                <h3>Food for Everyone</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- about-nine end -->
+        </div>
+    </section>
 
-
-        <!-- feature-13 -->
-        <section class="feature-13 p_relative pb_150 centred">
-            <div class="auto-container">
+    <!--Fun Facts Section-->
+    <section class="fun-facts-section">
+        <div class="auto-container">
+            <div class="fact-counter">
                 <div class="row clearfix">
-                    <div class="col-lg-3 col-md-6 col-sm-12 feature-block">
-                        <div class="feature-block-eight wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block pt_50 pr_30 pb_45 pl_30">
-                                <div class="icon-box p_relative d_iblock mb_25">
-                                    <div class="icon p_relative d_iblock fs_50 tran_5 z_1"><i class="icon-113"></i></div>
-                                    <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-108.png" alt=""></div>
-                                </div>
-                                <div class="text">
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">Reliable</h4>
-                                    <!-- <p class="font_family_poppins">Lorem ipsum dolor sit elit sectur sed eiusm.</p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 feature-block">
-                        <div class="feature-block-eight wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block pt_50 pr_30 pb_45 pl_30">
-                                <div class="icon-box p_relative d_iblock mb_25">
-                                    <div class="icon p_relative d_iblock fs_50 tran_5 z_1"><i class="icon-117"></i></div>
-                                    <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-109.png" alt=""></div>
-                                </div>
-                                <div class="text">
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">Acess Resources</h4>
-                                    <!-- <p class="font_family_poppins">Lorem ipsum dolor sit elit sectur sed eiusm.</p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 feature-block">
-                        <div class="feature-block-eight wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block pt_50 pr_30 pb_45 pl_30">
-                                <div class="icon-box p_relative d_iblock mb_25">
-                                    <div class="icon p_relative d_iblock fs_50 tran_5 z_1"><i class="icon-119"></i></div>
-                                    <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-110.png" alt=""></div>
-                                </div>
-                                <div class="text">
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">Access Careers</h4>
-                                    <!-- <p class="font_family_poppins">Lorem ipsum dolor sit elit sectur sed eiusm.</p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 feature-block">
-                        <div class="feature-block-eight wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block pt_50 pr_30 pb_45 pl_30">
-                                <div class="icon-box p_relative d_iblock mb_25">
-                                    <div class="icon p_relative d_iblock fs_50 tran_5 z_1"><i class="icon-69"></i></div>
-                                    <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-111.png" alt=""></div>
-                                </div>
-                                <div class="text">
-                                    <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">Mentorship</h4>
-                                    <!-- <p class="font_family_poppins">Lorem ipsum dolor sit elit sectur sed eiusm.</p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- feature-13 end -->
-
-
-      
-
-
-        <!-- funfact-nine -->
-        <section class="funfact-nine pt_85 pb_75 text-center p_relative">
-            <div class="shape">
-                <div class="shape-1 p_absolute l_120 float-bob-x" style="background-image: url(aassets/frontend_assets/ssets/images/shape/shape-182.png);"></div>
-                <div class="shape-2 p_absolute r_100 float-bob-x" style="background-image: url(assets/frontend_assets/assets/images/shape/shape-183.png);"></div>
-            </div>
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block">
-                                <div class="icon-box p_relative d_block fs_60 lh_60 tran_5 mb_15">
-                                    <div class="icon"><i class="icon-117"></i></div>
-                                    <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-112.png" alt=""></div>
-                                </div>
-                                <div class="count-outer count-box p_relative d_block fs_60 lh_70 fw_bold mb_12 font_family_inter">
-                                    <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="90">0</span>
-                                </div>
-                                <p class="p_relative d_block font_family_poppins">Successful projects</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block">
-                                <div class="icon-box p_relative d_block fs_60 lh_60 tran_5 mb_15">
-                                    <div class="icon"><i class="icon-81"></i></div>
-                                    <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-113.png" alt=""></div>
-                                </div>
-                                <div class="count-outer count-box p_relative d_block fs_60 lh_70 fw_bold mb_12 font_family_inter">
-                                    <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="200">0</span><span class="font_family_inter">+</span>
-                                </div>
-                                <p class="p_relative d_block font_family_poppins">Trainees</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block">
-                                <div class="icon-box p_relative d_block fs_60 lh_60 tran_5 mb_15">
-                                    <div class="icon"><i class="icon-169"></i></div>
-                                    <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-114.png" alt=""></div>
-                                </div>
-                                <div class="count-outer count-box p_relative d_block fs_60 lh_70 fw_bold mb_12 font_family_inter">
-                                    <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="35">0</span>
-                                </div>
-                                <p class="p_relative d_block font_family_poppins">Experienced Staff</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                        <div class="counter-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box p_relative d_block">
-                                <div class="icon-box p_relative d_block fs_60 lh_60 tran_5 mb_15">
-                                    <div class="icon"><i class="icon-83"></i></div>
-                                    <div class="icon-img hidden-icon"><img src="assets/frontend_assets/assets/images/icons/hid-icon-115.png" alt=""></div>
-                                </div>
-                                <div class="count-outer count-box p_relative d_block fs_60 lh_70 fw_bold mb_12 font_family_inter">
-                                    <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="50">0</span>
-                                </div>
-                                <p class="p_relative d_block font_family_poppins">Resources</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- funfact-nine end -->
-
-
-        <!-- chooseus-12 -->
-         <section class="chooseus-12 p_relative sec-pad">
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                        <div class="content_block_26">
-                            <div class="content-box p_relative d_block mr_70">
-                                
-                                <div class="inner-box">
-                                    <div class="single-item p_relative d_block pl_100 mb_25">
-                                        <div class="icon-box p_absolute l_0 t_5 w_70 h_70 lh_70 fs_20 centred b_radius_50"><i class="icon-16"></i></div>
-                                        <h4 class="d_block fs_20 lh_30 fw_sbold mb_13">Our Vision</h4>
-                                        <p class="font_family_poppins">
-                                        Our Vision is of a world in which people with deafblindness,  multi-sensory impairments are empowered to be equal and active members of society.
-                                        </p>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <div class="content_block_26">
-                            <div class="content-box p_relative d_block mr_70">
-                                
-                                <div class="inner-box">
-                                    <div class="single-item p_relative d_block pl_100 mb_25">
-                                        <div class="icon-box p_absolute l_0 t_5 w_70 h_70 lh_70 fs_20 centred b_radius_50"><i class="icon-16"></i></div>
-                                        <h4 class="d_block fs_20 lh_30 fw_sbold mb_13">Our Vision</h4>
-                                        <p class="font_family_poppins">
-                                        We work in partnership with others across the globe- people with deafblindness, their families, carers, and other professionals to ensure anyone facing challenges because of deafblindness has access to advice, guidance, and support.                                        </p>
-                                    </div>
-                                    
-                                </div>
-                            </div>
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="98520">0</span></div>
+                            <div class="counter-title">raised Donations</div>
                         </div>
                     </div>
 
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="1500" data-stop="306">0</span></div>
+                            <div class="counter-title">Causes Solved</div>
+                        </div>
+                    </div>
 
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="1500" data-stop="84">0</span></div>
+                            <div class="counter-title">Volunteers</div>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="1369">0</span></div>
+                            <div class="counter-title">Projects Done</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="call-to-action alternate-two">
+        <div class="image-layer" style="background-image:url('assets/frontend_assets/images/background/bg-pattern-1.png')"></div>
+        
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="title-column col-xl-9 col-lg-12 col-md-12 col-sm-12">
+                    <h2>Become a vital part of Kausid &amp; make a real difference to lives of many!</h2>
+                </div>
+                <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
+                    <div class="link-box">
+                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">join to Volunteer</span></a>
+                    </div>
                 </div>
             </div>
-        </section> 
-        <!-- chooseus-12 end -->
+        </div>
+    </section>
 
+    <!--Default Section-->
+    <section class="default-section">
+        <div class="auto-container">
 
-    
+            <div class="row clearfix">
+                <!--Text Column-->
+                <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner">
+                        <h2>Don’t Just Give. Make Your Money Count Everywhere!</h2>
+                        <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut psum dolore magna aliqua minim.</div>
+                        <div class="info-list">
+                            <ul class="clearfix">
+                                <li><div class="icon"><span class="flaticon-first-aid-kit"></span></div><span class="title">Medical</span></li>
+                                <li><div class="icon"><span class="flaticon-book"></span></div><span class="title">Education</span></li>
+                                <li><div class="icon"><span class="flaticon-shelter"></span></div><span class="title">Shelter</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Faq Column-->
+                <div class="faq-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="accordion-box">
+                        <!--Block-->
+                        <div class="accordion block current wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> We better help the people in need <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <!--Block-->
+                        <div class="accordion block wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                            <div class="acc-btn"><span class="icon-box flaticon-blood-2"></span> Our aim to provide clean water <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Block-->
+                        <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Raise funds in response to a disaster <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Testimonial Section-->
+    <section class="testimonial-section">
+        <div class="image-layer" style="background-image:url('assets/frontend_assets/images/background/bg-pattern-2.png')"></div>
+
+        <div class="auto-container">
+        
+            <div class="sec-title centered">
+                <div class="upper-icon"></div>
+                <h2>What People Saying About Us!</h2>
+            </div>
+                        
+            <div class="carousel-box">
+                <div class="kausid-carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "1" }, "1024":{ "items" : "1" }}}'>
+                    <!--Testimonial Block-->
+                    <div class="testimonial-block">
+                        <div class="inner">
+                            <div class="text">Since vindictively over agile the some far well besides constructively well airy then one during with close excellent grabbed gosh contrary far dalmatian upheld intrepid bought and toucan majestic more some apart dear boa much cast falcon a dwelled ouch busy.</div>
+                            <div class="info">
+                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                <div class="author">Sandy Thomas</div>
+                                <div class="designation">Donator</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Testimonial Block-->
+                    <div class="testimonial-block">
+                        <div class="inner">
+                            <div class="text">Since vindictively over agile the some far well besides constructively well airy then one during with close excellent grabbed gosh contrary far dalmatian upheld intrepid bought and toucan majestic more some apart dear boa much cast falcon a dwelled ouch busy.</div>
+                            <div class="info">
+                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                <div class="author">Sandy Thomas</div>
+                                <div class="designation">Donator</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Testimonial Block-->
+                    <div class="testimonial-block">
+                        <div class="inner">
+                            <div class="text">Since vindictively over agile the some far well besides constructively well airy then one during with close excellent grabbed gosh contrary far dalmatian upheld intrepid bought and toucan majestic more some apart dear boa much cast falcon a dwelled ouch busy.</div>
+                            <div class="info">
+                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                <div class="author">Sandy Thomas</div>
+                                <div class="designation">Donator</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sponsors Section-->
+    <section class="sponsors-section">
+        <div class="sponsors-outer">
+            <div class="auto-container">
+                <!--Sponsors Carousel-->
+                <div class="kausid-carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 40, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "3" } , "800":{ "items" : "3" }, "1024":{ "items" : "4" }}}'>
+                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/1.png" alt=""></a></figure></div>
+                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/2.png" alt=""></a></figure></div>
+                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/3.png" alt=""></a></figure></div>
+                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/4.png" alt=""></a></figure></div>
+                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/1.png" alt=""></a></figure></div>
+                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/2.png" alt=""></a></figure></div>
+                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/3.png" alt=""></a></figure></div>
+                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/4.png" alt=""></a></figure></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 @endsection
