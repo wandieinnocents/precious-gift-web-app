@@ -1,61 +1,146 @@
-<footer class="footer-nine">
-            <div class="footer-widget-section">
-                <div class="auto-container">
+ <footer class="main-footer">
+            <div class="image-layer" style="background-image:url('assets/frontend_assets/images/background/footer-bg.jpg')">
+            </div>
+
+            <div class="auto-container">
+                <!--Widgets Section-->
+                <div class="widgets-section">
                     <div class="row clearfix">
-                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget about-widget">
-                                <div class="widget-title">
-                                    <h4>About</h4>
-                                </div>
-                                <div style="color:#fff">
-                                    <p style="color:#fff">
-                                    Sense International Uganda is part of Sense International, a global charity that supports people with Deafblindness/ Multi-Sensory Impairments (MSI) and their families to Live, Learn and Thrive.                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget links-widget ml_80">
-                                <div class="widget-title">
-                                    <h4>Links</h4>
-                                </div>
+
+                        <!--Column-->
+                        <div class="column big-column col-lg-4 col-md-12 col-sm-12">
+                            <div class="footer-widget logo-widget">
                                 <div class="widget-content">
-                                    <ul class="links-list clearfix">
-                                        <li style="color:#fff"><a href="" style="color:#fff">About</a></li>
-                                        <li style="color:#fff"><a href="/our_resources" style="color:#fff">Resources</a></li>
-                                        <li style="color:#fff"><a href="/careers" style="color:#fff">Careers</a></li>
-                                        <li style="color:#fff"><a href="/contact/create" style="color:#fff">Support</a></li>
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="assets/frontend_assets/images/footer-logo.png"
+                                                alt="" /></a>
+                                    </div>
+                                    <div class="text">Alit usmod tempor incididunt laboret quis arud exercitation
+                                        ullamcos laboris nisiut aliquip. exa consequat duis aute rue dolor prehendrit
+                                        lorem esse cillum dolore eu fugiat nulla.</div>
+                                    <ul class="social-links clearfix">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
-                            <div class="footer-widget contact-widget">
-                                <div class="widget-title">
-                                    <h4>Contacts</h4>
+                        <!--Column-->
+                        <div class="big-column col-lg-8 col-md-12 col-sm-12">
+                            <div class="row clearfix">
+
+                                <!--Column-->
+                                <div class="column col-lg-4 col-md-4 col-sm-12">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-content">
+                                            <h3>About Us</h3>
+                                            <ul>
+                                                <li><a href="#">Upcoming Events</a></li>
+                                                <li><a href="#">Latest Causes</a></li>
+                                                <li><a href="#">News Blog</a></li>
+                                                <li><a href="#">Contact Us</a></li>
+                                                <li><a href="#">Who We Are</a></li>
+                                                <li><a href="#">Connect With Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="widget-content">
-                                    <ul class="info-list clearfix">
-                                        <li style="color:#fff">Kampala, Uganda</li>
-                                        <li ><a href="tel:+256 75585585" style="color:#fff">+256 75585585</a></li>
-                                        <li style="color:#fff"><a href="mailto:info@senseinternational.org" style="color:#fff">info@senseinternational.org</a></li>
-                                    </ul>
+
+                                <!--Column-->
+                                <div class="column col-lg-4 col-md-4 col-sm-12">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-content">
+                                            <h3>Our Partners</h3>
+                                            <ul>
+                                                <li><a href="#">Donate Kausid</a></li>
+                                                <li><a href="#">Save Our earth</a></li>
+                                                <li><a href="#">Water Shortages</a></li>
+                                                <li><a href="#">Recycle Better</a></li>
+                                                <li><a href="#">Plant Trees Welfare</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Column-->
+                                <div class="column col-lg-4 col-md-4 col-sm-12">
+                                    <div class="footer-widget links-widget">
+                                        <div class="widget-content">
+                                            <h3>Explore</h3>
+                                            <ul>
+                                                <li><a href="#">Adopt A Child</a></li>
+                                                <li><a href="#">Join Our Programs</a></li>
+                                                <li><a href="#">Food Crisis Looms</a></li>
+                                                <li><a href="#">Make Donation</a></li>
+                                                <li><a href="#">Press Releases</a></li>
+                                                <li><a href="#">Global Programs</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--Column-->
+                        <div class="big-column col-lg-12 col-md-12 col-sm-12">
+                            <div class="row clearfix">
+                                <!--Column-->
+                                <div class="column col-lg-4 col-md-12 col-sm-12">
+                                    <div class="footer-widget info-widget">
+                                        <div class="widget-content">
+                                            <h3>Contact Us</h3>
+                                            <ul class="contact-info">
+                                                <li>4291 Glenview Drive, Florence, MI 29501</li>
+                                                <li><a href="tel:812-070-3692"><span class="fa fa-phone-alt"></span>
+                                                        Phone 812-070-3692</a></li>
+                                                <li><a href="mailto:donations@example.org"><span
+                                                            class="fa fa-envelope-open"></span>
+                                                        donations@example.org</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Column-->
+                                <div class="column col-lg-8 col-md-12 col-sm-12">
+                                    <div class="footer-widget info-widget">
+                                        <div class="widget-content">
+                                            <h3>Subscribe Our Newsletter For Updates</h3>
+                                            <div class="newsletter-form">
+                                                <form method="post"
+                                                    action="http://t.commonsupport.xyz/kausid/contact.html">
+                                                    <div class="form-group clearfix">
+                                                        <input type="email" name="email" value=""
+                                                            placeholder="Enter Your Email" required="">
+                                                        <button type="submit"
+                                                            class="theme-btn newsletter-btn">Subscribe</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
+
                 </div>
             </div>
+
+            <!-- Footer Bottom -->
             <div class="footer-bottom">
                 <div class="auto-container">
-                    <div class="bottom-inner clearfix">
-                        <div class="copyright pull-left">
-                            <p style="color:#fff"><a href="/" style="color:#fff">SENSE</a> &copy; 2022 All Right Reserved</p>
-                        </div>
-                        <ul class="footer-nav clearfix pull-right">
-                            <li><a href="javascript::void(0)" style="color:#fff">Terms of Service</a></li>
-                            <li><a href="javascript::void(0)" style="color:#fff">Privacy Policy</a></li>
-                        </ul>
+                    <div class="inner">
+                        <!--Copyright-->
+                        <div class="copyright">Copyrights (c) 2019 <a href="#">Kausid Charity & Non-Profit
+                                Theme.</a>
+                            All rights reserved.</div>
                     </div>
                 </div>
             </div>
+
         </footer>
