@@ -35,7 +35,7 @@ Dashboard
                                     <div class="card-body bg-gradient bg-success">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                            <span class="text-light mb-3 lh-1 d-block ">Resource Categories</span>                                                <h4 class="mb-3 text-light">
+                                            <span class="text-light mb-3 lh-1 d-block ">Photo Categories</span>                                                <h4 class="mb-3 text-light">
                                                     <span class="counter-value" data-target="{{ $resource_categories }}"></span>
                                                 </h4>
                                             </div>
@@ -57,7 +57,7 @@ Dashboard
                                     <div class="card-body bg-gradient bg-primary">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                                <span class="text-light mb-3 lh-1 d-block text-truncate">Resources</span>
+                                                <span class="text-light mb-3 lh-1 d-block text-truncate">Photos</span>
                                                 <h4 class="mb-3 text-light">
                                                     <span class="counter-value" data-target="{{ $resources }}"></span>
                                                 </h4>
@@ -79,7 +79,7 @@ Dashboard
                                     <div class="card-body bg-gradient bg-warning">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Users</span>
+                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">News Articles</span>
                                                 <h4 class="mb-3">
                                                     <span class="counter-value" data-target="{{ $users }}"></span>
                                                 </h4>
@@ -101,7 +101,7 @@ Dashboard
                                     <div class="card-body bg-gradient bg-danger">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Roles</span>
+                                                <span class="text-muted mb-3 lh-1 d-block text-truncate">Staff</span>
                                                 <h4 class="mb-3">
                                                     <span class="counter-value" data-target="{{ $roles }}"></span>
                                                 </h4>
