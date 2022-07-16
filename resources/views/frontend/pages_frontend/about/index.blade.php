@@ -217,74 +217,8 @@ About Us
         </div>
     </section>
 
-    <!--Testimonial Section-->
-    <section class="testimonial-section">
-        <div class="image-layer" style="background-image:url('assets/frontend_assets/images/background/bg-pattern-2.png')"></div>
+   
 
-        <div class="auto-container">
-        
-            <div class="sec-title centered">
-                <div class="upper-icon"></div>
-                <h2>What People Saying About Us!</h2>
-            </div>
-                        
-            <div class="carousel-box">
-                <div class="kausid-carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "1" }, "1024":{ "items" : "1" }}}'>
-                    <!--Testimonial Block-->
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="text">Since vindictively over agile the some far well besides constructively well airy then one during with close excellent grabbed gosh contrary far dalmatian upheld intrepid bought and toucan majestic more some apart dear boa much cast falcon a dwelled ouch busy.</div>
-                            <div class="info">
-                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                <div class="author">Sandy Thomas</div>
-                                <div class="designation">Donator</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Testimonial Block-->
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="text">Since vindictively over agile the some far well besides constructively well airy then one during with close excellent grabbed gosh contrary far dalmatian upheld intrepid bought and toucan majestic more some apart dear boa much cast falcon a dwelled ouch busy.</div>
-                            <div class="info">
-                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                <div class="author">Sandy Thomas</div>
-                                <div class="designation">Donator</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Testimonial Block-->
-                    <div class="testimonial-block">
-                        <div class="inner">
-                            <div class="text">Since vindictively over agile the some far well besides constructively well airy then one during with close excellent grabbed gosh contrary far dalmatian upheld intrepid bought and toucan majestic more some apart dear boa much cast falcon a dwelled ouch busy.</div>
-                            <div class="info">
-                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                <div class="author">Sandy Thomas</div>
-                                <div class="designation">Donator</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Sponsors Section-->
-    <section class="sponsors-section">
-        <div class="sponsors-outer">
-            <div class="auto-container">
-                <!--Sponsors Carousel-->
-                <div class="kausid-carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 40, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "3" } , "800":{ "items" : "3" }, "1024":{ "items" : "4" }}}'>
-                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/1.png" alt=""></a></figure></div>
-                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/2.png" alt=""></a></figure></div>
-                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/3.png" alt=""></a></figure></div>
-                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/4.png" alt=""></a></figure></div>
-                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/1.png" alt=""></a></figure></div>
-                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/2.png" alt=""></a></figure></div>
-                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/3.png" alt=""></a></figure></div>
-                    <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/clients/4.png" alt=""></a></figure></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
 @endsection
