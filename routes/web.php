@@ -49,6 +49,11 @@ Route::resource('/book', 'App\Http\Controllers\FrontEnd\FrontEndBookingControlle
 Route::resource('/contact', 'App\Http\Controllers\FrontEnd\FrontEndContactController');
 // projects
 Route::resource('/our_projects', 'App\Http\Controllers\FrontEnd\FrontEndProjectController');
+// faq
+Route::resource('/our_faqs', 'App\Http\Controllers\FrontEnd\FrontEndFaqController');
+// team
+Route::resource('/our_team', 'App\Http\Controllers\FrontEnd\FrontEndTeamController');
+
 
 
 
