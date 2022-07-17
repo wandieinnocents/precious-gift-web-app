@@ -14,7 +14,7 @@ class FrontEndDonateController extends Controller
      */
     public function index()
     {
-        //
+        return view('frontend.pages_frontend.donate.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class FrontEndDonateController extends Controller
      */
     public function create()
     {
-        //
+        return view('frontend.pages_frontend.create');
     }
 
     /**
