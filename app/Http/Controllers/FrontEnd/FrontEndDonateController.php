@@ -5,7 +5,7 @@ namespace App\Http\Controllers\FrontEnd;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class FrontEndTeamController extends Controller
+class FrontEndDonateController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class FrontEndTeamController extends Controller
      */
     public function index()
     {
-        return view('frontend.pages_frontend.team.index');
+        //
     }
 
     /**

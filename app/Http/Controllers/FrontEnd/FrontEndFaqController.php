@@ -14,7 +14,7 @@ class FrontEndFaqController extends Controller
      */
     public function index()
     {
-        return "This is our faq";
+        return view('frontend.pages_frontend.faqs.index');
     }
 
     /**

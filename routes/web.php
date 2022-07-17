@@ -3,8 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
-use App\Models\DrinkMenu;
-use App\Models\FoodMenu;
+
 
 
 
@@ -37,10 +36,8 @@ Route::resource('/testimonials', 'App\Http\Controllers\FrontEnd\FrontEndTestimon
 Route::resource('/works', 'App\Http\Controllers\FrontEnd\FrontEndServiceController');
 // gallery
 Route::resource('/pictures', 'App\Http\Controllers\FrontEnd\FrontEndGalleryController');
-//food menu
-Route::resource('/foods', 'App\Http\Controllers\FrontEnd\FrontEndFoodMenuController');
-//drinks menu
-Route::resource('/drinks', 'App\Http\Controllers\FrontEnd\FrontEndDrinkMenuController');
+
+
 //posts
 Route::resource('/articles', 'App\Http\Controllers\FrontEnd\FrontEndPostController');
 //bookings
@@ -53,6 +50,8 @@ Route::resource('/our_projects', 'App\Http\Controllers\FrontEnd\FrontEndProjectC
 Route::resource('/our_faqs', 'App\Http\Controllers\FrontEnd\FrontEndFaqController');
 // team
 Route::resource('/our_team', 'App\Http\Controllers\FrontEnd\FrontEndTeamController');
+//donate
+Route::resource('/donate', 'App\Http\Controllers\FrontEnd\FrontEndDonateController');
 
 
 
@@ -112,13 +111,7 @@ Route::resource('/resource_categories', 'App\Http\Controllers\BackEnd\ResourceCa
 
 // Orders
 Route::resource('/orders', 'App\Http\Controllers\BackEnd\OrderController');
-// Food menu category
-Route::resource('/foodmenu_categories', 'App\Http\Controllers\BackEnd\FoodMenuCategoryController');
-// Food menu
-Route::resource('/foodmenus', 'App\Http\Controllers\BackEnd\FoodMenuController');
 
-// DOWNLOAD DOCUMENT ON FOOD MENU
-Route::get('/foodmenus/download/{file}', 'App\Http\Controllers\BackEnd\FoodMenuController@downloadDoc')->name('downloadResource');
 
 // Gallery  category
 Route::resource('/gallery_categories', 'App\Http\Controllers\BackEnd\GalleryCategoryController');
