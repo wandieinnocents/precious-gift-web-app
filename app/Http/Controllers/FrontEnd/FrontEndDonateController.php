@@ -24,7 +24,7 @@ class FrontEndDonateController extends Controller
      */
     public function create()
     {
-        return view('frontend.pages_frontend.create');
+        return view('frontend.pages_frontend.donate.create');
     }
 
     /**

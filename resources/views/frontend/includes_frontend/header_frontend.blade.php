@@ -82,7 +82,7 @@
                     <!-- Main Menu End-->
 
                     <div class="donate-link">
-                        <a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate
+                        <a href="{{ route('donate.create') }}" class="theme-btn btn-style-one"><span class="btn-title">Donate
                                 Now</span></a>
                     </div>
                 </div>
