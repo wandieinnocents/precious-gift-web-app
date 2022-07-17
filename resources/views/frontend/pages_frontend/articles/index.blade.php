@@ -1,260 +1,223 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-
+Gallery
 @endsection
 
 @section('content')
 <!-- content  -->
+  <!-- Page Banner Section -->
+    <section class="page-banner">
+        <div class="image-layer" style="background-image: url(assets/frontend_assets/images/background/bg-page-title-2.jpg);"></div>
 
-<!-- Page Title -->
-<section class="page-title" style="background-image: url(assets/frontend_assets/assets/images/background/11.jpg)">
-			<div class="auto-container">
-				<h1>Blog</h1>
-				<ul class="bread-crumb clearfix">
-					<li><a href="/">Home</a></li>
-					<li>Blog</li>
-				</ul>
-			</div>
-		</section>
-		<!-- End Page Title -->
+        <div class="auto-container">
+            <h1>About Us</h1>
+        </div>
 
-		<!--Sidebar Page Container-->
-		<div class="sidebar-page-container">
-			<div class="auto-container">
-				<div class="row clearfix">
+        <div class="breadcrumb-box">
+            <div class="auto-container">
+                <ul class="bread-crumb clearfix">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Pages</a></li>
+                    <li class="active">About</li>
+                </ul>
+            </div>
+        </div>
 
-					<!-- Content Side / Our Blog -->
-					<div class="content-side col-lg-9 col-md-12 col-sm-12">
-						<div class="blog-classic padding-right">
+    </section>
+    <!--End Banner Section -->
 
-							<!-- News Block Four -->
-							<div class="news-block-four">
-								<div class="inner-box">
-									<div class="image">
-										<a href="blog-detail.html"><img src="assets/frontend_assets/assets/images/resource/news-9.jpg"
-												alt="" /></a>
-									</div>
-									<div class="lower-content">
-										<div class="upper-box clearfix">
-											<div class="posted-date pull-left">02 March. 2020</div>
-											<ul class="post-meta pull-right">
-												<li>By : Admin</li>
-												<li>pizza, burger</li>
-												<li>Comments: 8</li>
-											</ul>
-										</div>
-										<div class="lower-box">
-											<h3><a href="blog-detail.html">5 way to increase neutrients level from fast
-													food</a></h3>
-											<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-												enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-												aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-												in voluptate velit esse cillum dolore eu fugiat nulla pariatur velit
-												esse cillum dolore eu ...</div>
-											<a href="blog-detail.html" class="theme-btn btn-style-five"><span
-													class="txt">Read more</span></a>
-										</div>
-									</div>
-								</div>
-							</div>
+    <!--About Section-->
+    <section class="about-section-three">
+        
+        <div class="icon-two paroller" data-paroller-factor="0.20" data-paroller-factor-lg="0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-donation"></span></div>
 
-							<!-- News Block Four -->
-							<div class="news-block-four">
-								<div class="inner-box">
-									<div class="image">
-										<a href="blog-detail.html"><img src="assets/frontend_assets/assets/images/resource/news-10.jpg"
-												alt="" /></a>
-									</div>
-									<div class="lower-content">
-										<div class="upper-box clearfix">
-											<div class="posted-date pull-left">02 March. 2020</div>
-											<ul class="post-meta pull-right">
-												<li>By : Admin</li>
-												<li>pizza, burger</li>
-												<li>Comments: 8</li>
-											</ul>
-										</div>
-										<div class="lower-box">
-											<h3><a href="blog-detail.html">5 way to increase neutrients level from fast
-													food</a></h3>
-											<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-												enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-												aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-												in voluptate velit esse cillum dolore eu fugiat nulla pariatur velit
-												esse cillum dolore eu ...</div>
-											<a href="blog-detail.html" class="theme-btn btn-style-five"><span
-													class="txt">Read more</span></a>
-										</div>
-									</div>
-								</div>
-							</div>
 
-							<!-- News Block Four -->
-							<div class="news-block-four">
-								<div class="inner-box">
-									<div class="image">
-										<a href="blog-detail.html"><img src="assets/frontend_assets/assets/images/resource/news-11.jpg"
-												alt="" /></a>
-									</div>
-									<div class="lower-content">
-										<div class="upper-box clearfix">
-											<div class="posted-date pull-left">02 March. 2020</div>
-											<ul class="post-meta pull-right">
-												<li>By : Admin</li>
-												<li>pizza, burger</li>
-												<li>Comments: 8</li>
-											</ul>
-										</div>
-										<div class="lower-box">
-											<h3><a href="blog-detail.html">5 way to increase neutrients level from fast
-													food</a></h3>
-											<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-												enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-												aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-												in voluptate velit esse cillum dolore eu fugiat nulla pariatur velit
-												esse cillum dolore eu ...</div>
-											<a href="blog-detail.html" class="theme-btn btn-style-five"><span
-													class="txt">Read more</span></a>
-										</div>
-									</div>
-								</div>
-							</div>
+        <div class="icon-four paroller" data-paroller-factor="-0.10" data-paroller-factor-lg="-0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="vertical"><span class="flaticon-money-jar"></span></div>
 
-							<!-- News Block Four -->
-							<div class="news-block-four margin-bottom">
-								<div class="inner-box">
-									<div class="image">
-										<a href="blog-detail.html"><img src="assets/frontend_assets/assets/images/resource/news-12.jpg"
-												alt="" /></a>
-									</div>
-									<div class="lower-content">
-										<div class="upper-box clearfix">
-											<div class="posted-date pull-left">02 March. 2020</div>
-											<ul class="post-meta pull-right">
-												<li>By : Admin</li>
-												<li>pizza, burger</li>
-												<li>Comments: 8</li>
-											</ul>
-										</div>
-										<div class="lower-box">
-											<h3><a href="blog-detail.html">5 way to increase neutrients level from fast
-													food</a></h3>
-											<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-												enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-												aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-												in voluptate velit esse cillum dolore eu fugiat nulla pariatur velit
-												esse cillum dolore eu ...</div>
-											<a href="blog-detail.html" class="theme-btn btn-style-five"><span
-													class="txt">Read more</span></a>
-										</div>
-									</div>
-								</div>
-							</div>
+        <div class="icon-five paroller" data-paroller-factor="-0.10" data-paroller-factor-lg="-0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-gift-box"></span></div>
+        
+        <div class="icon-six paroller" data-paroller-factor="0.10" data-paroller-factor-lg="0.15" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal"><span class="flaticon-dove-2"></span></div>
 
-							<!--Styled Pagination-->
-							<ul class="styled-pagination">
-								<li><a href="#" class="active">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#"><span class="fa fa-angle-right"></span></a></li>
-							</ul>
-							<!--End Styled Pagination-->
+        <div class="auto-container">
+            <div class="row clearfix">
+                <!--Text Column-->
+                <div class="text-column col-lg-7 col-md-12 col-sm-12">
+                    <div class="inner">
+                        <div class="sec-title">
+                            <div class="sub-title"><span class="icon"></span> We believe what we achieve</div>
+                            <h2>Warmth & True Support <br>For Needed People</h2>
+                            <div class="lower-title">We make ways to good things happen</div>
+                        </div>
+                        <div class="lower-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incids dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercital tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore euy fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.</div>
+                    </div>
+                </div>
+                <!--Image Column-->
+                <div class="image-column col-lg-5 col-md-12 col-sm-12">
+                    <figure class="image wow slideInRight" data-wow-delay="0ms"><img src="assets/frontend_assets/images/resource/featured-image-5.jpg" alt="" /></figure>
+                </div>
+            </div>
 
-						</div>
-					</div>
+            <!--Featured Blocks-->
+            <div class="featured-blocks">
+                <div class="row clearfix">
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-care"></span></div>
+                                <h3>Helping Mankind</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-pigeon"></span></div>
+                                <h3>Love Your World</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Featured Block-->
+                    <div class="featured-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-harvest"></span></div>
+                                <h3>Food for Everyone</h3>
+                                <div class="text">Auis nostrud exercitation ullam labor offica aliquip exsed consequat duis autpsum natus dolore magna aliqua minim ipsum.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<!--Sidebar Side-->
-					<div class="sidebar-side col-lg-3 col-md-12 col-sm-12">
-						<aside class="sidebar default-sidebar sticky-top">
+    <!--Fun Facts Section-->
+    <section class="fun-facts-section">
+        <div class="auto-container">
+            <div class="fact-counter">
+                <div class="row clearfix">
+                    
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="98520">0</span></div>
+                            <div class="counter-title">raised Donations</div>
+                        </div>
+                    </div>
 
-							<!-- Search -->
-							<div class="sidebar-widget search-box">
-								<form method="post" action="http://designarc.biz/demos/wengdo/contact.html">
-									<div class="form-group">
-										<input type="search" name="search-field" value=""
-											placeholder="Enter Search Keywords" required>
-										<button type="submit"><span class="icon fa fa-search"></span></button>
-									</div>
-								</form>
-							</div>
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="1500" data-stop="306">0</span></div>
+                            <div class="counter-title">Causes Solved</div>
+                        </div>
+                    </div>
 
-							<!--Blog Category Widget-->
-							<div class="sidebar-widget sidebar-blog-category">
-								<div class="sidebar-title">
-									<h2>Categories</h2>
-								</div>
-								<ul class="cat-list">
-									<li><a href="#">Fresh Fruit</a></li>
-									<li><a href="#">Organic Vegetables</a></li>
-									<li><a href="#">Fresh Pizza</a></li>
-									<li><a href="#">Fitness & health</a></li>
-									<li><a href="#">Nutrients</a></li>
-									<li><a href="#">Burger</a></li>
-								</ul>
-							</div>
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="1500" data-stop="84">0</span></div>
+                            <div class="counter-title">Volunteers</div>
+                        </div>
+                    </div>
 
-							<!-- Popular Posts -->
-							<div class="sidebar-widget popular-posts">
-								<div class="sidebar-title">
-									<h2>Recent news</h2>
-								</div>
+                    <!--Column-->
+                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                        <div class="inner-box">
+                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="1369">0</span></div>
+                            <div class="counter-title">Projects Done</div>
+                        </div>
+                    </div>
+                </div>
 
-								<article class="post">
-									<figure class="post-thumb"><a href="blog-single.html"><img
-												src="assets/frontend_assets/assets/images/resource/post-thumb-1.jpg" alt=""></a></figure>
-									<div class="text"><a href="blog-single.html">Boost up with 6 month organic food
-											course...</a></div>
-									<div class="post-info">08 Feb 2017</div>
-								</article>
+            </div>
+        </div>
+    </section>
 
-								<article class="post">
-									<figure class="post-thumb"><a href="blog-single.html"><img
-												src="assets/frontend_assets/assets/images/resource/post-thumb-2.jpg" alt=""></a></figure>
-									<div class="text"><a href="blog-single.html">5 tips for keep healthy from organic
-											food</a></div>
-									<div class="post-info">08 Feb 2019</div>
-								</article>
+  
+    <section class="call-to-action alternate-two">
+        <div class="image-layer" style="background-image:url('assets/frontend_assets/images/background/bg-pattern-1.png')"></div>
+        
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="title-column col-xl-9 col-lg-12 col-md-12 col-sm-12">
+                    <h2>Become a vital part of Kausid &amp; make a real difference to lives of many!</h2>
+                </div>
+                <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
+                    <div class="link-box">
+                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">join to Volunteer</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-								<article class="post">
-									<figure class="post-thumb"><a href="blog-single.html"><img
-												src="assets/frontend_assets/assets/images/resource/post-thumb-3.jpg" alt=""></a></figure>
-									<div class="text"><a href="blog-single.html">How rto sleep to recharge your body
-											...</a></div>
-									<div class="post-info">08 Feb 2017</div>
-								</article>
+    <!--Default Section-->
+    <section class="default-section">
+        <div class="auto-container">
 
-								<article class="post">
-									<figure class="post-thumb"><a href="blog-single.html"><img
-												src="assets/frontend_assets/assets/images/resource/post-thumb-4.jpg" alt=""></a></figure>
-									<div class="text"><a href="blog-single.html">5 tips for keep healthy from organic
-											food</a></div>
-									<div class="post-info">08 Feb 2019</div>
-								</article>
+            <div class="row clearfix">
+                <!--Text Column-->
+                <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner">
+                        <h2>Don’t Just Give. Make Your Money Count Everywhere!</h2>
+                        <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut psum dolore magna aliqua minim.</div>
+                        <div class="info-list">
+                            <ul class="clearfix">
+                                <li><div class="icon"><span class="flaticon-first-aid-kit"></span></div><span class="title">Medical</span></li>
+                                <li><div class="icon"><span class="flaticon-book"></span></div><span class="title">Education</span></li>
+                                <li><div class="icon"><span class="flaticon-shelter"></span></div><span class="title">Shelter</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Faq Column-->
+                <div class="faq-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="accordion-box">
+                        <!--Block-->
+                        <div class="accordion block current wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> We better help the people in need <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div> 
 
-							</div>
+                        <!--Block-->
+                        <div class="accordion block wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                            <div class="acc-btn"><span class="icon-box flaticon-blood-2"></span> Our aim to provide clean water <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div>
 
-							<!-- Popular Tags -->
-							<div class="sidebar-widget popular-tags">
-								<div class="sidebar-title">
-									<h2>Tages</h2>
-								</div>
-								<a href="#">Pizzas</a>
-								<a href="#">Nutrients</a>
-								<a href="#">Health</a>
-								<a href="#">Fast Food</a>
-								<a href="#">Burger</a>
-								<a href="#">Fresh</a>
-							</div>
+                        <!--Block-->
+                        <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Raise funds in response to a disaster <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                </div>
+                            </div>
+                        </div>
 
-						</aside>
-					</div>
+                    </div>
+                </div>
+            </div>
 
-				</div>
-			</div>
-		</div>
+        </div>
+    </section>
+
+   
+
+    
 
 @endsection

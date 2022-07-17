@@ -61,18 +61,18 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li ><a href="/">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li class="dropdown"><a href="javascript::void(0)">Know Us</a>
                                     <ul>
                                         <li><a href="/about">About Us</a></li>
                                         <li><a href="/team">Our Staff</a></li>
-                                    <li><a href="/faq">Faq's</a></li>
-                                    
+                                        <li><a href="/faq">Faq's</a></li>
+
                                     </ul>
                                 </li>
-                                 <li><a href="blog.html">Projects</a></li>
+                                <li><a href="blog.html">Projects</a></li>
                                 <li><a href="blog.html">News</a></li>
-                                 <li><a href="/pictures">Gallery</a></li>
+                                <li><a href="/pictures">Gallery</a></li>
 
 
                                 <li><a href="/contact/create">Contact</a></li>
@@ -96,8 +96,9 @@
         <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="index.html" title=""><img src="{{ asset('assets/frontend_assets/images/sticky-logo.png') }}"
-                        alt="" title=""></a>
+                <a href="index.html" title=""><img
+                        src="{{ asset('assets/frontend_assets/images/sticky-logo.png') }}" alt=""
+                        title=""></a>
             </div>
             <!--Right Col-->
             <div class="pull-right">
@@ -115,8 +116,9 @@
         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="{{ asset('assets/frontend_assets/images/nav-logo.png') }}"
-                        alt="" title=""></a></div>
+            <div class="nav-logo"><a href="index.html"><img
+                        src="{{ asset('assets/frontend_assets/images/nav-logo.png') }}" alt=""
+                        title=""></a></div>
             <div class="menu-outer">
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             </div>
