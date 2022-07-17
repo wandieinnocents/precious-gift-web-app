@@ -7,6 +7,7 @@ use App\Models\DrinkMenu;
 use App\Models\FoodMenu;
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -46,6 +47,15 @@ Route::resource('/articles', 'App\Http\Controllers\FrontEnd\FrontEndPostControll
 Route::resource('/book', 'App\Http\Controllers\FrontEnd\FrontEndBookingController');
 //contact 
 Route::resource('/contact', 'App\Http\Controllers\FrontEnd\FrontEndContactController');
+// projects
+Route::resource('/our_projects', 'App\Http\Controllers\FrontEnd\FrontEndProjectController');
+
+
+
+
+
+
+
 
 
 
@@ -105,9 +115,6 @@ Route::resource('/foodmenus', 'App\Http\Controllers\BackEnd\FoodMenuController')
 // DOWNLOAD DOCUMENT ON FOOD MENU
 Route::get('/foodmenus/download/{file}', 'App\Http\Controllers\BackEnd\FoodMenuController@downloadDoc')->name('downloadResource');
 
-
-
-
 // Gallery  category
 Route::resource('/gallery_categories', 'App\Http\Controllers\BackEnd\GalleryCategoryController');
 // Gallery 
@@ -120,9 +127,6 @@ Route::resource('/services', 'App\Http\Controllers\BackEnd\ServiceController');
 Route::resource('/project_categories', 'App\Http\Controllers\BackEnd\ProjectCategoryController');
 // Projects
 Route::resource('/projects', 'App\Http\Controllers\BackEnd\ProjectController');
-
-
-
 
 });
 

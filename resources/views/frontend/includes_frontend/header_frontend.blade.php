@@ -70,8 +70,8 @@
 
                                     </ul>
                                 </li>
-                                <li><a href="blog.html">Projects</a></li>
-                                <li><a href="blog.html">News</a></li>
+                                <li><a href="/projects">Projects</a></li>
+                                <li><a href="/articles">News</a></li>
                                 <li><a href="/pictures">Gallery</a></li>
 
 
