@@ -16,7 +16,8 @@ class GalleryCategoryController extends Controller
     public function index()
     {
         $gallery_categories = GalleryCategory::all();
-        return view('backend.pages_backend.gallery_categories.index',compact('gallery_categories'));
+        $photo_categories   = GalleryCategory::count();
+        return view('backend.pages_backend.gallery_categories.index',compact('gallery_categories','photo_categories'));
 
     }
 

@@ -119,7 +119,7 @@
 
                                         <div class="col-md-4">
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                                data-bs-target="#editFoodOrder{{ $gallery->id }}"
+                                                data-bs-target="#editPhotoOrder{{ $gallery->id }}"
                                                 data-bs-whatever="@getbootstrap"><i class="fas fa-pencil-alt "></i></button>
 
                                         </div>
@@ -163,7 +163,7 @@
                                             <img src="{{ asset($gallery->gallery_photo) }} "
                                                 style="width: 100%; height:60%;">
                                             <hr>
-                                            <p>Food : {{ $gallery->gallery_name }}</p>
+                                            <p>Photo : {{ $gallery->gallery_name }}</p>
                                             <hr>
 
                                             <p>Category : {{ $gallery->gallery_category_r->gallery_category_name }}</p>
@@ -175,8 +175,8 @@
                                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close
                                             </button>
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                                data-bs-target="#editFoodOrder{{ $gallery->id }}"
-                                                data-bs-whatever="@getbootstrap">Edit Food</button>
+                                                data-bs-target="#editPhotoOrder{{ $gallery->id }}"
+                                                data-bs-whatever="@getbootstrap">Edit Photo</button>
                                         </div>
                                     </div>
                                 </div>
@@ -186,9 +186,9 @@
 
 
 
-                            <!-- edit  FOOD MENU DETAILS MODEL -->
-                            <div class="modal fade" id="editFoodOrder{{ $gallery->id }}" tabindex="-1"
-                                aria-labelledby="editFoodOrderLabel" style="display: none;" aria-hidden="true">
+                            <!-- edit  Photo MENU DETAILS MODEL -->
+                            <div class="modal fade" id="editPhotoOrder{{ $gallery->id }}" tabindex="-1"
+                                aria-labelledby="editPhotoOrderLabel" style="display: none;" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-scrollable">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -199,7 +199,7 @@
                                         <div class="modal-body">
 
 
-                                            <!-- form update food menu items -->
+                                            <!-- form update Photo menu items -->
 
                                             <form action="{{ route('galleries.update', $gallery->id) }}" method="post"
                                                 enctype="multipart/form-data">
