@@ -79,7 +79,13 @@ class ServiceCategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $service_category = ServiceCategory::find($id);
+        $service_category->service_category_name = $request->service_category_name;
+        $service_category->service_category_description = $request->service_category_description;
+        $service_category->save();
+      
+
+        return redirect('/service_categories');
     }
 
     /**
@@ -90,6 +96,8 @@ class ServiceCategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $service_category = ServiceCategory::findOrFail($id);
+        $service_category->delete();
+        return redirect('/service_categories')->with('success', 'Service Category is successfully deleted');
     }
 }

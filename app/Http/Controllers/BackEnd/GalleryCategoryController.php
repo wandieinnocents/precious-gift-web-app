@@ -100,7 +100,6 @@ class GalleryCategoryController extends Controller
         
         $gallery_category = GalleryCategory::findOrFail($id);
         $gallery_category->delete();
-
         return redirect('/gallery_categories')->with('success', 'Category is successfully deleted');
     }
 }

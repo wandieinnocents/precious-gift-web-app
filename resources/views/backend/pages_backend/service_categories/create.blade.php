@@ -13,12 +13,12 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0 font-size-18">Photos</h4>
+                                    <h4 class="mb-sm-0 font-size-18">Service Categories</h4>
 
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                                            <li class="breadcrumb-item active">Photos</li>
+                                            <li class="breadcrumb-item active">Categories</li>
                                         </ol>
                                     </div>
 
@@ -33,7 +33,7 @@
                             <div class="col-xl-6">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h4 class="card-title">Add Photo  Category</h4>
+                                        <h4 class="card-title">Add Service  Category</h4>
                                         <!-- <p class="card-title-desc">Add Category</p> -->
                                     </div>
                                     <div class="card-body">
@@ -59,7 +59,7 @@
                                             </div>
 
                                             <!-- Editor -->
-                                            <button class="btn btn-primary" type="submit">Add Category</button>
+                                            <button class="btn btn-primary" type="submit">Add Service Category</button>
                                         </form>
                                     </div>
                                 </div>
