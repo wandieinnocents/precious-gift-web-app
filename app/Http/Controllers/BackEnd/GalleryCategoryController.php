@@ -78,7 +78,14 @@ class GalleryCategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+       
+        $gallery_category = GalleryCategory::find($id);
+        $gallery_category->gallery_category_name = $request->gallery_category_name;
+        $gallery_category->gallery_category_description = $request->gallery_category_description;
+        $gallery_category->save();
+      
+
+        return redirect('/gallery_categories');
     }
 
     /**
