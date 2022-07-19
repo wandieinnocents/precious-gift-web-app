@@ -43,7 +43,7 @@
                             <div class="col-xl-6">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h4 class="card-title">Add Food </h4>
+                                        <h4 class="card-title">Add Photo </h4>
                                         <!-- <p class="card-title-desc">Add Category</p> -->
                                     </div>
                                     <div class="card-body">
