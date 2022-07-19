@@ -16,7 +16,8 @@ class ServiceCategoryController extends Controller
     public function index()
     {
         $service_categories = ServiceCategory::all();
-        return view('backend.pages_backend.service_categories.index',compact('service_categories'));
+        $service_categories_count = ServiceCategory::count();
+        return view('backend.pages_backend.service_categories.index',compact('service_categories','service_categories_count'));
 
     }
 
