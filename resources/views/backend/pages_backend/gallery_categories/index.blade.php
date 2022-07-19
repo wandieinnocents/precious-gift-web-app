@@ -84,9 +84,9 @@
 
                                         </div>
 
-                                        <!-- delete food menu -->
+                                        <!-- DELETE -->
                                         <div class="col-md-4">
-                                            <form action="" method="post">
+                                            <form action="{{ route('gallery_categories.update', $gallery_category->id) }}" method="post">
                                                 @csrf
                                                 @method('DELETE')
                                                 <a> <button class="btn btn-danger shadow btn-xs sharp"> <span

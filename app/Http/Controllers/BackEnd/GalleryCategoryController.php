@@ -96,6 +96,10 @@ class GalleryCategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        
+        $gallery_category = GalleryCategory::findOrFail($id);
+        $gallery_category->delete();
+
+        return redirect('/gallery_categories')->with('success', 'Category is successfully deleted');
     }
 }

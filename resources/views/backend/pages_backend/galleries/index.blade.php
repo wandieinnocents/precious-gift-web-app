@@ -124,7 +124,7 @@
 
                                         </div>
 
-                                        <!-- delete food menu -->
+                                        <!-- UPDATE -->
                                         <div class="col-md-4">
                                             <form action="{{ route('galleries.update', $gallery->id) }}" method="post">
                                                 @csrf
