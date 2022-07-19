@@ -19,7 +19,7 @@
 
                         <div>
                             <a href="{{ route('service_categories.create') }}" class="btn bg-primary text-light"><i
-                                    class="bx bx-plus me-1"></i> Add Category</a>
+                                    class="bx bx-plus me-1"></i> Add Service Category</a>
                         </div>
 
 
