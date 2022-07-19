@@ -8,7 +8,7 @@
                 <!-- <li class="menu-title" data-key="t-menu">Menu</li> -->
                 <li>
                     <a href="/dashboard">
-                    <i class="fas fa-home"></i>
+                        <i class="fas fa-home"></i>
                         <span data-key="t-dashboard">Dashboard</span>
                     </a>
                 </li>
@@ -22,7 +22,7 @@
                 <!-- Feedback -->
                 <li>
                     <a href="/feedbacks">
-                    <i class="fas fa-comment-alt "></i>
+                        <i class="fas fa-comment-alt "></i>
                         <span data-key="t-dashboard">Feedback</span>
                     </a>
                 </li>
@@ -64,7 +64,7 @@
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-photo-video"></i>
-                        
+
                         <span data-key="t-apps">Gallery</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -75,9 +75,7 @@
                         </li>
                         <li>
                             <a href="/gallery_categories">
-                                <span data-key="t-calendar"
-                                    >View Categories</span
-                                >
+                                <span data-key="t-calendar">View Categories</span>
                             </a>
                         </li>
                         <li>
@@ -92,10 +90,10 @@
                             </a>
                         </li>
                     </ul>
-                </li> 
+                </li>
 
                 <!-- Services -->
-               <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-people-carry"></i>
                         <span data-key="t-apps">Services</span>
@@ -109,9 +107,7 @@
 
                         <li>
                             <a href="/service_categories">
-                                <span data-key="t-calendar"
-                                    >View Categories</span
-                                >
+                                <span data-key="t-calendar">View Categories</span>
                             </a>
                         </li>
 
@@ -127,7 +123,7 @@
                             </a>
                         </li>
                     </ul>
-                </li> 
+                </li>
 
                 <!-- Projects -->
                 <li>
@@ -144,9 +140,7 @@
 
                         <li>
                             <a href="/project_categories">
-                                <span data-key="t-calendar"
-                                    >View Categories</span
-                                >
+                                <span data-key="t-calendar">View Categories</span>
                             </a>
                         </li>
 
@@ -162,10 +156,10 @@
                             </a>
                         </li>
                     </ul>
-                </li> 
+                </li>
 
                 {{-- Posts --}}
-                  <!-- Posts -->
+                <!-- Posts -->
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i data-feather="grid"></i>
@@ -173,49 +167,47 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <!-- Post categories create -->
-                    @can('postcategories-create')
-                        <li>
-                            <a href="/post_categories/create">
-                                <span data-key="t-calendar">Add Category</span>
-                            </a>
-                        </li>
-                    @endcan
+                        @can('postcategories-create')
+                            <li>
+                                <a href="/post_categories/create">
+                                    <span data-key="t-calendar">Add Category</span>
+                                </a>
+                            </li>
+                        @endcan
 
-                    <!-- Post categories list -->
-                    @can('postcategories-list')
-                        <li>
-                            <a href="/post_categories">
-                                <span data-key="t-calendar"
-                                    >View Categories</span
-                                >
-                            </a>
-                        </li>
-                    @endcan
+                        <!-- Post categories list -->
+                        @can('postcategories-list')
+                            <li>
+                                <a href="/post_categories">
+                                    <span data-key="t-calendar">View Categories</span>
+                                </a>
+                            </li>
+                        @endcan
 
                         <!-- Create post -->
-                       
+
                         <li>
                             <a href="{{ route('posts.create') }}">
                                 <span data-key="t-chat">Add Post</span>
                             </a>
                         </li>
-                   
 
-                    <!-- List posts -->
-                   
+
+                        <!-- List posts -->
+
 
                         <li>
                             <a href="{{ route('posts.index') }}">
                                 <span data-key="t-chat">View Posts</span>
                             </a>
                         </li>
-                   
+
 
                     </ul>
                 </li>
-              
+
                 {{-- Team --}}
-                   <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-university"></i>
                         <span data-key="t-apps">Staff</span>
@@ -226,12 +218,9 @@
                                 <span data-key="t-calendar">Add Category</span>
                             </a>
                         </li>
-
                         <li>
                             <a href="/project_categories">
-                                <span data-key="t-calendar"
-                                    >View Categories</span
-                                >
+                                <span data-key="t-calendar">View Categories</span>
                             </a>
                         </li>
 
@@ -247,132 +236,151 @@
                             </a>
                         </li>
                     </ul>
-                </li> 
+                </li>
+                {{-- Faq --}}
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i class="fas fa-university"></i>
+                        <span data-key="t-apps">Faq's</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li>
+                            <a href="/project_categories/create">
+                                <span data-key="t-calendar">Add Faq</span>
+                            </a>
+                        </li>
+                    <li>
+                            <a href="/project_categories">
+                                <span data-key="t-calendar">View Faq's</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
 
 
                 <hr>
 
                 @guest
-                
-                <!-- Login -->
-                @if (Route::has('login'))
-                <li>
-                    <a href="{{ route('login') }}">
-                        <i class="fas fa-user-check"></i>
-                        <span data-key="t-apps">Login</span>
-                    </a>
-                    
-                </li>
-                @endif
 
-                <!-- Register -->
-                @if (Route::has('register'))
-                <li>
-                    <a href="{{ route('register') }}">
-                    <i class="fas fa-user-check"></i>
-                        <span data-key="t-apps">Register</span>
-                    </a>
-                    
-                </li>
-                @endif
+                    <!-- Login -->
+                    @if (Route::has('login'))
+                        <li>
+                            <a href="{{ route('login') }}">
+                                <i class="fas fa-user-check"></i>
+                                <span data-key="t-apps">Login</span>
+                            </a>
 
-                <!-- else -->
+                        </li>
+                    @endif
+
+                    <!-- Register -->
+                    @if (Route::has('register'))
+                        <li>
+                            <a href="{{ route('register') }}">
+                                <i class="fas fa-user-check"></i>
+                                <span data-key="t-apps">Register</span>
+                            </a>
+
+                        </li>
+                    @endif
+
+                    <!-- else -->
                 @else
-
                     <!-- Users -->
                     @can('user-list')
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow">
+                                <i class="fas fa-user-check"></i>
+                                <span data-key="t-apps">Users</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+
+
+
+
+                                <li>
+                                    <a href="{{ route('users.create') }}">
+                                        <span data-key="t-chat">Add User</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('users.index') }}">
+                                        <span data-key="t-chat">View Users</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    @endcan
+
+                    <!-- Roles -->
+                    @can('role-list')
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow">
+                                <i class=" fas fa-user-plus"></i>
+                                <span data-key="t-apps">Roles</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li>
+                                    <a href="{{ route('roles.create') }}">
+                                        <span data-key="t-calendar">Add Roles</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('roles.index') }}">
+                                        <span data-key="t-calendar">View Roles</span>
+                                    </a>
+                                </li>
+
+
+
+                            </ul>
+                        </li>
+                    @endcan
+
+
+                    <!-- Permissions -->
+                    @can('permission-list')
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow">
+                                <i class=" fas fa-user-lock"></i>
+                                <span data-key="t-apps">Permissions</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li>
+                                    <a href="{{ route('permissions.create') }}">
+                                        <span data-key="t-calendar">Add Permissions</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('permissions.index') }}">
+                                        <span data-key="t-calendar">View Permissions</span>
+                                    </a>
+                                </li>
+
+
+
+                            </ul>
+                        </li>
+                    @endcan
+
+
+
+
+
+
+
+
                     <li>
-                    <a href="javascript: void(0);" class="has-arrow">
-                    <i class="fas fa-user-check"></i>
-                        <span data-key="t-apps">Users</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                       
+                        <a href="{{ route('logout') }}">
+                            <i class="fas fa-power-off"></i>
+                            <span data-key="t-apps">Logout</span>
+                        </a>
 
-                        
-
-                        <li>
-                            <a href="{{ route('users.create') }}">
-                                <span data-key="t-chat">Add User</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="{{ route('users.index') }}">
-                                <span data-key="t-chat">View Users</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                @endcan
-
-                <!-- Roles -->
-                @can('role-list')
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow">
-                        <i class=" fas fa-user-plus"></i>
-                        <span data-key="t-apps">Roles</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li>
-                            <a href="{{ route('roles.create') }}">
-                                <span data-key="t-calendar">Add Roles</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="{{ route('roles.index') }}">
-                                <span data-key="t-calendar">View Roles</span>
-                            </a>
-                        </li>
-
-                       
-                       
-                    </ul>
-                </li>
-                @endcan
-
-
-                <!-- Permissions -->
-                @can('permission-list')
-                 <li>
-                    <a href="javascript: void(0);" class="has-arrow">
-                        <i class=" fas fa-user-lock"></i>
-                        <span data-key="t-apps">Permissions</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li>
-                            <a href="{{ route('permissions.create') }}">
-                                <span data-key="t-calendar">Add Permissions</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="{{ route('permissions.index') }}">
-                                <span data-key="t-calendar">View Permissions</span>
-                            </a>
-                        </li>
-
-                       
-                       
-                    </ul>
-                </li>
-                @endcan
-
-
-                
-               
-              
-        
-              
-
-                <li>
-                    <a href="{{ route('logout') }}">
-                        <i class="fas fa-power-off"></i>
-                        <span data-key="t-apps">Logout</span>
-                    </a>
-                    
-                </li>
+                    </li>
 
 
                 @endguest
@@ -403,10 +411,8 @@
 
             </ul>
 
-            <div
-                class="card sidebar-alert border-5 text-center mx-4 mb-0 mt-5"
-                style="border-radius: 100px 100px 0px 0px"
-            >
+            <div class="card sidebar-alert border-5 text-center mx-4 mb-0 mt-5"
+                style="border-radius: 100px 100px 0px 0px">
                 <div class="card-body">
                     <img src="assets/images/giftbox.png" alt="" />
                     <div class="mt-4">
