@@ -17,9 +17,6 @@ class ProjectCategoryController extends Controller
     {
         $project_categories = ProjectCategory::all();
         return view('backend.pages_backend.project_categories.index',compact('project_categories'));
-
-        
-
     }
 
     /**
@@ -80,7 +77,11 @@ class ProjectCategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $project_category = ProjectCategory::find($id);
+        $project_category->project_category_name = $request->project_category_name;
+        $project_category->project_category_description = $request->project_category_description;
+        $project_category->save();
+        return redirect('/project_categories');
     }
 
     /**
@@ -91,6 +92,8 @@ class ProjectCategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $project_category = ProjectCategory::findOrFail($id);
+        $project_category->delete();
+        return redirect('/project_categories')->with('success', 'Category is successfully deleted');
     }
 }

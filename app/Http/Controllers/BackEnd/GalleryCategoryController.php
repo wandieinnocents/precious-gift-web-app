@@ -84,8 +84,6 @@ class GalleryCategoryController extends Controller
         $gallery_category->gallery_category_name = $request->gallery_category_name;
         $gallery_category->gallery_category_description = $request->gallery_category_description;
         $gallery_category->save();
-      
-
         return redirect('/gallery_categories');
     }
 
@@ -97,7 +95,6 @@ class GalleryCategoryController extends Controller
      */
     public function destroy($id)
     {
-        
         $gallery_category = GalleryCategory::findOrFail($id);
         $gallery_category->delete();
         return redirect('/gallery_categories')->with('success', 'Category is successfully deleted');
