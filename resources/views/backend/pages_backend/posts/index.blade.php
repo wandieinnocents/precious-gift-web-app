@@ -86,7 +86,7 @@ Posts
                                         <td>
                                             <a href="#" class="text-body">{{ $post->post_category_r->post_category_name }} </a>
                                         </td>
-                                        <td>{{ $post->post_name }}</td>
+                                        <td>{{ $post->post_title }}</td>
                                         <td>  
 
                                         @if (($post->post_photo))
@@ -112,15 +112,15 @@ Posts
                                         <td colspan="6">
                                             <div class="row">
                                              <div class="col-md-4">
-                                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal{{ $post->id }}" data-bs-whatever="@getbootstrap"><i class=" far fa-eye  "></i></button>
+                                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#viewDetails{{ $post->id }}" data-bs-whatever="@getbootstrap"><i class=" far fa-eye  "></i></button>
                                             </div>
                                                 
                                             <div class="col-md-4">
-                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editFoodOrder{{ $post->id }}" data-bs-whatever="@getbootstrap"><i class="fas fa-pencil-alt "></i></button>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editPostOrder{{ $post->id }}" data-bs-whatever="@getbootstrap"><i class="fas fa-pencil-alt "></i></button>
 
                                             </div>
                                             
-                                            <!-- delete food menu -->
+                                            <!-- delete -->
                                             <div class="col-md-4">
                                             <form action="{{ route('posts.update', $post->id) }}" method="post">
                                                         @csrf
@@ -144,11 +144,11 @@ Posts
 
 
                 <!-- VIEW DETAILS MODEL -->
-                <div class="modal fade" id="exampleModal{{ $post->id }}" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                <div class="modal fade" id="viewDetails{{ $post->id }}" tabindex="-1" aria-labelledby="viewDetailsLabel" style="display: none;" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">post Details</h5>
+                                        <h5 class="modal-title" id="viewDetailsLabel">Post Details</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                
@@ -158,7 +158,9 @@ Posts
 
                                     <img src="{{ asset($post->post_photo) }} " style="width: 100%; height:60%;">
                                     <hr>
-                                    <p>Food : {{ $post->post_name }}</p>
+                                          <p>Created By : {{ $post->post_created_by }}</p>
+                                          <hr>
+                                    <p>Post Title : {{ $post->post_title }}</p>
                                     <hr>
 
                                     <p>Category : {{ $post->post_category_r->post_category_name }}</p>
@@ -168,7 +170,7 @@ Posts
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close </button>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editFoodOrder{{ $post->id }}" data-bs-whatever="@getbootstrap">Edit post</button>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editPostOrder{{ $post->id }}" data-bs-whatever="@getbootstrap">Edit post</button>
                                     </div>
                                 </div>
                               </div>
@@ -178,18 +180,18 @@ Posts
 
 
 
-                <!-- edit  FOOD MENU DETAILS MODEL -->
-                <div class="modal fade" id="editFoodOrder{{ $post->id }}" tabindex="-1" aria-labelledby="editFoodOrderLabel" style="display: none;" aria-hidden="true">
+                <!-- edit  Post MENU DETAILS MODEL -->
+                <div class="modal fade" id="editPostOrder{{ $post->id }}" tabindex="-1" aria-labelledby="editPostOrderLabel" style="display: none;" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Edit post Details</h5>
+                                        <h5 class="modal-title" id="viewDetailsLabel">Edit post Details</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
 
 
-                                        <!-- form update food menu items -->
+                                        <!-- form update Post menu items -->
                                     
                             <form action="{{ route('posts.update', $post->id) }}" method="post" enctype="multipart/form-data">
                             @csrf
@@ -210,7 +212,7 @@ Posts
 
                                             <div class="mb-3">
                                                 <label for="recipient-name" class="col-form-label">Name:</label>
-                                                <input type="text" class="form-control" name="post_name" value="{{  $post->post_name }}" id="recipient-name">
+                                                <input type="text" class="form-control" name="post_title" value="{{  $post->post_title }}" id="recipient-name">
                                             </div>
                                             <div class="col-md-6">
                                                     <div class="mb-3">

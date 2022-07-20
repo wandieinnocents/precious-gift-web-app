@@ -81,7 +81,7 @@ class PostController extends Controller
         //     $post->post_photo = '';
         // }
         $post->save();
-        dd($post);
+        // dd($post);
         return redirect()->route('posts.index')->with('success','Post created successfully.');
     }
 
@@ -120,15 +120,26 @@ class PostController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $this->validate($request, [
-            'title' => 'required',
-            'body' => 'required',
-        ]);
+        $post   = Post::find($id);
+        $post->post_category_id  = $request->post_category_id;
+        $post->post_title        = $request->post_title;
+        $post->post_created_by   = Auth::user()->name;
+        $post->post_description  = $request->post_description;
 
-        $post = Post::find($id);
-    
-        $post->update($request->all());
-    
+        // photo
+        if($request->hasfile('post_photo')){
+            $file               = $request->file('post_photo');
+            $extension          = $file->getClientOriginalExtension();  //get image extension
+            $filename           = time() . '.' .$extension;
+            $file->move('uploads/post_photos/',$filename);
+            $post->post_photo   = url('uploads' . '/post_photos/'  . $filename);
+        }
+
+        // else{
+        //     $post->post_photo = '';
+        // }
+        $post->save();
+
         return redirect()->route('posts.index')
             ->with('success', 'Post updated successfully.');
     }
