@@ -30,7 +30,8 @@ class PostController extends Controller
         $posts = Post::all();
         $post_categories = PostCategory::all();
         $count_posts = Post::count();
-        return view('backend.pages_backend.posts.index',compact('post_categories','count_posts','posts'));
+        $loggedinUser = Auth::user()->name;
+        return view('backend.pages_backend.posts.index',compact('post_categories','count_posts','posts','loggedinUser'));
 
     }
 
@@ -107,7 +108,6 @@ class PostController extends Controller
     public function edit($id)
     {
         $post = Post::find($id);
-
         return view('backend.pages_backend.posts.edit',compact('post'));
     }
 

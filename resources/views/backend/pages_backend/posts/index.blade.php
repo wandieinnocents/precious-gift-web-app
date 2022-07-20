@@ -180,7 +180,7 @@ Posts
 
 
 
-                <!-- edit  Post MENU DETAILS MODEL -->
+                <!-- edit  Post  DETAILS MODEL -->
                 <div class="modal fade" id="editPostOrder{{ $post->id }}" tabindex="-1" aria-labelledby="editPostOrderLabel" style="display: none;" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-scrollable">
                                 <div class="modal-content">
@@ -211,10 +211,14 @@ Posts
                                                     </div>
 
                                             <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Created By:</label>
+                                           <input type="text" class="form-control"  name="post_created_by" id="validationCustom02" disabled placeholder="Created By" value="{{ $loggedinUser }}" >
+                                            </div>
+                                            <div class="mb-3">
                                                 <label for="recipient-name" class="col-form-label">Name:</label>
                                                 <input type="text" class="form-control" name="post_title" value="{{  $post->post_title }}" id="recipient-name">
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-md-12">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom05">Photo</label>
                                                         <input type="file" class="form-control" name="post_photo" value="{{ $post->post_photo }}"  placeholder="Zip">
