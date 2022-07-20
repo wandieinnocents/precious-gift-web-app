@@ -5,6 +5,8 @@ namespace App\Http\Controllers\BackEnd;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Post;
+use App\Models\PostCategory;
+use Auth;
 
 class PostController extends Controller
 {
@@ -25,8 +27,9 @@ class PostController extends Controller
 
     public function index(Request $request)
     {
-        $data = Post::latest()->paginate(5);
-        return view('backend.pages_backend.posts.index',compact('data'));
+        $post_categories = PostCategory::all();
+        $count_posts = Post::count();
+        return view('backend.pages_backend.posts.index',compact('post_categories','count_posts'));
 
     }
 
@@ -37,8 +40,9 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
-        return view('backend.pages_backend.posts.create');
+        $post_categories =  PostCategory::all();
+        $loggedinUser = Auth::user()->name;
+        return view('backend.pages_backend.posts.create',compact('post_categories','loggedinUser'));
 
     }
 
@@ -59,7 +63,7 @@ class PostController extends Controller
         $post = new Post();
         $post->post_category_id  = $request->post_category_id;
         $post->post_title        = $request->post_title;
-        $post->post_created_by   = $request->post_created_by;
+        $post->post_createdby   = Auth::user()->name;
         $post->post_description  = $request->post_description;
 
         // photo
@@ -68,7 +72,7 @@ class PostController extends Controller
             $extension          = $file->getClientOriginalExtension();  //get image extension
             $filename           = time() . '.' .$extension;
             $file->move('uploads/post_photos/',$filename);
-            $project->post_photo   = url('uploads' . '/post_photos/'  . $filename);
+            $post->post_photo   = url('uploads' . '/post_photos/'  . $filename);
         }
 
         // else{

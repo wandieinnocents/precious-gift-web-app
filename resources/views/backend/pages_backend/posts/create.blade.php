@@ -1,82 +1,116 @@
 @extends('backend.layouts_backend.master')
 
 @section('title')
-
+    Add Post
 @endsection
 
 @section('content')
+    <!-- Main content dashboard  -->
+    <div class="page-content">
+        <div class="container-fluid">
 
-<!-- Main content dashboard  -->
-<div class="page-content">
-                    <div class="container-fluid">
+            <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0 font-size-18">posts</h4>
 
-                        <!-- start page title -->
-                        <div class="row align-items-center">
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <h5 class="card-title">Post  <span class="text-muted fw-normal ms-2">(34)</span></h5>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
-                                @can('post-list')
-                                    <div>
-                                        <a href="{{ route('posts.index') }}" class="btn bg-primary text-light"><i class="bx bx-plus me-1"></i> All Posts</a>
-                                    </div>
-                                 @endcan
-                                
-                                    
-                                   
-                                </div>
-
-                            </div>
+                        <div class="page-title-right">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
+                                <li class="breadcrumb-item active">Posts</li>
+                            </ol>
                         </div>
-                        <!-- end page title -->
 
-                        <!-- Page content starts here -->
-
-                        <div class="container">
-    <div class="justify-content-center">
-        @if (count($errors) > 0)
-            <div class="alert alert-danger">
-                <strong>Opps!</strong> Something went wrong, please check below errors.<br><br>
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
+                    </div>
+                </div>
             </div>
-        @endif
-        <div class="card">
-            
-            <div class="card-body">
-                {!! Form::open(array('route' => 'posts.store', 'method'=>'POST')) !!}
-                    <div class="form-group">
-                        <strong>Title:</strong>
-                        {!! Form::text('title', null, array('placeholder' => 'Title','class' => 'form-control')) !!}
-                    </div>
-                    <div class="form-group">
-                        <strong>Body:</strong>
-                        {!! Form::textarea('body', null, array('placeholder' => 'Body','class' => 'form-control')) !!}
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                {!! Form::close() !!}
-            </div>
-        </div>
-    </div>
-</div>
-                        
+            <!-- end page title -->
+
+            <!-- Page content starts here -->
 
 
 
+            <!-- Form -->
 
 
+            <div class="row">
+                <div class="col-xl-3">
 
-                   
-
-                    </div>
-                    <!-- container-fluid -->
                 </div>
 
+                <div class="col-xl-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Add post </h4>
+                            <!-- <p class="card-title-desc">Add Category</p> -->
+                        </div>
+                        <div class="card-body">
+                            <form action="{{ route('posts.store') }}" method="POST" enctype="multipart/form-data">
+                                @csrf
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label" for="validationCustom01">Category</label>
+                                            <select name="post_category_id" class="form-select">
+                                                @foreach ($post_categories as $post_category)
+                                                    <option value="{{ $post_category->id }}">
+                                                        {{ $post_category->post_category_name }}</option>
+                                                @endforeach
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label" for="validationCustom02">post Name</label>
+                                            <input type="text" class="form-control" name="post_title"
+                                                id="validationCustom02" placeholder="Enter Title" value="" required>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label" for="validationCustom05">Photo</label>
+                                            <input type="file" class="form-control" name="post_photo"
+                                                id="validationCustom05" placeholder="" required>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label" for="validationCustom02">Created By</label>
+                                           <input type="text" class="form-control"  name="post_createdby" id="validationCustom02" disabled placeholder="Created By" value="{{ $loggedinUser }}" >
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Description</label>
+                                        <textarea class="form-control" name="post_description" id="exampleFormControlTextarea5"
+                                            placeholder="Enter Category Description" rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary" type="submit">Add post</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- end card -->
+                </div> <!-- end col -->
+
+            </div>
+            <!-- end row -->
+
+            <div class="col-xl-3">
+
+            </div>
+
+        </div>
+        <!-- container-fluid -->
+    </div>
 @endsection
