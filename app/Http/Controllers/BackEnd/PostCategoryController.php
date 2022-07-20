@@ -4,6 +4,7 @@ namespace App\Http\Controllers\BackEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\PostCategory;
 
 class PostCategoryController extends Controller
 {
@@ -14,8 +15,8 @@ class PostCategoryController extends Controller
      */
     public function index()
     {
-        dd("post c");
-        return view('backend.pages_backend.post_categories.index');
+        $post_categories = PostCategory::all();
+        return view('backend.pages_backend.post_categories.index',compact('post_categories'));
 
     }
 
@@ -27,7 +28,7 @@ class PostCategoryController extends Controller
     public function create()
     {
         //
-        return view('backend.pages_backend.posts.create');
+        return view('backend.pages_backend.post_categories.create');
 
     }
 
@@ -39,7 +40,11 @@ class PostCategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $post_category = new PostCategory();
+        $post_category->post_category_name = $request->post_category_name;
+        $post_category->post_category_description = $request->post_category_description;
+        $post_category->save();
+        return redirect('/post_categories');
     }
 
     /**
@@ -73,7 +78,11 @@ class PostCategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post_category = PostCategory::find($id);
+        $post_category->post_category_name = $request->post_category_name;
+        $post_category->post_category_description = $request->post_category_description;
+        $post_category->save();
+        return redirect('/post_categories');
     }
 
     /**
@@ -84,6 +93,8 @@ class PostCategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post_category = PostCategory::findOrFail($id);
+        $post_category->delete();
+        return redirect('/post_categories')->with('success', 'Category is successfully deleted');
     }
 }

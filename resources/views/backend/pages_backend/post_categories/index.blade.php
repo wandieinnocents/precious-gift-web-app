@@ -1,6 +1,7 @@
 @extends('backend.layouts_backend.master')
 
 @section('title')
+Post Categories
 @endsection
 
 @section('content')
@@ -10,13 +11,10 @@
 
     <div class="page-content">
         <div class="container-fluid">
-
-
-
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="mb-3">
-                        <h5 class="card-title">Photo Categories <span class="text-muted fw-normal ms-2">({{ $photo_categories }})</span></h5>
+                        <h5 class="card-title">post Category <span class="text-muted fw-normal ms-2">(1)</span></h5>
                     </div>
                 </div>
 
@@ -24,10 +22,9 @@
                     <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
 
                         <div>
-                            <a href="{{ route('gallery_categories.create') }}" class="btn bg-primary text-light"><i
-                                    class="bx bx-plus me-1"></i> Add Photo Category</a>
+                            <a href="{{ route('post_categories.create') }}" class="btn bg-primary text-light"><i
+                                    class="bx bx-plus me-1"></i> Add Category</a>
                         </div>
-
 
                     </div>
 
@@ -35,7 +32,7 @@
             </div>
             <!-- end row -->
 
-            <!-- FETCH DATA -->
+            <!-- FETCH FEEDBACKS -->
 
             <div class="table-responsive mb-4">
                 <table class="table align-middle datatable dt-responsive table-check nowrap"
@@ -56,7 +53,7 @@
                     </thead>
                     <tbody>
 
-                        @foreach ($gallery_categories as $gallery_category)
+                        @foreach ($post_categories as $post_category)
                             <tr>
                                 <th scope="row">
                                     <div class="form-check font-size-16">
@@ -64,29 +61,31 @@
                                         <label class="form-check-label" for="contacusercheck11"></label>
                                     </div>
                                 </th>
-                                <td>{{ $gallery_category->id }}</td>
+                                <td>{{ $post_category->id }}</td>
                                 <td>
-                                    <a href="#" class="text-body">{{ $gallery_category->gallery_category_name }}</a>
+                                    <a href="#" class="text-body">{{ $post_category->post_category_name }}</a>
                                 </td>
-                                <td>{{ $gallery_category->gallery_category_description }}</td>
+
+                                <td>{{ $post_category->post_category_description }}</td>
+
                                 <td colspan="6">
                                     <div class="row">
                                         <div class="col-md-4">
                                             <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                                                data-bs-target="#viewGalleryCategoryDetails{{ $gallery_category->id }}" data-bs-whatever="@getbootstrap"><i
-                                                    class=" far fa-eye  "></i></button>
+                                                data-bs-target="#viewpostCategoryDetails{{ $post_category->id }}"
+                                                data-bs-whatever="@getbootstrap"><i class=" far fa-eye  "></i></button>
                                         </div>
 
                                         <div class="col-md-4">
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                                data-bs-target="#editGalleryCategory{{ $gallery_category->id }}" data-bs-whatever="@getbootstrap"><i
-                                                    class="fas fa-pencil-alt "></i></button>
+                                                data-bs-target="#editpostCategory{{ $post_category->id }}"
+                                                data-bs-whatever="@getbootstrap"><i class="fas fa-pencil-alt "></i></button>
 
                                         </div>
-
-                                        <!-- DELETE -->
+                                        <!-- delete food menu -->
                                         <div class="col-md-4">
-                                            <form action="{{ route('gallery_categories.update', $gallery_category->id) }}" method="post">
+                                            <form action="{{ route('post_categories.update', $post_category->id) }}"
+                                                method="post">
                                                 @csrf
                                                 @method('DELETE')
                                                 <a> <button class="btn btn-danger shadow btn-xs sharp"> <span
@@ -98,13 +97,15 @@
                                 </td>
                             </tr>
 
-                             <!-- VIEW DETAILS MODEL -->
-                            <div class="modal fade" id="viewGalleryCategoryDetails{{ $gallery_category->id }}" tabindex="-1"
-                                aria-labelledby="viewGalleryCategoryDetailsLabel" style="display: none;" aria-hidden="true">
+                            <!-- VIEW DETAILS MODEL -->
+                            <div class="modal fade" id="viewpostCategoryDetails{{ $post_category->id }}"
+                                tabindex="-1" aria-labelledby="viewpostCategoryDetailsLabel" style="display: none;"
+                                aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-scrollable">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="viewGalleryCategoryDetailsLabel">Gallery Category Details</h5>
+                                            <h5 class="modal-title" id="viewpostCategoryDetailsLabel">post Category
+                                                Details</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
                                         </div>
@@ -113,19 +114,19 @@
 
                                         <div class="modal-body">
 
-                                            
-                                            <p>Category Name : {{ $gallery_category->gallery_category_name }}</p>
+
+                                            <p>Category Name : {{ $post_category->post_category_name }}</p>
                                             <hr>
 
-                                            
-                                            <p>Description : {{ $gallery_category->gallery_category_description }}</p>
+
+                                            <p>Description : {{ $post_category->post_category_description }}</p>
 
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close
                                             </button>
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                                data-bs-target="#editGalleryCategory{{ $gallery_category->id }}"
+                                                data-bs-target="#editpostCategory{{ $post_category->id }}"
                                                 data-bs-whatever="@getbootstrap">Edit Category</button>
                                         </div>
                                     </div>
@@ -134,41 +135,46 @@
                             <!-- END OF VIEW DETAILS MODEL -->
 
 
-                            {{-- UPDATE GALLERY CATEGORY --}}
-                            <div class="modal fade" id="editGalleryCategory{{ $gallery_category->id }}" tabindex="-1"
-                                aria-labelledby="editGalleryCategoryLabel" style="display: none;" aria-hidden="true">
+                            {{-- UPDATE post CATEGORY --}}
+                            <div class="modal fade" id="editpostCategory{{ $post_category->id }}" tabindex="-1"
+                                aria-labelledby="editpostCategoryLabel" style="display: none;" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-scrollable">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="viewGalleryCategoryDetailsLabel">Edit Category Details</h5>
+                                            <h5 class="modal-title" id="viewpostCategoryDetailsLabel">Edit Category
+                                                Details</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
 
 
-                                            <!-- UPDATE GALLERY CATEGORIES -->
+                                            <!-- UPDATE post CATEGORIES -->
 
-                                            <form action="{{ route('gallery_categories.update', $gallery_category->id) }}" method="post"
-                                                enctype="multipart/form-data">
+                                            <form
+                                                action="{{ route('post_categories.update', $post_category->id) }}"
+                                                method="post" enctype="multipart/form-data">
                                                 @csrf
                                                 @method('PATCH')
                                                 <div class="mb-3">
                                                     <label for="recipient-name" class="col-form-label">Name:</label>
-                                                    <input type="text" class="form-control" name="gallery_category_name"
-                                                        value="{{ $gallery_category->gallery_category_name }}" id="recipient-name">
+                                                    <input type="text" class="form-control"
+                                                        name="post_category_name"
+                                                        value="{{ $post_category->post_category_name }}"
+                                                        id="recipient-name">
                                                 </div>
-                                                
+
                                                 <div class="mb-3">
                                                     <label for="message-text" class="col-form-label">Description:</label>
-                                                    <textarea class="form-control" name="gallery_category_description" value="" id="message-text">{{ $gallery_category->gallery_category_description }}</textarea>
+                                                    <textarea class="form-control" name="post_category_description" value="" id="message-text">{{ $post_category->post_category_description }}</textarea>
                                                 </div>
 
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary"
                                                         data-bs-dismiss="modal">Close</button>
                                                     <!-- <button  type="submit" class="btn btn-primary">Submit</button> -->
-                                                    <button class="btn btn-primary" type="submit">Update Category</button>
+                                                    <button class="btn btn-primary" type="submit">Update
+                                                        Category</button>
                                                 </div>
 
 
@@ -179,8 +185,7 @@
                                     </div>
                                 </div>
                             </div>
-                            {{-- END UPDATE GALLERY CATEGORY --}}
-
+                            {{-- END UPDATE post CATEGORY --}}
                         @endforeach
 
 
