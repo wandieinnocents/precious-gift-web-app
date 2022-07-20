@@ -1,6 +1,7 @@
 @extends('backend.layouts_backend.master')
 
 @section('title')
+Project Categories
 @endsection
 
 @section('content')
@@ -62,8 +63,7 @@
                                 </th>
                                 <td>{{ $project_category->id }}</td>
                                 <td>
-                                    <a href="#"
-                                        class="text-body">{{ $project_category->project_category_name }}</a>
+                                    <a href="#" class="text-body">{{ $project_category->project_category_name }}</a>
                                 </td>
 
                                 <td>{{ $project_category->project_category_description }}</td>
@@ -72,29 +72,26 @@
                                     <div class="row">
                                         <div class="col-md-4">
                                             <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                                                data-bs-target="#viewProjectCategoryDetails{{ $project_category->id }}" data-bs-whatever="@getbootstrap"><i
-                                                    class=" far fa-eye  "></i></button>
+                                                data-bs-target="#viewProjectCategoryDetails{{ $project_category->id }}"
+                                                data-bs-whatever="@getbootstrap"><i class=" far fa-eye  "></i></button>
                                         </div>
 
                                         <div class="col-md-4">
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                                data-bs-target="#editProjectCategory{{ $project_category->id }}" data-bs-whatever="@getbootstrap"><i
-                                                    class="fas fa-pencil-alt "></i></button>
+                                                data-bs-target="#editProjectCategory{{ $project_category->id }}"
+                                                data-bs-whatever="@getbootstrap"><i class="fas fa-pencil-alt "></i></button>
 
                                         </div>
-
                                         <!-- delete food menu -->
                                         <div class="col-md-4">
-                                            <form action="{{ route('project_categories.update', $project_category->id) }}" method="post">
+                                            <form action="{{ route('project_categories.update', $project_category->id) }}"
+                                                method="post">
                                                 @csrf
                                                 @method('DELETE')
                                                 <a> <button class="btn btn-danger shadow btn-xs sharp"> <span
                                                             class="fa fa-trash"> </button> </a>
 
                                             </form>
-
-
-
                                         </div>
                                     </div>
                                 </td>
@@ -154,7 +151,8 @@
 
                                             <!-- UPDATE Project CATEGORIES -->
 
-                                            <form action="{{ route('project_categories.update', $project_category->id) }}"
+                                            <form
+                                                action="{{ route('project_categories.update', $project_category->id) }}"
                                                 method="post" enctype="multipart/form-data">
                                                 @csrf
                                                 @method('PATCH')

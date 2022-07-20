@@ -64,12 +64,9 @@ class ProjectController extends Controller
         $project->project_photo   = url('uploads' . '/project_photos/'  . $filename);
     }
 
-    else{
-        // return $request;
-        $project->project_photo = '';
-    }
-
-    // dd($gallery);
+    // else{
+    //     $project->project_photo = '';
+    // }
     $project->save();
 
     return redirect('/projects');
