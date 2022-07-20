@@ -167,22 +167,22 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <!-- Post categories create -->
-                        @can('postcategories-create')
+                       
                             <li>
                                 <a href="/post_categories/create">
                                     <span data-key="t-calendar">Add Category</span>
                                 </a>
                             </li>
-                        @endcan
+                       
 
                         <!-- Post categories list -->
-                        @can('postcategories-list')
+                       
                             <li>
                                 <a href="/post_categories">
                                     <span data-key="t-calendar">View Categories</span>
                                 </a>
                             </li>
-                        @endcan
+                       
 
                         <!-- Create post -->
 
@@ -191,11 +191,7 @@
                                 <span data-key="t-chat">Add Post</span>
                             </a>
                         </li>
-
-
                         <!-- List posts -->
-
-
                         <li>
                             <a href="{{ route('posts.index') }}">
                                 <span data-key="t-chat">View Posts</span>

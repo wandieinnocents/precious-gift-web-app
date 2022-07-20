@@ -14,7 +14,7 @@ class PostCategoryController extends Controller
      */
     public function index()
     {
-        //
+        dd("post c");
         return view('backend.pages_backend.post_categories.index');
 
     }

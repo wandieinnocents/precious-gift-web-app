@@ -10,8 +10,8 @@ class ProjectCategory extends Model
 {
     use HasFactory;
     protected $fillables = [
-        'service_category_name',
-        'service_category_description'
+        'project_category_name',
+        'project_category_description'
 
     ];
     // relationship
