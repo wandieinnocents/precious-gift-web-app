@@ -106,6 +106,10 @@ Route::resource('/feedbacks', 'App\Http\Controllers\BackEnd\FeedbackController')
 Route::resource('/resources', 'App\Http\Controllers\BackEnd\ResourceController');
 // resource categories
 Route::resource('/resource_categories', 'App\Http\Controllers\BackEnd\ResourceCategoryController');
+// team
+Route::resource('/teams', 'App\Http\Controllers\BackEnd\TeamController');
+// faq
+Route::resource('/faqs', 'App\Http\Controllers\BackEnd\FaqController');
 
 
 
