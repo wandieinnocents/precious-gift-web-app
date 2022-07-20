@@ -26,8 +26,6 @@ class PostController extends Controller
     public function index(Request $request)
     {
         $data = Post::latest()->paginate(5);
-
-       
         return view('backend.pages_backend.posts.index',compact('data'));
 
     }
@@ -52,16 +50,33 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request, [
-            'title' => 'required',
-            'body' => 'required',
+        $validatedData = $request->validate([
+            
+            'post_photo' => 'required|mimes:doc,pdf,docx,zip,jpeg,jpg,csv,txt,xlx,xls,png',
+            
         ]);
-        $input = $request->except(['_token']);
-    
-        Post::create($input);
-    
-        return redirect()->route('posts.index')
-            ->with('success','Post created successfully.');
+
+        $post = new Post();
+        $post->post_category_id  = $request->post_category_id;
+        $post->post_title        = $request->post_title;
+        $post->post_created_by   = $request->post_created_by;
+        $post->post_description  = $request->post_description;
+
+        // photo
+        if($request->hasfile('post_photo')){
+            $file               = $request->file('post_photo');
+            $extension          = $file->getClientOriginalExtension();  //get image extension
+            $filename           = time() . '.' .$extension;
+            $file->move('uploads/post_photos/',$filename);
+            $project->post_photo   = url('uploads' . '/post_photos/'  . $filename);
+        }
+
+        // else{
+        //     $post->post_photo = '';
+        // }
+        $post->save();
+        dd($post);
+        return redirect()->route('posts.index')->with('success','Post created successfully.');
     }
 
     /**
