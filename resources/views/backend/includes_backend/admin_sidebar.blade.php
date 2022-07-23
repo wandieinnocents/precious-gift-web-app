@@ -212,13 +212,13 @@
                        
 
                         <li>
-                            <a href="/projects/create">
+                            <a href="/teams/create">
                                 <span data-key="t-chat">Add Staff</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="/projects">
+                            <a href="/teams">
                                 <span data-key="t-chat">View Staffs</span>
                             </a>
                         </li>

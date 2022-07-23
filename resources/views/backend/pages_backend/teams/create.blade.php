@@ -62,7 +62,7 @@ Team
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom02">Role</label>
-                                                        <input type="text" class="form-control"  name="team_role" id="validationCustom02" placeholder="Enter name" value="" required>
+                                                        <input type="text" class="form-control"  name="team_role" id="validationCustom02" placeholder="Enter role" value="" required>
                                                         
                                                     </div>
                                                 </div>
@@ -74,7 +74,7 @@ Team
                                               
                                                 <div class="col-md-12">
                                                     <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom05">Photo</label>
+                                                        <label class="form-label" for="validationCustom05">Staff Photo</label>
                                                         <input type="file" class="form-control" name="team_photo" id="validationCustom05" placeholder="" required>
                                                         
                                                     </div>
@@ -83,8 +83,8 @@ Team
                                             
                                             <div class="col-md-12">
                                                     <div class="mb-3">
-                                                        <label class="form-label" >Description</label>
-                                                        <textarea class="form-control" name="team_description" id="exampleFormControlTextarea5" placeholder="Enter Category Description" rows="3"></textarea>
+                                                        <label class="form-label" >Work Description</label>
+                                                        <textarea class="form-control" name="team_description" id="exampleFormControlTextarea5" placeholder="Work description" rows="3"></textarea>
                                                     </div>
                                                 </div>
                                             <button class="btn btn-primary" type="submit">Add Team Member</button>
