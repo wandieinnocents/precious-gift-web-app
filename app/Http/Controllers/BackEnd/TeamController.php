@@ -4,6 +4,7 @@ namespace App\Http\Controllers\BackEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Team;
 
 class TeamController extends Controller
 {
@@ -14,7 +15,12 @@ class TeamController extends Controller
      */
     public function index()
     {
-        return "team";
+        dd("Index");
+        $projects = Project::all();
+        $count_projects = Project::count();
+        $project_categories = ProjectCategory::all();
+        return view('backend.pages_backend.projects.index',compact('projects','count_projects','project_categories'));
+
     }
 
     /**
@@ -24,7 +30,7 @@ class TeamController extends Controller
      */
     public function create()
     {
-        //
+        return view('backend.pages_backend.teams.create');
     }
 
     /**
@@ -35,7 +41,29 @@ class TeamController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            
+            'team_photo' => 'required|mimes:jpeg,jpg,png',
+            
+        ]);
+
+    $team = new Team();
+    $team->team_name = $request->project_category_id;
+    $team->team_role        = $request->project_name;
+    $team->team_description = $request->project_description;
+
+    // photo
+    if($request->hasfile('team_photo')){
+        $file               = $request->file('team_photo');
+        $extension          = $file->getClientOriginalExtension();  //get image extension
+        $filename           = time() . '.' .$extension;
+        $file->move('uploads/team_photos/',$filename);
+        $team->team_photo   = url('uploads' . '/team_photos/'  . $filename);
+    }
+    
+    $team->save();
+
+    return redirect('/teams');
     }
 
     /**
@@ -80,6 +108,9 @@ class TeamController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $project = Project::findOrFail($id);
+        $project->delete();
+
+        return redirect('/projects')->with('success', 'Project is successfully deleted');
     }
 }
