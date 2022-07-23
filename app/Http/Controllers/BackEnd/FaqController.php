@@ -4,6 +4,7 @@ namespace App\Http\Controllers\BackEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Faq;
 
 class FaqController extends Controller
 {
@@ -14,8 +15,8 @@ class FaqController extends Controller
      */
     public function index()
     {
-        dd("Index   ");
-        return view('backend.pages_backend.faqs.index');
+        $faqs = Faq::all();
+        return view('backend.pages_backend.faqs.index',compact('faqs'));
     }
 
     /**
@@ -36,7 +37,13 @@ class FaqController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $faq = new Faq();
+        $faq->question = $request->question;
+        $faq->answer = $request->answer;
+        $faq->save();
+        // dd($faq);
+
+        return redirect('/faqs');
     }
 
     /**
