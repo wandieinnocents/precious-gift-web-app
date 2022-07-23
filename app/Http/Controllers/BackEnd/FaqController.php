@@ -77,7 +77,13 @@ class FaqController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $faq = Faq::find($id);
+        $faq->question = $request->question;
+        $faq->answer = $request->answer;
+        $faq->save();
+        // dd($faq);
+
+        return redirect('/faqs');
     }
 
     /**
@@ -88,6 +94,8 @@ class FaqController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $project_category = ProjectCategory::findOrFail($id);
+        $project_category->delete();
+        return redirect('/project_categories')->with('success', 'Category is successfully deleted');
     }
 }

@@ -72,13 +72,13 @@
                                     <div class="row">
                                         <div class="col-md-4">
                                             <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                                                data-bs-target="#viewProjectCategoryDetails{{ $faq->id }}"
+                                                data-bs-target="#viewFaq{{ $faq->id }}"
                                                 data-bs-whatever="@getbootstrap"><i class=" far fa-eye  "></i></button>
                                         </div>
 
                                         <div class="col-md-4">
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                                data-bs-target="#editProjectCategory{{ $faq->id }}"
+                                                data-bs-target="#editFaq{{ $faq->id }}"
                                                 data-bs-whatever="@getbootstrap"><i class="fas fa-pencil-alt "></i></button>
 
                                         </div>
@@ -97,12 +97,12 @@
                             </tr>
 
                             <!-- VIEW DETAILS MODEL -->
-                            <div class="modal fade" id="viewProjectCategoryDetails{{ $faq->id }}" tabindex="-1"
-                                aria-labelledby="viewProjectCategoryDetailsLabel" style="display: none;" aria-hidden="true">
+                            <div class="modal fade" id="viewFaq{{ $faq->id }}" tabindex="-1"
+                                aria-labelledby="viewFaqLabel" style="display: none;" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-scrollable">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="viewProjectCategoryDetailsLabel">Project Category
+                                            <h5 class="modal-title" id="viewFaqLabel">Faq
                                                 Details</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
@@ -124,7 +124,7 @@
                                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close
                                             </button>
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                                data-bs-target="#editProjectCategory{{ $faq->id }}"
+                                                data-bs-target="#editFaq{{ $faq->id }}"
                                                 data-bs-whatever="@getbootstrap">Edit Category</button>
                                         </div>
                                     </div>
@@ -133,13 +133,13 @@
                             <!-- END OF VIEW DETAILS MODEL -->
 
 
-                            {{-- UPDATE Project CATEGORY --}}
-                            <div class="modal fade" id="editProjectCategory{{ $faq->id }}" tabindex="-1"
-                                aria-labelledby="editProjectCategoryLabel" style="display: none;" aria-hidden="true">
+                            {{-- UPDATE FAQ  CATEGORY --}}
+                            <div class="modal fade" id="editFaq{{ $faq->id }}" tabindex="-1"
+                                aria-labelledby="editFaqLabel" style="display: none;" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-scrollable">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="viewProjectCategoryDetailsLabel">Edit Faq</h5>
+                                            <h5 class="modal-title" id="viewFaqLabel">Edit Faq</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
                                         </div>
