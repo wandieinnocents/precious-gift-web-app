@@ -21,14 +21,24 @@
                 <ul class="bread-crumb clearfix">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html">Pages</a></li>
-                    <li class="active" >Staff</li>
+                    <li class="active">Staff</li>
                 </ul>
             </div>
         </div>
 
     </section>
     <!--End Banner Section -->
+
+
+
     <section class="team-section team-page">
+
+        <div class="sec-title centered">
+            <div class="upper-icon"></div>
+            <h2>Our Volunters</h2>
+            <div class="text">We believe what we achieve</div>
+        </div>
+
         <div class="auto-container">
             <div class="row clearfix">
 
@@ -36,8 +46,9 @@
                 <div class="team-block col-lg-4 col-md-6 col-sm-12 wow fadeInLeft animated" data-wow-delay="0ms"
                     style="visibility: visible; animation-delay: 0ms; animation-name: fadeInLeft;">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/resource/team-image-1.jpg"
-                                    alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img
+                                    src="assets/frontend_assets/images/resource/team-image-1.jpg" alt=""></a>
+                        </figure>
                         <h3><a href="#">Scott William</a></h3>
                         <div class="designation">Head of Team</div>
                     </div>
@@ -46,8 +57,9 @@
                 <div class="team-block col-lg-4 col-md-6 col-sm-12 wow fadeInLeft animated" data-wow-delay="300ms"
                     style="visibility: visible; animation-delay: 300ms; animation-name: fadeInLeft;">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/resource/team-image-2.jpg"
-                                    alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img
+                                    src="assets/frontend_assets/images/resource/team-image-2.jpg" alt=""></a>
+                        </figure>
                         <h3><a href="#">Liam Irvines</a></h3>
                         <div class="designation">Senior Admin</div>
                     </div>
@@ -56,13 +68,14 @@
                 <div class="team-block col-lg-4 col-md-6 col-sm-12 wow fadeInLeft animated" data-wow-delay="600ms"
                     style="visibility: visible; animation-delay: 600ms; animation-name: fadeInLeft;">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="#"><img src="assets/frontend_assets/images/resource/team-image-3.jpg"
-                                    alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img
+                                    src="assets/frontend_assets/images/resource/team-image-3.jpg" alt=""></a>
+                        </figure>
                         <h3><a href="#">Diana Leslie</a></h3>
                         <div class="designation">Junior Volunteer</div>
                     </div>
                 </div>
-               
+
 
             </div>
         </div>
