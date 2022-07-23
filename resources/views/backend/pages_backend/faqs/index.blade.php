@@ -14,7 +14,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="mb-3">
-                        <h5 class="card-title">Faqs <span class="text-muted fw-normal ms-2">(1)</span></h5>
+                        <h5 class="card-title">Faqs <span class="text-muted fw-normal ms-2">({{ $count_faqs }})</span></h5>
                     </div>
                 </div>
 

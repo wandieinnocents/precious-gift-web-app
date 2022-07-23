@@ -16,7 +16,8 @@ class FaqController extends Controller
     public function index()
     {
         $faqs = Faq::all();
-        return view('backend.pages_backend.faqs.index',compact('faqs'));
+        $count_faqs = Faq::count();
+        return view('backend.pages_backend.faqs.index',compact('faqs','count_faqs'));
     }
 
     /**

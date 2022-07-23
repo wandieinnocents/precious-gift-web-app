@@ -16,7 +16,8 @@ class PostCategoryController extends Controller
     public function index()
     {
         $post_categories = PostCategory::all();
-        return view('backend.pages_backend.post_categories.index',compact('post_categories'));
+        $count_postcategories = PostCategory::count();
+        return view('backend.pages_backend.post_categories.index',compact('post_categories','count_postcategories'));
 
     }
 
