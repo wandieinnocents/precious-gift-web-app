@@ -62,11 +62,13 @@
                             <h3>Working Together To Make A Difference</h3>
                         </div>
                         <div class="default-form contact-form">
-                            <form method="post" action="" id="contact-form" novalidate="novalidate">
+                            <form method="post" action="{{ route('contact.store') }}" id="contact-form"
+                                novalidate="novalidate">
+                                 @csrf
                                 <div class="row clearfix">
                                     <div class="col-md-6 col-sm-12 form-group">
                                         <div class="field-label">Your Name</div>
-                                        <input type="text" name="username" placeholder="" required="">
+                                        <input type="text" name="name" placeholder="" required="">
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
@@ -80,13 +82,13 @@
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <div class="field-label">How we can help?</div>
+                                        <div class="field-label">subject</div>
                                         <input type="text" name="subject" placeholder="" required="">
                                     </div>
 
                                     <div class="col-md-12 col-sm-12 form-group">
                                         <div class="field-label">Message</div>
-                                        <textarea name="message" placeholder="Write your message"></textarea>
+                                        <textarea name="description" placeholder="Write your message"></textarea>
                                     </div>
 
                                     <div class="col-md-12 col-sm-12 form-group">
