@@ -13,7 +13,7 @@
         </div>
 
         <div class="auto-container">
-            <h1>Staff</h1>
+            <h1 style="margin-top:90px; ">Staff</h1>
         </div>
 
         <div class="breadcrumb-box">
@@ -21,7 +21,7 @@
                 <ul class="bread-crumb clearfix">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html">Pages</a></li>
-                    <li class="active">Staff</li>
+                    <li class="active" >Staff</li>
                 </ul>
             </div>
         </div>
