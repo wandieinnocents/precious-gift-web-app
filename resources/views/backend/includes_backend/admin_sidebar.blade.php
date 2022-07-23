@@ -241,12 +241,12 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li>
-                            <a href="/project_categories/create">
+                            <a href="/faqs/create">
                                 <span data-key="t-calendar">Add Faq</span>
                             </a>
                         </li>
                     <li>
-                            <a href="/project_categories">
+                            <a href="/faqs">
                                 <span data-key="t-calendar">View Faq's</span>
                             </a>
                         </li>

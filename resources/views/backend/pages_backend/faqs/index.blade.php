@@ -125,7 +125,7 @@
                                             </button>
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                                 data-bs-target="#editFaq{{ $faq->id }}"
-                                                data-bs-whatever="@getbootstrap">Edit Category</button>
+                                                data-bs-whatever="@getbootstrap">Edit Faq</button>
                                         </div>
                                     </div>
                                 </div>
@@ -133,7 +133,7 @@
                             <!-- END OF VIEW DETAILS MODEL -->
 
 
-                            {{-- UPDATE FAQ  CATEGORY --}}
+                            {{-- UPDATE FAQ  Faq --}}
                             <div class="modal fade" id="editFaq{{ $faq->id }}" tabindex="-1"
                                 aria-labelledby="editFaqLabel" style="display: none;" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-scrollable">

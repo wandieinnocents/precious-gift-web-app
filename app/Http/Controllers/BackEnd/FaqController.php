@@ -94,8 +94,8 @@ class FaqController extends Controller
      */
     public function destroy($id)
     {
-        $project_category = ProjectCategory::findOrFail($id);
-        $project_category->delete();
-        return redirect('/project_categories')->with('success', 'Category is successfully deleted');
+        $faq = Faq::findOrFail($id);
+        $faq->delete();
+        return redirect('/faqs')->with('success', 'Faq is successfully deleted');
     }
 }
