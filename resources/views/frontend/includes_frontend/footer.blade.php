@@ -136,9 +136,8 @@
                 <div class="auto-container">
                     <div class="inner">
                         <!--Copyright-->
-                        <div class="copyright">Copyrights (c) 2019 <a href="#">Kausid Charity & Non-Profit
-                                Theme.</a>
-                            All rights reserved.</div>
+                        <div class="copyright">Copyrights (c) 2022 <a href="#">Precious Gift : </a>
+                            Design by : Wanran Inc.</div>
                     </div>
                 </div>
             </div>
