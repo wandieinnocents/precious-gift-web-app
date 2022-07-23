@@ -89,6 +89,17 @@
                                 <span data-key="t-chat">View Photos</span>
                             </a>
                         </li>
+                        {{-- video  --}}
+                        <li>
+                            <a href="/galleries">
+                                <span data-key="t-chat">Add Video</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/galleries">
+                                <span data-key="t-chat">View Video</span>
+                            </a>
+                        </li>
                     </ul>
                 </li>
 

@@ -26,9 +26,9 @@
 <body>
     <div class="page-wrapper">
         <!-- Preloader -->
-        <div class="preloader">
+        {{-- <div class="preloader">
             <div class="icon"></div>
-        </div>
+        </div> --}}
         {{-- navigation header --}}
         @include('frontend.includes_frontend.header_frontend')
         {{-- Content section --}}
