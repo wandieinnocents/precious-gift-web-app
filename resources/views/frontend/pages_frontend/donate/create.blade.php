@@ -39,7 +39,7 @@ Gallery
                 <!--Text Column-->
                 <div class="text-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner">
-                        <h2>Don’t Just Give. Make Your Money Count Everywhere!</h2>
+                        <h2>Donation</h2>
                         <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut psum dolore magna aliqua minim.</div>
                         <div class="info-list">
                             <ul class="clearfix">
