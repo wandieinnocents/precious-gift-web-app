@@ -58,7 +58,7 @@ Gallery
                             <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> We better help the people in need <div class="icon flaticon-cross"></div></div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                    <div class="text">iam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
                                 </div>
                             </div>
                         </div> 
