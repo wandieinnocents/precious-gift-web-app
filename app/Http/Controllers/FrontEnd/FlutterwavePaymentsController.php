@@ -10,10 +10,11 @@ class FlutterwavePaymentsController extends Controller
 {
     // payments page
     public function payments_page(){
+        
         return view("frontend.pages_frontend.payments.flutterwave.create");
     }
 
-    
+
     // flutterwave docs 
     public function initialize()
     {

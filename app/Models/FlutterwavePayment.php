@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class FlutterwavePayment extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'amount',
+        'email',
+        'phone_number',
+        'title',
+        'description'
+    ];
 }
