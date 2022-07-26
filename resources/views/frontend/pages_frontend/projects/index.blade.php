@@ -51,14 +51,14 @@
                             <div class="cause-title">Medicine</div>
                             <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut
                                 psum dolore magna aliqua minim.</div>
-                            <div class="donate-info clearfix">
+                            {{-- <div class="donate-info clearfix">
                                 <div class="goal"><i class="fa fa-crosshairs"></i> <span>Goal:</span>
                                     <strong>$10,000</strong>
                                 </div>
                                 <div class="raised"><i class="fa fa-chart-line"></i> <span>Raised:</span>
                                     <strong>$6,500</strong>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="link-box"><a href="donate.html" class="theme-btn btn-style-two"><span
                                     class="btn-title">View Details</span></a></div>
@@ -80,14 +80,14 @@
                             <div class="cause-title">Food &amp; Water</div>
                             <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut
                                 psum dolore magna aliqua minim.</div>
-                            <div class="donate-info clearfix">
+                            {{-- <div class="donate-info clearfix">
                                 <div class="goal"><i class="fa fa-crosshairs"></i> <span>Goal:</span>
                                     <strong>$10,000</strong>
                                 </div>
                                 <div class="raised"><i class="fa fa-chart-line"></i> <span>Raised:</span>
                                     <strong>$6,500</strong>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="link-box"><a href="donate.html" class="theme-btn btn-style-two"><span
                                     class="btn-title">View Details</span></a></div>
@@ -109,14 +109,14 @@
                             <div class="cause-title">Education</div>
                             <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut
                                 psum dolore magna aliqua minim.</div>
-                            <div class="donate-info clearfix">
+                            {{-- <div class="donate-info clearfix">
                                 <div class="goal"><i class="fa fa-crosshairs"></i> <span>Goal:</span>
                                     <strong>$10,000</strong>
                                 </div>
                                 <div class="raised"><i class="fa fa-chart-line"></i> <span>Raised:</span>
                                     <strong>$6,500</strong>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="link-box"><a href="donate.html" class="theme-btn btn-style-two"><span
                                     class="btn-title">View Details</span></a></div>
