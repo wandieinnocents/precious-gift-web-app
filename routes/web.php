@@ -133,6 +133,18 @@ Route::resource('/projects', 'App\Http\Controllers\BackEnd\ProjectController');
 });
 
 
+// Payments integration
+//flutterwave Rave Payments
+
+// The page that displays the payment form
+Route::get('/flutterwave', function () {
+  return "adffa";
+});
+// The route that the button calls to initialize payment
+Route::post('/pay', [FlutterwaveController::class, 'initialize'])->name('pay');
+// The callback url after a payment
+Route::get('/rave/callback', [FlutterwaveController::class, 'callback'])->name('callback');
+
 
 
 
