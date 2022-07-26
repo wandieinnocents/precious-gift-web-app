@@ -41,6 +41,8 @@ class FlutterwavePaymentsController extends Controller
                 "description" => "20th October"
             ]
         ];
+        // test data in the system
+        dd($data);
 
         $payment = Flutterwave::initializePayment($data);
 
