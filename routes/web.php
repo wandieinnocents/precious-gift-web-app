@@ -59,9 +59,10 @@ Route::resource('/donate', 'App\Http\Controllers\FrontEnd\FrontEndDonateControll
 // The page that displays the payment form
 Route::get('/flutterwave', 'App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@payments_page');
 // The route that the button calls to initialize payment
-Route::post('/pay', [FlutterwaveController::class, 'initialize'])->name('pay');
+
+Route::post('/pay','App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@initialize')->name('pay');
 // The callback url after a payment
-Route::get('/rave/callback', [FlutterwaveController::class, 'callback'])->name('callback');
+Route::get('/rave/callback', 'App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@callback')->name('callback');
 
 
 
