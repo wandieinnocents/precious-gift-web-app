@@ -58,6 +58,8 @@ Route::resource('/donate', 'App\Http\Controllers\FrontEnd\FrontEndDonateControll
 
 // The page that displays the payment form
 Route::get('/flutterwave', 'App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@payments_page');
+// dynamic pay
+Route::get('/donateflutterwave', 'App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@donateflutterwave');
 // The route that the button calls to initialize payment
 
 Route::post('/pay','App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@initialize')->name('pay');
