@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c7b31df7f135a4f2d26b3bb152b236a",
+    "content-hash": "ef364335213bee05bade1fe041f82314",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -760,18 +760,6 @@
         },
         {
             "name": "google/apiclient-services",
-<<<<<<< HEAD
-            "version": "v0.241.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "b4ba0dbcffa9ae30cf09ad3f8597f1374098acbf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/b4ba0dbcffa9ae30cf09ad3f8597f1374098acbf",
-                "reference": "b4ba0dbcffa9ae30cf09ad3f8597f1374098acbf",
-=======
             "version": "v0.244.0",
             "source": {
                 "type": "git",
@@ -782,7 +770,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/e938c389a3e89bf7a9147b897b9e8bb2ae7bceba",
                 "reference": "e938c389a3e89bf7a9147b897b9e8bb2ae7bceba",
->>>>>>> be1f578cad45bf355486f20e7d214beabe036188
                 "shasum": ""
             },
             "require": {
@@ -811,32 +798,6 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-<<<<<<< HEAD
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.241.0"
-            },
-            "time": "2022-03-28T00:56:15+00:00"
-        },
-        {
-            "name": "google/auth",
-            "version": "v1.19.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "31e5d24d5fa0eaf6adc7e596292dc4732f4b60c5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/31e5d24d5fa0eaf6adc7e596292dc4732f4b60c5",
-                "reference": "31e5d24d5fa0eaf6adc7e596292dc4732f4b60c5",
-                "shasum": ""
-            },
-            "require": {
-                "firebase/php-jwt": "~5.0",
-                "guzzlehttp/guzzle": "^6.2.1|^7.0",
-                "guzzlehttp/psr7": "^1.7|^2.0",
-                "php": ">=5.6",
-                "psr/cache": "^1.0|^2.0",
-=======
                 "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.244.0"
             },
             "time": "2022-04-18T00:58:38+00:00"
@@ -861,7 +822,6 @@
                 "guzzlehttp/psr7": "^1.7|^2.0",
                 "php": "^7.1||^8.0",
                 "psr/cache": "^1.0|^2.0|^3.0",
->>>>>>> be1f578cad45bf355486f20e7d214beabe036188
                 "psr/http-message": "^1.0"
             },
             "require-dev": {
@@ -869,11 +829,7 @@
                 "kelvinmo/simplejwt": "^0.2.5|^0.5.1",
                 "phpseclib/phpseclib": "^2.0.31",
                 "phpspec/prophecy-phpunit": "^1.1",
-<<<<<<< HEAD
-                "phpunit/phpunit": "^5.7||^8.5.13",
-=======
                 "phpunit/phpunit": "^7.5||^8.5",
->>>>>>> be1f578cad45bf355486f20e7d214beabe036188
                 "sebastian/comparator": ">=1.2.3",
                 "squizlabs/php_codesniffer": "^3.5"
             },
@@ -900,15 +856,9 @@
             "support": {
                 "docs": "https://googleapis.github.io/google-auth-library-php/main/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-<<<<<<< HEAD
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.19.0"
-            },
-            "time": "2022-03-24T21:22:45+00:00"
-=======
                 "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.21.0"
             },
             "time": "2022-04-13T20:35:52+00:00"
->>>>>>> be1f578cad45bf355486f20e7d214beabe036188
         },
         {
             "name": "graham-campbell/result-type",
@@ -1296,19 +1246,81 @@
             "time": "2022-03-20T21:55:58+00:00"
         },
         {
-            "name": "laravel/framework",
-<<<<<<< HEAD
-            "version": "v8.83.6",
+            "name": "kingflamez/laravelrave",
+            "version": "v4.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "dffcec0cb686eafaa3b8f33db11da2cd9d69af1c"
+                "url": "https://github.com/kingflamez/laravelrave.git",
+                "reference": "02ccc18e5f03fb25a12f898ddd180d88d0ed13d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/dffcec0cb686eafaa3b8f33db11da2cd9d69af1c",
-                "reference": "dffcec0cb686eafaa3b8f33db11da2cd9d69af1c",
-=======
+                "url": "https://api.github.com/repos/kingflamez/laravelrave/zipball/02ccc18e5f03fb25a12f898ddd180d88d0ed13d9",
+                "reference": "02ccc18e5f03fb25a12f898ddd180d88d0ed13d9",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.2",
+                "orchestra/testbench": "^4.0",
+                "phpunit/phpunit": "^8.3",
+                "satooshi/php-coveralls": ">0.7",
+                "scrutinizer/ocular": "^1.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "KingFlamez\\Rave\\RaveServiceProvider"
+                    ],
+                    "aliases": {
+                        "Rave": "KingFlamez\\Rave\\Facades\\Rave"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "KingFlamez\\Rave\\": "src/"
+                },
+                "classmap": [
+                    "src/Rave.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kingflamez",
+                    "email": "flamekeed@gmail.com"
+                }
+            ],
+            "description": "A Laravel 5 Package for Flutterwave Rave",
+            "keywords": [
+                "Flutterwave Rave",
+                "flutterwave",
+                "github",
+                "kingflamez",
+                "laravel",
+                "laravel 5",
+                "open source",
+                "payments",
+                "php",
+                "rave",
+                "ravepay.co"
+            ],
+            "support": {
+                "issues": "https://github.com/kingflamez/laravelrave/issues",
+                "source": "https://github.com/kingflamez/laravelrave/tree/v4.2.0"
+            },
+            "time": "2021-03-29T06:08:53+00:00"
+        },
+        {
+            "name": "laravel/framework",
             "version": "v8.83.9",
             "source": {
                 "type": "git",
@@ -1319,7 +1331,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/ac6e16bb56510eda2e373c6365d5c92da3fd559d",
                 "reference": "ac6e16bb56510eda2e373c6365d5c92da3fd559d",
->>>>>>> be1f578cad45bf355486f20e7d214beabe036188
                 "shasum": ""
             },
             "require": {
@@ -1479,11 +1490,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-<<<<<<< HEAD
-            "time": "2022-03-29T14:41:02+00:00"
-=======
             "time": "2022-04-19T15:01:38+00:00"
->>>>>>> be1f578cad45bf355486f20e7d214beabe036188
         },
         {
             "name": "laravel/serializable-closure",
@@ -7079,18 +7086,6 @@
         },
         {
             "name": "laravel/sail",
-<<<<<<< HEAD
-            "version": "v1.13.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/sail.git",
-                "reference": "b00f1b64afff9c16355d23bb1e0f83a7ea9bbb7e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/b00f1b64afff9c16355d23bb1e0f83a7ea9bbb7e",
-                "reference": "b00f1b64afff9c16355d23bb1e0f83a7ea9bbb7e",
-=======
             "version": "v1.13.10",
             "source": {
                 "type": "git",
@@ -7101,7 +7096,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/sail/zipball/cbf55e1a392724313f7726c38578b5e008df6a0f",
                 "reference": "cbf55e1a392724313f7726c38578b5e008df6a0f",
->>>>>>> be1f578cad45bf355486f20e7d214beabe036188
                 "shasum": ""
             },
             "require": {
@@ -7148,11 +7142,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-<<<<<<< HEAD
-            "time": "2022-03-23T12:35:34+00:00"
-=======
             "time": "2022-04-14T18:29:22+00:00"
->>>>>>> be1f578cad45bf355486f20e7d214beabe036188
         },
         {
             "name": "mockery/mockery",
@@ -9155,5 +9145,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
