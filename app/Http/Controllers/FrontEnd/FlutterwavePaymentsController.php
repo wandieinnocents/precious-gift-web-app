@@ -17,15 +17,19 @@ class FlutterwavePaymentsController extends Controller
    
 
     // flutterwave docs 
-    public function initialize()
+    public function initialize(Request $request)
     {
         //This generates a payment reference
         $reference = Flutterwave::generateReference();
+        // $payment_f = new FlutterwavePayment();
+        // $payment->amount = $request->amount;
+        // $flutter_amount = $payment->amount;
+        // dd($flutter_amount);
 
         // Enter the details of the payment
         $data = [
             'payment_options' => 'mobilemoneyuganda,card,banktransfer',
-            'amount' => 500,
+            'amount' => request()->amount,
             'email' => request()->email,
             'tx_ref' => $reference,
             'currency' => "UGX",
@@ -41,6 +45,7 @@ class FlutterwavePaymentsController extends Controller
                 "description" => "20th October"
             ]
         ];
+
         // test data in the system
         dd($data);
 
