@@ -6,8 +6,6 @@
 
 @section('content')
 
-
-
         <!-- Banner Section -->
         @include('frontend.includes_frontend.slider')
         <!--End Banner Section -->
@@ -85,15 +83,13 @@
                             <div class="text">
                                 Consectetur adipisicing elit usmod tempor incididunt laboret dolore magna
                                 aliquaut enim mini veniam quis trud exercitation ullamco laboris nisiut aliquip ex ea
-                                consequat. Duis aute rue dolor prehendrit lorem psum dolor sit amet consectetur
-                                adipisicing.
+                             
                             </div>
 
                             <div class="quote-box">
                                 <div class="text">Consectetur adipisicing elit usmod tempor incididunt laboret dolore
                                     magna aliquaut enim mini veniam quis trud exercitation ullamco laboris nisiut
-                                    aliquip ex ea consequat. Duis aute rue dolor prehendrit lorem psum dolor sit amet
-                                    consectetur adipisicing.
+                                   
                                 </div>
 
 
@@ -128,8 +124,7 @@
                                 <h2>Don’t Just Give. <br>Make Your Money <br>Count Everywhere!</h2>
                                 <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis
                                     veniam
-                                    quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor
-                                    prehendrit lorem sed ipsum torabs.</div>
+                                    </div>
                             </div>
                         </div>
                         <div class="facts-column col-lg-6 col-md-12 col-sm-12">
