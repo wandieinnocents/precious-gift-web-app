@@ -90,9 +90,9 @@
                                     <ul>@foreach($project_categories_fetch as $project_category)
                                         <li>
                                         
-                                        <a class="clearfix" href="blog-single.html">
+                                        <a class="clearfix" href="javascript::void()">
                                         {{ $project_category->project_category_name }} 
-                                        <span class="count">93</span></a>
+                                        {{-- <span class="count">93</span></a> --}}
                                         
                                         </li>
                                          @endforeach

@@ -59,7 +59,7 @@
                                 </div>
                             </div> --}}
                         </div>
-                        <div class="link-box"><a href="donate.html" class="theme-btn btn-style-two"><span
+                        <div class="link-box"><a href="{{ $project->id }}" class="theme-btn btn-style-two"><span
                                     class="btn-title">View Details</span></a></div>
                     </div>
                 </div>
