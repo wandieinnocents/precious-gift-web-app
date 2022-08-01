@@ -20,7 +20,7 @@
                 <ul class="bread-crumb clearfix">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html">Pages</a></li>
-                    <li class="active">About</li>
+                    <li class="active">Blogs</li>
                 </ul>
             </div>
         </div>
@@ -37,7 +37,8 @@
 
                         <!--News Block Two-->
                         <div class="row">
-                        {{-- news section --}}
+                            {{-- FETCH NEWS --}}
+                            @foreach($posts as $post)
                             <div class="col-md-4">
                                 <div class="news-block-two">
                                     <div class="inner-box">
@@ -52,27 +53,19 @@
                                         <div class="bottom-box clearfix" style="margin-top:30px;">
                                             <div class="post-meta">
                                                 <ul class="clearfix">
-                                                    <li><a href="#"><span class="far fa-user"></span> By Mark
-                                                            Shawn</a>
+                                                    <li><a href="#"><span class="far fa-user"></span>{{ $post->post_created_by }}</a>
                                                     </li>
-                                                    <li><a href="#"><span class="far fa-comment"></span> Comments
-                                                            845</a>
+                                                    <li>
+
+                                                            <span class="badge badge-success">{{$post->post_category_r->post_category_name  }}</span>
                                                     </li>
 
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="lower-box">
-                                            <h2><a href="blog-single.html">Millions Collected By Kausid Charity For Poor
-                                                    Families:
-                                                    By Sources</a></h2>
-                                            <div class="text">Consectetur adipisicing elit smod tempor incididunt laboret
-                                                dolore
-                                                magna aliquaut enim mini veniay quis trud exercitation ullamco laboris
-                                                nisiut
-                                                aliquip ex ea consequat. Duis aute dolor prehendrit lorem psum dolor sit
-                                                amet
-                                                consectetur adipisicing.</div>
+                                            <h2><a href="blog-single.html">{{ $post->post_title }}</a></h2>
+                                            <div class="text">{{ $post->post_description }}</div>
 
 
 
@@ -85,103 +78,9 @@
                                     </div>
                                 </div>
                             </div>
-                             {{-- news section --}}
-                            <div class="col-md-4">
-                                <div class="news-block-two">
-                                    <div class="inner-box">
-                                        <div class="image-box">
-                                            <figure class="image">
-                                                <a href="blog-single.html"><img
-                                                        src="assets/frontend_assets/images/resource/cause-image-3.jpg   "
-                                                        alt=""></a>
-                                            </figure>
-                                            <div class="date-box"><span>20</span> Aug</div>
-                                        </div>
-                                        <div class="bottom-box clearfix" style="margin-top:30px;">
-                                            <div class="post-meta">
-                                                <ul class="clearfix">
-                                                    <li><a href="#"><span class="far fa-user"></span> By Mark
-                                                            Shawn</a>
-                                                    </li>
-                                                    <li><a href="#"><span class="far fa-comment"></span> Comments
-                                                            845</a>
-                                                    </li>
+                            @endforeach
+                            {{-- END FETCH NEWS --}}
 
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="lower-box">
-                                            <h2><a href="blog-single.html">Millions Collected By Kausid Charity For Poor
-                                                    Families:
-                                                    By Sources</a></h2>
-                                            <div class="text">Consectetur adipisicing elit smod tempor incididunt laboret
-                                                dolore
-                                                magna aliquaut enim mini veniay quis trud exercitation ullamco laboris
-                                                nisiut
-                                                aliquip ex ea consequat. Duis aute dolor prehendrit lorem psum dolor sit
-                                                amet
-                                                consectetur adipisicing.</div>
-
-
-
-                                            {{-- button --}}
-                                            <div class="link-box" style="margin-top:30px;">
-                                                <a href="blog-single.html" class="theme-btn btn-style-two"><span
-                                                        class="btn-title">Read more</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                             {{-- news section --}}
-                            <div class="col-md-4">
-                                <div class="news-block-two">
-                                    <div class="inner-box">
-                                        <div class="image-box">
-                                            <figure class="image">
-                                                <a href="blog-single.html"><img
-                                                        src="assets/frontend_assets/images/resource/cause-image-3.jpg   "
-                                                        alt=""></a>
-                                            </figure>
-                                            <div class="date-box"><span>20</span> Aug</div>
-                                        </div>
-                                        <div class="bottom-box clearfix" style="margin-top:30px;">
-                                            <div class="post-meta">
-                                                <ul class="clearfix">
-                                                    <li><a href="#"><span class="far fa-user"></span> By Mark
-                                                            Shawn</a>
-                                                    </li>
-                                                    <li><a href="#"><span class="far fa-comment"></span> Comments
-                                                            845</a>
-                                                    </li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="lower-box">
-                                            <h2><a href="blog-single.html">Millions Collected By Kausid Charity For Poor
-                                                    Families:
-                                                    By Sources</a></h2>
-                                            <div class="text">Consectetur adipisicing elit smod tempor incididunt laboret
-                                                dolore
-                                                magna aliquaut enim mini veniay quis trud exercitation ullamco laboris
-                                                nisiut
-                                                aliquip ex ea consequat. Duis aute dolor prehendrit lorem psum dolor sit
-                                                amet
-                                                consectetur adipisicing.</div>
-
-
-
-                                            {{-- button --}}
-                                            <div class="link-box" style="margin-top:30px;">
-                                                <a href="blog-single.html" class="theme-btn btn-style-two"><span
-                                                        class="btn-title">Read more</span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
 
                         </div>
 

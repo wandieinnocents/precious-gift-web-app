@@ -16,7 +16,7 @@ class FrontEndPostController extends Controller
     public function index()
     {
         $posts = Post::all();
-        dd($posts);
+        // dd($posts);
         return view('frontend.pages_frontend.articles.index',compact('posts'));     
 
     }
