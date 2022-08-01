@@ -4,6 +4,7 @@ namespace App\Http\Controllers\FrontEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Project;
 
 class FrontEndProjectController extends Controller
 {
@@ -14,7 +15,9 @@ class FrontEndProjectController extends Controller
      */
     public function index()
     {
-        return view('frontend.pages_frontend.projects.index');
+        $projects = Project::all();
+        // dd($projects);
+        return view('frontend.pages_frontend.projects.index',compact('projects'));
     }
 
     /**
