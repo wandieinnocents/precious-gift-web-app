@@ -28,7 +28,6 @@
     </section>
     <!--End Banner Section -->
     <div class="sidebar-page-container sidebar-left"><div class="sec-title centered">
-            <div class="upper-icon"></div>
             <h2>All Blog Posts</h2>
             <div class="text">Stay up to date today</div>
         </div>
@@ -93,14 +92,14 @@
 
                     </div>
 
-                    <div class="pagination-box">
+                    {{-- <div class="pagination-box">
                         <ul class="styled-pagination">
                             <li><a href="#" class="active">1</a></li>
                             <li><a href="#">2</a></li>
                             <li><a href="#">3</a></li>
                             <li><a href="#"><span class="fa fa-arrow-right"></span></a></li>
                         </ul>
-                    </div>
+                    </div> --}}
 
                 </div>
                 <!--End Content Side-->
