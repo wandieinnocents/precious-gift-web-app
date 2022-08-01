@@ -49,7 +49,9 @@ class FrontEndProjectController extends Controller
      */
     public function show($id)
     {
-        //
+        $project = Project::find($id);
+        return view('frontend.pages_frontend.projects.show',compact('project'));
+
     }
 
     /**
