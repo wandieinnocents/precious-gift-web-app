@@ -49,9 +49,7 @@
                                         <div class="inner-box">
                                             <div class="image-box">
                                                 <figure class="image">
-                                                    <a href="blog-single.html"><img
-                                                            src="assets/frontend_assets/images/resource/cause-image-3.jpg   "
-                                                            alt=""></a>
+                                                    <a href="javascript::void(0)"><img  src="{{ $post->post_photo }}" alt="" style="width: 100%; height:60%;"></a>
                                                 </figure>
 
                                             </div>
