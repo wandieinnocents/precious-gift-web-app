@@ -48,6 +48,7 @@ class TeamController extends Controller
         $team = new Team();
         $team->team_name        = $request->team_name;
         $team->team_role        = $request->team_role;
+        $team->team_category       = $request->team_category;
         $team->team_description = $request->team_description;
 
         // photo
@@ -103,6 +104,7 @@ class TeamController extends Controller
         $team = Team::find($id);
         $team->team_name        = $request->team_name;
         $team->team_role        = $request->team_role;
+        $team->team_category       = $request->team_category;
         $team->team_description = $request->team_description;
        
 

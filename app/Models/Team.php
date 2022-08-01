@@ -12,6 +12,7 @@ class Team extends Model
         'team_name',
         'team_role',
         'team_photo',
+        'team_category',
         'team_description',
     ];
 }

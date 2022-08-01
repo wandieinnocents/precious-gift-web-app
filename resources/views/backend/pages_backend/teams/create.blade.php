@@ -75,9 +75,8 @@
                                     <div class="col-md-6">
                                         <div class="mb-3">
                                             <label class="form-label" for="validationCustom01">Category</label>
-                                            <select name="service_category_id" class="form-select">
-
-                                                <option value="local">International</option>
+                                            <select name="team_category" class="form-select">
+                                                <option value="international">International</option>
                                                 <option value="local">Local</option>
                                             </select>
                                         </div>

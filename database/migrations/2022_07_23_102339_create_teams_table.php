@@ -17,6 +17,7 @@ class CreateTeamsTable extends Migration
             $table->id();
             $table->string('team_name');
             $table->string('team_role');
+            $table->string('team_category');
             $table->text('team_photo');
             $table->text('team_description');
             $table->timestamps();

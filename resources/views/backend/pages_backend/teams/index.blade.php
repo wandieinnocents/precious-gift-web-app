@@ -63,6 +63,7 @@
                             </th>
                             <th scope="col">#ID</th>
                             <th scope="col">Full Name</th>
+                             <th scope="col">Team Category</th>
                             <th scope="col">Role</th>
                             <th scope="col">Photo</th>
 
@@ -86,6 +87,7 @@
                                 <td>
                                     <a href="#" class="text-body">{{ $team_member->team_name }} </a>
                                 </td>
+                                 <td>{{ $team_member->team_category }}</td>
                                 <td>{{ $team_member->team_role }}</td>
                                 <td>
 
@@ -167,6 +169,8 @@
                                             <hr>
                                             <p>Full Name : {{ $team_member->team_name }}</p>
                                             <hr>
+                                            <p>Team Category : {{ $team_member->team_category }}</p>
+                                            <hr>
 
                                             <p>Role : {{ $team_member->team_role }}</p>
                                             <hr>
@@ -213,6 +217,13 @@
                                                     <label for="recipient-name" class="col-form-label">Role:</label>
                                                     <input type="text" class="form-control" name="team_role"
                                                         value="{{ $team_member->team_role }}" id="recipient-name">
+                                                </div>
+
+
+                                                <div class="mb-3">
+                                                    <label for="recipient-name" class="col-form-label">Category:</label>
+                                                    <input type="text" class="form-control" name="team_category"
+                                                        value="{{ $team_member->team_category }}" id="recipient-name">
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
