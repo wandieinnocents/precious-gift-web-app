@@ -37,9 +37,8 @@
     <!--Default Section-->
     <section class="default-section">
      <div class="sec-title centered">
-            <div class="upper-icon"></div>
-            <h2>Our Volunters</h2>
-            <div class="text">We believe what we achieve</div>
+            <h2>Our Faq's</h2>
+            <div class="text">Frequently Asked Questions</div>
         </div>
         <div class="auto-container">
 
