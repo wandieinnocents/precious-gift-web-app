@@ -48,17 +48,19 @@
                                                         src="assets/frontend_assets/images/resource/cause-image-3.jpg   "
                                                         alt=""></a>
                                             </figure>
-                                            <div class="date-box"><span>20</span> Aug</div>
+                                            
                                         </div>
                                         <div class="bottom-box clearfix" style="margin-top:30px;">
                                             <div class="post-meta">
                                                 <ul class="clearfix">
                                                     <li><a href="#"><span class="far fa-user"></span>{{ $post->post_created_by }}</a>
+                                                    
                                                     </li>
                                                     <li>
 
                                                             <span class="badge badge-success">{{$post->post_category_r->post_category_name  }}</span>
                                                     </li>
+                                                    <li>{{ \Carbon\Carbon::parse($post->created_at)->format('d/m/Y')}}</li>
 
                                                 </ul>
                                             </div>
