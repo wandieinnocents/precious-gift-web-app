@@ -34,47 +34,30 @@
     <section class="team-section team-page">
 
         <div class="sec-title centered">
-            <div class="upper-icon"></div>
-            <h2>Our Volunters</h2>
-            <div class="text">We believe what we achieve</div>
+            {{-- <div class="upper-icon"></div> --}}
+            <h2>Our Staff</h2>
+            <div class="text">Our staff members</div>
         </div>
 
         <div class="auto-container">
             <div class="row clearfix">
 
+
                 <!--Team Block-->
+                @foreach($staff_members as $staff_member)
                 <div class="team-block col-lg-4 col-md-6 col-sm-12 wow fadeInLeft animated" data-wow-delay="0ms"
                     style="visibility: visible; animation-delay: 0ms; animation-name: fadeInLeft;">
                     <div class="inner-box">
                         <figure class="image-box"><a href="#"><img
-                                    src="assets/frontend_assets/images/resource/team-image-1.jpg" alt=""></a>
+                                    src="{{ $staff_member->team_photo }}" alt=""></a>
                         </figure>
-                        <h3><a href="#">Scott William</a></h3>
-                        <div class="designation">Head of Team</div>
+                        <h3><a href="#">{{ $staff_member->team_name }}</a></h3>
+                        <div class="designation">{{ $staff_member->team_role }}</div>
                     </div>
                 </div>
-                <!--Team Block-->
-                <div class="team-block col-lg-4 col-md-6 col-sm-12 wow fadeInLeft animated" data-wow-delay="300ms"
-                    style="visibility: visible; animation-delay: 300ms; animation-name: fadeInLeft;">
-                    <div class="inner-box">
-                        <figure class="image-box"><a href="#"><img
-                                    src="assets/frontend_assets/images/resource/team-image-2.jpg" alt=""></a>
-                        </figure>
-                        <h3><a href="#">Liam Irvines</a></h3>
-                        <div class="designation">Senior Admin</div>
-                    </div>
-                </div>
-                <!--Team Block-->
-                <div class="team-block col-lg-4 col-md-6 col-sm-12 wow fadeInLeft animated" data-wow-delay="600ms"
-                    style="visibility: visible; animation-delay: 600ms; animation-name: fadeInLeft;">
-                    <div class="inner-box">
-                        <figure class="image-box"><a href="#"><img
-                                    src="assets/frontend_assets/images/resource/team-image-3.jpg" alt=""></a>
-                        </figure>
-                        <h3><a href="#">Diana Leslie</a></h3>
-                        <div class="designation">Junior Volunteer</div>
-                    </div>
-                </div>
+                @endforeach
+               
+               
 
 
             </div>

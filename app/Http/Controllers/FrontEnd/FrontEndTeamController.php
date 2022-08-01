@@ -4,6 +4,7 @@ namespace App\Http\Controllers\FrontEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Team;
 
 class FrontEndTeamController extends Controller
 {
@@ -14,7 +15,8 @@ class FrontEndTeamController extends Controller
      */
     public function index()
     {
-        return view('frontend.pages_frontend.team.index');
+        $staff_members = Team::all();
+        return view('frontend.pages_frontend.team.index',compact('staff_members'));
     }
 
     /**
