@@ -87,19 +87,16 @@
                             <div class="widget-inner">
                                 <h3>Categories</h3>
                                 <div class="widget-content">
-                                    <ul>
-                                        <li><a class="clearfix" href="blog-single.html">Health &amp; Medical <span
-                                                    class="count">93</span></a></li>
-                                        <li class="active"><a class="clearfix" href="blog-single.html">Social Welfare
-                                                <span class="count">04</span></a></li>
-                                        <li><a class="clearfix" href="blog-single.html">Disability <span
-                                                    class="count">54</span></a></li>
-                                        <li><a class="clearfix" href="blog-single.html">Poor Education <span
-                                                    class="count">71</span></a></li>
-                                        <li><a class="clearfix" href="blog-single.html">International Aid <span
-                                                    class="count">22</span></a></li>
-                                        <li><a class="clearfix" href="blog-single.html">Animals &amp; Pets <span
-                                                    class="count">31</span></a></li>
+                                    <ul>@foreach($project_categories_fetch as $project_category)
+                                        <li>
+                                        
+                                        <a class="clearfix" href="blog-single.html">
+                                        {{ $project_category->project_category_name }} 
+                                        <span class="count">93</span></a>
+                                        
+                                        </li>
+                                         @endforeach
+                                        
                                     </ul>
                                 </div>
                             </div>

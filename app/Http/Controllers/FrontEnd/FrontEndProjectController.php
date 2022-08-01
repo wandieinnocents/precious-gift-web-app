@@ -5,6 +5,7 @@ namespace App\Http\Controllers\FrontEnd;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Project;
+use App\Models\ProjectCategory;
 
 class FrontEndProjectController extends Controller
 {
@@ -49,8 +50,10 @@ class FrontEndProjectController extends Controller
      */
     public function show($id)
     {
+
         $project = Project::find($id);
-        return view('frontend.pages_frontend.projects.show',compact('project'));
+        $project_categories_fetch = ProjectCategory::all();
+        return view('frontend.pages_frontend.projects.show',compact('project','project_categories_fetch'));
 
     }
 
