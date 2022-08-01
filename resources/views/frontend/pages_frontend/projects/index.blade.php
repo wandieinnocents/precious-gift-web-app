@@ -68,7 +68,7 @@
 
             </div>
 
-            <div class="load-more"><a href="#" class="theme-btn load-more-btn">load more</a></div>
+            {{-- <div class="load-more"><a href="#" class="theme-btn load-more-btn">load more</a></div> --}}
         </div>
     </section>
 @endsection
