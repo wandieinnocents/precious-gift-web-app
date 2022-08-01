@@ -47,19 +47,11 @@
                             
                         </div>
                         <div class="lower-content">
-                            <h3><a href="cause-single.html">{{ $project->project_name }}</a></h3>
+                            <h3><a href="our_projects/{{ $project->id }}">{{ $project->project_name }}</a></h3>
                             <div class="cause-title"><span class="badge badge-success">{{$project->project_category_r->project_category_name  }}</span></div>
                             <div class="text">{{ $project->project_description }}</div>
-                            {{-- <div class="donate-info clearfix">
-                                <div class="goal"><i class="fa fa-crosshairs"></i> <span>Goal:</span>
-                                    <strong>$10,000</strong>
-                                </div>
-                                <div class="raised"><i class="fa fa-chart-line"></i> <span>Raised:</span>
-                                    <strong>$6,500</strong>
-                                </div>
-                            </div> --}}
                         </div>
-                        <div class="link-box"><a href="{{ $project->id }}" class="theme-btn btn-style-two"><span
+                        <div class="link-box"><a href="our_projects/{{ $project->id }}" class="theme-btn btn-style-two"><span
                                     class="btn-title">View Details</span></a></div>
                     </div>
                 </div>
@@ -68,7 +60,6 @@
 
             </div>
 
-            {{-- <div class="load-more"><a href="#" class="theme-btn load-more-btn">load more</a></div> --}}
         </div>
     </section>
 @endsection
