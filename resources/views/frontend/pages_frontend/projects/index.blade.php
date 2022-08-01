@@ -45,7 +45,7 @@
                         </div>
                         <div class="lower-content">
                             <h3><a href="cause-single.html">{{ $project->project_name }}</a></h3>
-                            <div class="cause-title">{{ $project->project_category_id }}</div>
+                            <div class="cause-title"><span class="badge badge-success">{{$project->project_category_r->project_category_name  }}</span></div>
                             <div class="text">{{ $project->project_description }}</div>
                             {{-- <div class="donate-info clearfix">
                                 <div class="goal"><i class="fa fa-crosshairs"></i> <span>Goal:</span>
