@@ -4,6 +4,7 @@ namespace App\Http\Controllers\FrontEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Faq;
 
 class FrontEndFaqController extends Controller
 {
@@ -14,7 +15,8 @@ class FrontEndFaqController extends Controller
      */
     public function index()
     {
-        return view('frontend.pages_frontend.faqs.index');
+        $faqs = Faq::all();
+        return view('frontend.pages_frontend.faqs.index',compact('faqs'));
     }
 
     /**

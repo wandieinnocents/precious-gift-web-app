@@ -49,35 +49,22 @@
                 <div class="faq-column col-lg-12 col-md-12 col-sm-12">
                     <div class="accordion-box">
                         <!--Block-->
-                        <div class="accordion block current wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> We better help the
-                                people in need <div class="icon flaticon-cross"></div>
+                        @foreach($faqs as $faq)
+                        <div class="accordion block  wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> {{$faq->question}} <div class="icon flaticon-cross"></div>
                             </div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam
-                                        quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor
-                                        prehendrit lorem sed ipsum torabs.</div>
+                                    <div class="text">{{$faq->answer}}</div>
                                 </div>
                             </div>
                         </div>
+                        @endforeach
+
+                       
 
                         <!--Block-->
-                        <div class="accordion block wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                            <div class="acc-btn"><span class="icon-box flaticon-blood-2"></span> Our aim to provide clean
-                                water <div class="icon flaticon-cross"></div>
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam
-                                        quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor
-                                        prehendrit lorem sed ipsum torabs.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Block-->
-                        <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        {{-- <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Raise funds in response
                                 to a disaster <div class="icon flaticon-cross"></div>
                             </div>
@@ -88,7 +75,7 @@
                                         prehendrit lorem sed ipsum torabs.</div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
 
                     </div>
                 </div>
