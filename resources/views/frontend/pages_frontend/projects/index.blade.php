@@ -39,9 +39,12 @@
                     <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms"
                         style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">
                         <div class="image-box">
-                            <figure class="image"><a href="cause-single.html"><img
-                                        src="assets/frontend_assets/images/resource/cause-image-1.jpg" alt=""></a>
+                            <figure>
+                           <img src="{{ asset($project->project_photo) }} " style="width: 100%; height:60%;">
+                            
                             </figure>
+
+                            
                         </div>
                         <div class="lower-content">
                             <h3><a href="cause-single.html">{{ $project->project_name }}</a></h3>
