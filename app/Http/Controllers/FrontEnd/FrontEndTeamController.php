@@ -15,8 +15,10 @@ class FrontEndTeamController extends Controller
      */
     public function index()
     {
-        $staff_members = Team::all();
-        return view('frontend.pages_frontend.team.index',compact('staff_members'));
+        $staff_members_international = Team::all()->where('team_category', '=', 'international');
+        $staff_members_local = Team::all()->where('team_category', '=', 'local');
+        // dd($staff_members_local);
+        return view('frontend.pages_frontend.team.index',compact('staff_members_international','staff_members_local'));
     }
 
     /**

@@ -44,15 +44,15 @@
 
 
                 <!--Team Block-->
-                @foreach($staff_members as $staff_member)
+                @foreach($staff_members_international as $staff_member_int)
                 <div class="team-block col-lg-4 col-md-6 col-sm-12 wow fadeInLeft animated" data-wow-delay="0ms"
                     style="visibility: visible; animation-delay: 0ms; animation-name: fadeInLeft;">
                     <div class="inner-box">
                         <figure class="image-box"><a href="#"><img
-                                    src="{{ $staff_member->team_photo }}" alt=""></a>
+                                    src="{{ $staff_member_int->team_photo }}" alt=""></a>
                         </figure>
-                        <h3><a href="#">{{ $staff_member->team_name }}</a></h3>
-                        <div class="designation">{{ $staff_member->team_role }}</div>
+                        <h3><a href="#">{{ $staff_member_int->team_name }}</a></h3>
+                        <div class="designation">{{ $staff_member_int->team_category }} | {{ $staff_member_int->team_role }}</div>
                     </div>
                 </div>
                 @endforeach
@@ -76,15 +76,15 @@
 
 
                 <!--Team Block-->
-                @foreach($staff_members as $staff_member)
+                @foreach($staff_members_local as $staff_member_local)
                 <div class="team-block col-lg-4 col-md-6 col-sm-12 wow fadeInLeft animated" data-wow-delay="0ms"
                     style="visibility: visible; animation-delay: 0ms; animation-name: fadeInLeft;">
                     <div class="inner-box">
                         <figure class="image-box"><a href="#"><img
-                                    src="{{ $staff_member->team_photo }}" alt=""></a>
+                                    src="{{ $staff_member_local->team_photo }}" alt=""></a>
                         </figure>
-                        <h3><a href="#">{{ $staff_member->team_name }}</a></h3>
-                        <div class="designation">{{ $staff_member->team_role }}</div>
+                        <h3><a href="#">{{ $staff_member_local->team_name }}</a></h3>
+                        <div class="designation">{{ $staff_member_local->team_category }} |  {{ $staff_member_local->team_role }}</div>
                     </div>
                 </div>
                 @endforeach

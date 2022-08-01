@@ -63,7 +63,7 @@
                             </th>
                             <th scope="col">#ID</th>
                             <th scope="col">Full Name</th>
-                             <th scope="col">Team Category</th>
+                            <th scope="col">Team Category</th>
                             <th scope="col">Role</th>
                             <th scope="col">Photo</th>
 
@@ -87,7 +87,7 @@
                                 <td>
                                     <a href="#" class="text-body">{{ $team_member->team_name }} </a>
                                 </td>
-                                 <td>{{ $team_member->team_category }}</td>
+                                <td>{{ $team_member->team_category }}</td>
                                 <td>{{ $team_member->team_role }}</td>
                                 <td>
 
@@ -220,11 +220,17 @@
                                                 </div>
 
 
+                                              
+
                                                 <div class="mb-3">
-                                                    <label for="recipient-name" class="col-form-label">Category:</label>
-                                                    <input type="text" class="form-control" name="team_category"
-                                                        value="{{ $team_member->team_category }}" id="recipient-name">
+                                                    <label class="form-label" for="validationCustom01">Category</label>
+                                                    <select name="team_category" class="form-select" value="{{ $team_member->team_category }}">
+                                                        <option value="international">International</option>
+                                                        <option value="local">Local</option>
+                                                    </select>
                                                 </div>
+
+
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom05">Photo</label>
