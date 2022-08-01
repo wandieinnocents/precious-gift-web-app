@@ -70,14 +70,14 @@
                                             </div>
                                         </div>
                                         <div class="lower-box">
-                                            <h2><a href="blog-single.html">{{ $post->post_title }}</a></h2>
+                                            <h2><a href="articles/{{ $post->id }}">{{ $post->post_title }}</a></h2>
                                             <div class="text">{{ $post->post_description }}</div>
 
 
 
                                             {{-- button --}}
                                             <div class="link-box" style="margin-top:30px;">
-                                                <a href="blog-single.html" class="theme-btn btn-style-two"><span
+                                                <a href="articles/{{ $post->id }}" class="theme-btn btn-style-two"><span
                                                         class="btn-title">Read more</span></a>
                                             </div>
                                         </div>
