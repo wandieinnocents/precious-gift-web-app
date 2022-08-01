@@ -27,7 +27,8 @@
 
     </section>
     <!--End Banner Section -->
-    <div class="sidebar-page-container sidebar-left"><div class="sec-title centered">
+    <div class="sidebar-page-container sidebar-left">
+        <div class="sec-title centered">
             <h2>All Blog Posts</h2>
             <div class="text">Stay up to date today</div>
         </div>
@@ -42,48 +43,52 @@
                         <!--News Block Two-->
                         <div class="row">
                             {{-- FETCH NEWS --}}
-                            @foreach($posts as $post)
-                            <div class="col-md-4">
-                                <div class="news-block-two">
-                                    <div class="inner-box">
-                                        <div class="image-box">
-                                            <figure class="image">
-                                                <a href="blog-single.html"><img
-                                                        src="assets/frontend_assets/images/resource/cause-image-3.jpg   "
-                                                        alt=""></a>
-                                            </figure>
-                                            
-                                        </div>
-                                        <div class="bottom-box clearfix" style="margin-top:30px;">
-                                            <div class="post-meta">
-                                                <ul class="clearfix">
-                                                    <li><a href="#"><span class="far fa-user"></span>{{ $post->post_created_by }}</a>
-                                                    
-                                                    </li>
-                                                    <li>
+                            @foreach ($posts as $post)
+                                <div class="col-md-4">
+                                    <div class="news-block-two">
+                                        <div class="inner-box">
+                                            <div class="image-box">
+                                                <figure class="image">
+                                                    <a href="blog-single.html"><img
+                                                            src="assets/frontend_assets/images/resource/cause-image-3.jpg   "
+                                                            alt=""></a>
+                                                </figure>
 
-                                                            <span class="badge badge-success">{{$post->post_category_r->post_category_name  }}</span>
-                                                    </li>
-                                                    <li>{{ \Carbon\Carbon::parse($post->created_at)->format('d/m/Y')}}</li>
-
-                                                </ul>
                                             </div>
-                                        </div>
-                                        <div class="lower-box">
-                                            <h2><a href="articles/{{ $post->id }}">{{ $post->post_title }}</a></h2>
-                                            <div class="text">{{ $post->post_description }}</div>
+                                            <div class="bottom-box clearfix" style="margin-top:30px;">
+                                                <div class="post-meta">
+                                                    <ul class="clearfix">
+                                                        <li><a href="#"><span
+                                                                    class="far fa-user"></span>{{ $post->post_created_by }}</a>
+
+                                                        </li>
+                                                        <li>
+
+                                                            <span
+                                                                class="badge badge-success">{{ $post->post_category_r->post_category_name }}</span>
+                                                        </li>
+                                                        <li>{{ \Carbon\Carbon::parse($post->created_at)->format('d/m/Y') }}
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="lower-box">
+                                                <h2><a href="articles/{{ $post->id }}">{{ $post->post_title }}</a></h2>
+                                                <div class="text">{{ $post->post_description }}</div>
 
 
 
-                                            {{-- button --}}
-                                            <div class="link-box" style="margin-top:30px;">
-                                                <a href="articles/{{ $post->id }}" class="theme-btn btn-style-two"><span
-                                                        class="btn-title">Read more</span></a>
+                                                {{-- button --}}
+                                                <div class="link-box" style="margin-top:30px;">
+                                                    <a href="articles/{{ $post->id }}"
+                                                        class="theme-btn btn-style-two"><span class="btn-title">Read
+                                                            more</span></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                             @endforeach
                             {{-- END FETCH NEWS --}}
 

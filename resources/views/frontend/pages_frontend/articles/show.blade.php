@@ -8,8 +8,7 @@
     <!-- content  -->
     <!-- Page Banner Section -->
     <section class="page-banner">
-        <div class="image-layer"
-            style="background-image: url({{ asset('assets/frontend_assets/images/background/bg-page-title-2.jpg') }});">
+        <div class="image-layer" style="background-image: url({{ asset('assets/frontend_assets/images/background/bg-page-title-2.jpg') }});">
         </div>
 
         <div class="auto-container" style="margin-top:70px;">
