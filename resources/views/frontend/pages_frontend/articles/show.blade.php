@@ -13,7 +13,7 @@
         </div>
 
         <div class="auto-container" style="margin-top:70px;">
-            <h1>Projects</h1>
+            <h1>posts</h1>
         </div>
 
         <div class="breadcrumb-box">
@@ -40,7 +40,7 @@
                             <div class="upper-box">
                                 <div class="image-box">
                                     <figure>
-                                        <img src="{{ asset($project->project_photo) }} " style="width: 100%; height:60%;">
+                                        <img src="{{ asset($post->post_photo) }} " style="width: 100%; height:60%;">
 
                                     </figure>
 
@@ -51,8 +51,8 @@
                             <div class="lower-box">
 
                                 <div class="post-content">
-                                    <h3>{{ $project->project_name }}</h3>
-                                    <p>{{ $project->project_description }}
+                                    <h3>{{ $post->post_title}}</h3>
+                                    <p>{{ $post->post_description }}
                                     </p>
 
                                 </div>
@@ -87,11 +87,11 @@
                             <div class="widget-inner">
                                 <h3>Categories</h3>
                                 <div class="widget-content">
-                                    <ul>@foreach($project_categories_fetch as $project_category)
+                                    <ul>@foreach($post_categories_fetch as $post_category)
                                         <li>
                                         
                                         <a class="clearfix" href="javascript::void()">
-                                        {{ $project_category->project_category_name }} 
+                                        {{ $post_category->post_category_name }} 
                                         {{-- <span class="count">93</span></a> --}}
                                         
                                         </li>

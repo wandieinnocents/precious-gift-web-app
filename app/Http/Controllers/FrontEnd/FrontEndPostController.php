@@ -54,7 +54,7 @@ class FrontEndPostController extends Controller
         $post = Post::find($id);
         $post_categories_fetch = PostCategory::all();
         // dd($post);
-        return view('frontend.pages_frontend.articles.show',compact('project','post_categories_fetch'));
+        return view('frontend.pages_frontend.articles.show',compact('post','post_categories_fetch'));
     }
 
     /**
