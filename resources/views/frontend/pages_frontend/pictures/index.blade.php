@@ -40,7 +40,8 @@
 
             <div class="row clearfix">
 
-                <!--Cause Block-->
+                <!-- Block-->
+                @foreach($photos as $photo)
                 <div class="cause-block col-lg-4 col-md-6 col-sm-12">
                     <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms"
                         style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">
@@ -55,11 +56,7 @@
                                     class="btn-title">View Details</span></a></div>
                     </div>
                 </div>
-
-
-
-
-
+                @endforeach
 
 
             </div>
