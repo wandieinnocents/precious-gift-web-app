@@ -35,8 +35,8 @@
 
         <div class="sec-title centered">
             {{-- <div class="upper-icon"></div> --}}
-            <h2>Our Staff</h2>
-            <div class="text">Our staff members</div>
+            <h2> International Staff</h2>
+            <div class="text">Our International staff members</div>
         </div>
 
         <div class="auto-container">
@@ -62,5 +62,39 @@
 
             </div>
         </div>
+
+
+    {{-- INTERNATIONAL STAFF --}}
+     <div class="sec-title centered">
+            {{-- <div class="upper-icon"></div> --}}
+            <h2>Local</h2>
+            <div class="text">Our Local members</div>
+        </div>
+
+        <div class="auto-container">
+            <div class="row clearfix">
+
+
+                <!--Team Block-->
+                @foreach($staff_members as $staff_member)
+                <div class="team-block col-lg-4 col-md-6 col-sm-12 wow fadeInLeft animated" data-wow-delay="0ms"
+                    style="visibility: visible; animation-delay: 0ms; animation-name: fadeInLeft;">
+                    <div class="inner-box">
+                        <figure class="image-box"><a href="#"><img
+                                    src="{{ $staff_member->team_photo }}" alt=""></a>
+                        </figure>
+                        <h3><a href="#">{{ $staff_member->team_name }}</a></h3>
+                        <div class="designation">{{ $staff_member->team_role }}</div>
+                    </div>
+                </div>
+                @endforeach
+               
+               
+
+
+            </div>
+        </div>
+
+    
     </section>
 @endsection
