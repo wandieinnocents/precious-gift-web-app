@@ -43,9 +43,7 @@
                            <img src="{{ asset($project->project_photo) }} " style="width: 100%; height:60%;">
                             
                             </figure>
-
-                            
-                        </div>
+                            </div>
                         <div class="lower-content">
                             <h3><a href="our_projects/{{ $project->id }}">{{ $project->project_name }}</a></h3>
                             <div class="cause-title"><span class="badge badge-success">{{$project->project_category_r->project_category_name  }}</span></div>

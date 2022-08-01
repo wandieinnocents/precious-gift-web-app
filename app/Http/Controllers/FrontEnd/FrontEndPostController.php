@@ -4,6 +4,7 @@ namespace App\Http\Controllers\FrontEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Post;
 
 class FrontEndPostController extends Controller
 {
@@ -14,7 +15,9 @@ class FrontEndPostController extends Controller
      */
     public function index()
     {
-        return view('frontend.pages_frontend.articles.index');     
+        $posts = Post::all();
+        dd($posts);
+        return view('frontend.pages_frontend.articles.index',compact('posts'));     
 
     }
 
