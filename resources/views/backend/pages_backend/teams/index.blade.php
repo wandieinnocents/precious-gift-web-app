@@ -219,9 +219,6 @@
                                                         value="{{ $team_member->team_role }}" id="recipient-name">
                                                 </div>
 
-
-                                              
-
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom01">Category</label>
                                                     <select name="team_category" class="form-select" value="{{ $team_member->team_category }}">

@@ -45,7 +45,8 @@
 
                 <!--Team Block-->
                 @foreach($staff_members_international as $staff_member_int)
-                <div class="team-block col-lg-4 col-md-6 col-sm-12 wow fadeInLeft animated" data-wow-delay="0ms"
+                
+                    <div class="team-block col-lg-4 col-md-6 col-sm-12 wow fadeInLeft animated" data-wow-delay="0ms"
                     style="visibility: visible; animation-delay: 0ms; animation-name: fadeInLeft;">
                     <div class="inner-box">
                         <figure class="image-box"><a href="#"><img
@@ -55,6 +56,7 @@
                         <div class="designation">{{ $staff_member_int->team_category }} | {{ $staff_member_int->team_role }}</div>
                     </div>
                 </div>
+
                 @endforeach
                
                
