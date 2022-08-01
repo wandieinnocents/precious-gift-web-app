@@ -5,6 +5,7 @@ namespace App\Http\Controllers\FrontEnd;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Post;
+use App\Models\PostCategory;
 
 class FrontEndPostController extends Controller
 {
@@ -50,7 +51,10 @@ class FrontEndPostController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Post::find($id);
+        $post_categories_fetch = PostCategory::all();
+        // dd($post);
+        return view('frontend.pages_frontend.articles.show',compact('project','post_categories_fetch'));
     }
 
     /**
