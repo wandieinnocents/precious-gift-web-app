@@ -11,7 +11,7 @@ About Us
     <section class="page-banner">
         <div class="image-layer" style="background-image: url(assets/frontend_assets/images/background/bg-page-title-2.jpg);"></div>
 
-        <div class="auto-container">
+        <div class="auto-container" style="margin-top:70px;">
             <h1>About Us</h1>
         </div>
 
