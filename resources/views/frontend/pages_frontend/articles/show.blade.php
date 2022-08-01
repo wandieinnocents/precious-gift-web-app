@@ -29,6 +29,7 @@
     </section>
     <!--End Banner Section -->
     <div class="sidebar-page-container">
+    
         <div class="auto-container">
             <div class="row clearfix">
 

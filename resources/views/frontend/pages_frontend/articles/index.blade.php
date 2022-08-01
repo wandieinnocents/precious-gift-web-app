@@ -11,8 +11,8 @@
         <div class="image-layer" style="background-image: url(assets/frontend_assets/images/background/bg-page-title-2.jpg);">
         </div>
 
-        <div class="auto-container">
-            <h1>About Us</h1>
+        <div class="auto-container" style="margin-top:70px;">
+            <h1>Blogs</h1>
         </div>
 
         <div class="breadcrumb-box">
@@ -27,7 +27,12 @@
 
     </section>
     <!--End Banner Section -->
-    <div class="sidebar-page-container sidebar-left">
+    <div class="sidebar-page-container sidebar-left"><div class="sec-title centered">
+            <div class="upper-icon"></div>
+            <h2>All Blog Posts</h2>
+            <div class="text">Stay up to date today</div>
+        </div>
+
         <div class="auto-container">
             <div class="row clearfix">
 
