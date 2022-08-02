@@ -44,19 +44,19 @@
     <!--Scroll to top-->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-up-arrow"></span></div>
 
-    <script src="{{ asset('assets/frontend_assets/js/jquery.js') }}"></script>
-    <script src="{{ asset('assets/frontend_assets/js/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend_assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend_assets/js/jquery-ui.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/js/jquery.js')          }}"></script>
+    <script src="{{ asset('assets/frontend_assets/js/popper.min.js')      }}"></script>
+    <script src="{{ asset('assets/frontend_assets/js/bootstrap.min.js')   }}"></script>
+    <script src="{{ asset('assets/frontend_assets/js/jquery-ui.js')       }}"></script>
     <script src="{{ asset('assets/frontend_assets/js/jquery.fancybox.js') }}"></script>
-    <script src="{{ asset('assets/frontend_assets/js/owl.js') }}"></script>
-    <script src="{{ asset('assets/frontend_assets/js/appear.js') }}"></script>
-    <script src="{{ asset('assets/frontend_assets/js/wow.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/js/owl.js')             }}"></script>
+    <script src="{{ asset('assets/frontend_assets/js/appear.js')          }}"></script>
+    <script src="{{ asset('assets/frontend_assets/js/wow.js')             }}"></script>
 
-    <script src="{{ asset('assets/frontend_assets/js/scrollbar.js') }}"></script>
-    <script src="{{ asset('assets/frontend_assets/js/isotope.js') }}"></script>
-    <script src="{{ asset('assets/frontend_assets/js/paroller.js') }}"></script>
-    <script src="{{ asset('assets/frontend_assets/js/custom-script.js') }}"></script>
+    <script src="{{ asset('assets/frontend_assets/js/scrollbar.js')       }}"></script>
+    <script src="{{ asset('assets/frontend_assets/js/isotope.js')         }}"></script>
+    <script src="{{ asset('assets/frontend_assets/js/paroller.js')        }}"></script>
+    <script src="{{ asset('assets/frontend_assets/js/custom-script.js')   }}"></script>
 
     @yield('extra_scripts')
 

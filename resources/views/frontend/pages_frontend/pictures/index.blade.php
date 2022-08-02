@@ -5,88 +5,19 @@
 @endsection
 
 @section('extra_styles')
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <style>
-        .wrap {
-            overflow: hidden;
-            margin-left: 200px;
+        .nav-tabs>li {
+            float: none;
+            display: inline-block;
+            zoom: 1;
         }
 
-        .box {
-            float: left;
-            position: relative;
-            width: 40%;
-            padding-bottom: 20%;
-        }
-
-        .boxInner {
-            position: absolute;
-            left: 10px;
-            right: 10px;
-            top: 10px;
-            bottom: 10px;
-            overflow: hidden;
-        }
-
-        .boxInner img {
-            width: 100%;
-        }
-
-        .boxInner .titleBox {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin-bottom: -50px;
-            background: #fff;
-            background: rgba(0, 0, 0, 0.5);
-            color: #FFF;
-            padding: 10px;
+        .nav-tabs {
             text-align: center;
-            -webkit-transition: all 0.3s ease-out;
-            -moz-transition: all 0.3s ease-out;
-            -o-transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
-        }
-
-        section.no-touch .boxInner:hover .titleBox,
-        section.touch .boxInner.touchFocus .titleBox {
-            margin-bottom: 0;
-        }
-
-        @media only screen and (max-width : 480px) {
-
-            /* Smartphone view: 1 tile */
-            .box {
-                width: 100%;
-                padding-bottom: 100%;
-            }
-        }
-
-        @media only screen and (max-width : 650px) and (min-width : 481px) {
-
-            /* Tablet view: 2 tiles */
-            .box {
-                width: 50%;
-                padding-bottom: 50%;
-            }
-        }
-
-        @media only screen and (max-width : 1050px) and (min-width : 651px) {
-
-            /* Small desktop / ipad view: 3 tiles */
-            .box {
-                width: 33.3%;
-                padding-bottom: 33.3%;
-            }
-        }
-
-        @media only screen and (max-width : 1290px) and (min-width : 1051px) {
-
-            /* Medium desktop: 4 tiles */
-            .box {
-                width: 25%;
-                padding-bottom: 25%;
-            }
         }
     </style>
 @endsection
@@ -94,6 +25,8 @@
 @section('content')
     <!-- content  -->
     <!-- Page Banner Section -->
+
+
     <section class="page-banner">
         <div class="image-layer"
             style="background-image: url({{ asset('assets/frontend_assets/images/background/bg-page-title-2.jpg') }});">
@@ -115,44 +48,302 @@
 
     </section>
     <!--End Banner Section -->
+    <section class="activity-section">
+
+        <div class="auto-container" style="margin-top:-60px;">
+            <div class="sec-title centered">
+                <h2>Animal Saving Activities</h2>
+                <div class="text">We believe what we achieve</div>
+            </div>
+
+            {{-- TABS --}}
+
+            <ul class="nav nav-pills justify-content-center" style="align:center;">
+                <li class="active"><a data-toggle="pill" href="#category1">CATEGORY 1 </a></li>
+                <li><a data-toggle="pill" href="#category2">CATEGORY 2</a></li>
+                <li><a data-toggle="pill" href="#category3">CATEGORY 3</a></li>
+            </ul>
+            <div style="height:30px;"></div>
 
 
+            <div class="tab-content">
+                {{-- CATEGORY 1 --}}
+                <div id="category1" class="tab-pane fade in active">
+                    <div class="mixit-gallery">
+                        <!--Filter-->
 
-    <section class="causes-section causes-page load-more-section" data-load-number="3">
-        <div class="sec-title centered">
-            <h2>Our Photo Gallery</h2>
-            <div class="text">Stay up to date today</div>
-        </div>
-        <div class="auto-container">
-
-            <div class="row clearfix">
-
-                <!-- Block-->
-                @foreach ($photos as $photo)
-                    <div class="cause-block col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms"
-                            style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">
-                            <div class="image-box">
-                                <figure class="image"><a><img src="{{ $photo->gallery_photo }}" alt=""
-                                            style="width: 100%; height:60%;"></a></a>
-                                </figure>
-
+                        <div class="filter-list row clearfix" id="MixItUpD7DD85">
+                            <!--Activity Block-->
+                            <div class="activity-block mix all animal education col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/14.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/14.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Look After Animals</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Activity Block-->
+                            <div class="activity-block mix all medical education shelter col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/15.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/15.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Win for Dolfins</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Activity Block-->
+                            <div class="activity-block mix all animal shelter medical col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/16.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/16.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Work for Beers</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Activity Block-->
+                            <div class="activity-block mix all shelter medical education col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/17.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/17.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Tigers are missing</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="link-box"><a href="javascript::void(0)" class="theme-btn btn-style-two"><span
-                                        class="btn-title">View Details</span></a></div>
                         </div>
                     </div>
+                </div>
 
+                {{-- CATEGORY 2 --}}
+                <div id="category2" class="tab-pane fade">
+                    <div class="mixit-gallery">
+                        <!--Filter-->
 
-                   
-                @endforeach
+                        <div class="filter-list row clearfix" id="MixItUpD7DD85">
+                            <!--Activity Block-->
+                            <div class="activity-block mix all animal education col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/14.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/14.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Look After Animals</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Activity Block-->
+                            <div class="activity-block mix all medical education shelter col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/15.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/15.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Win for Dolfins</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Activity Block-->
+                            <div class="activity-block mix all animal shelter medical col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/16.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/16.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Work for Beers</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Activity Block-->
+                            <div class="activity-block mix all shelter medical education col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/17.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/17.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Tigers are missing</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+
+                {{-- CATEGORY 3 --}}
+                <div id="category3" class="tab-pane fade">
+                    <div class="mixit-gallery">
+                        <!--Filter-->
+
+                        <div class="filter-list row clearfix" id="MixItUpD7DD85">
+                            <!--Activity Block-->
+                            <div class="activity-block mix all animal education col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/14.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/14.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Look After Animals</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Activity Block-->
+                            <div class="activity-block mix all medical education shelter col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/15.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/15.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Win for Dolfins</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Activity Block-->
+                            <div class="activity-block mix all animal shelter medical col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/16.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/16.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Work for Beers</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Activity Block-->
+                            <div class="activity-block mix all shelter medical education col-md-6 col-sm-12"
+                                style="display: inline-block;">
+                                <div class="inner-box">
+                                    <figure class="image">
+                                        <img src="assets/frontend_assets/images/gallery/17.jpg" alt="">
+                                        <a href="assets/frontend_assets/images/gallery/17.jpg"
+                                            class="lightbox-image overlay" data-fancybox="gallery-two"><span
+                                                class="icon fa fa-search-plus"></span></a>
+                                    </figure>
+                                    <div class="caption-box">
+                                        <div class="cap-inner">
+                                            <h3><a href="#">Tigers are missing</a></h3>
+                                            <div class="cat-info"><a href="#">Save Animals</a>,<a
+                                                    href="#">Charity</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
-            {{-- <div class="load-more"><a href="#" class="theme-btn load-more-btn">load more</a></div> --}}
+            {{-- END OF TABS --}}
+
+
+
 
         </div>
     </section>
+@endsection
+
+@section('extra_scripts')
 @endsection
