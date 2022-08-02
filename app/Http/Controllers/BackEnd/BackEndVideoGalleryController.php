@@ -16,8 +16,11 @@ class BackEndVideoGalleryController extends Controller
     public function index()
     {
         $videos = VideoGallery::all();
-        dd($videos);
-        return view('backend.pages_backend.videos.index');
+        $count_videos = VideoGallery::count();
+        // dd($galleries);
+
+        // dd($videos);
+        return view('backend.pages_backend.videos.index',compact('videos','count_videos'));
 
     }
 

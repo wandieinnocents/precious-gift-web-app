@@ -89,7 +89,7 @@
                                     <div class="mb-3">
                                         <label class="form-label">Description</label>
                                         <textarea class="form-control" name="video_description" id="exampleFormControlTextarea5"
-                                            placeholder="Enter Video Description" rows="3"></textarea>
+                                            placeholder="Enter Video Description" rows="3" required ></textarea>
                                     </div>
                                 </div>
                                 <button class="btn btn-primary" type="submit">Add Video</button>
