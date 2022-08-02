@@ -136,6 +136,11 @@ Route::resource('/orders', 'App\Http\Controllers\BackEnd\OrderController');
 Route::resource('/gallery_categories', 'App\Http\Controllers\BackEnd\GalleryCategoryController');
 // Gallery 
 Route::resource('/galleries', 'App\Http\Controllers\BackEnd\GalleryController');
+
+// video gallery
+Route::resource('/videos', 'App\Http\Controllers\BackEnd\BackEndVideoGalleryController');
+
+
 // Services category
 Route::resource('/service_categories', 'App\Http\Controllers\BackEnd\ServiceCategoryController');
 // Services 
