@@ -25,7 +25,7 @@ class BackEndVideoGalleryController extends Controller
      */
     public function create()
     {
-        //
+        return view('backend.pages_backend.videos.create');
     }
 
     /**

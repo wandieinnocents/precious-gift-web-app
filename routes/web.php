@@ -138,7 +138,7 @@ Route::resource('/gallery_categories', 'App\Http\Controllers\BackEnd\GalleryCate
 Route::resource('/galleries', 'App\Http\Controllers\BackEnd\GalleryController');
 
 // video gallery
-Route::resource('/videos', 'App\Http\Controllers\BackEnd\BackEndVideoGalleryController');
+Route::resource('/video_galleries', 'App\Http\Controllers\BackEnd\BackEndVideoGalleryController');
 
 
 // Services category
