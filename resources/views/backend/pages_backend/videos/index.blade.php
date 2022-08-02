@@ -25,8 +25,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="mb-3">
-                        <h5 class="card-title">Photos <span
-                                class="text-muted fw-normal ms-2">({{ $count_videos }})</span></h5>
+                        <h5 class="card-title">Photos <span class="text-muted fw-normal ms-2">({{ $count_videos }})</span>
+                        </h5>
                     </div>
                 </div>
 
@@ -34,7 +34,8 @@
                     <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
 
                         <div>
-                            <a href="/video_galleries/create" class="btn bg-primary text-light"><i class="bx bx-plus me-1"></i> Add
+                            <a href="/video_galleries/create" class="btn bg-primary text-light"><i
+                                    class="bx bx-plus me-1"></i> Add
                                 Video</a>
                         </div>
 
@@ -122,7 +123,8 @@
 
                                         <!-- UPDATE -->
                                         <div class="col-md-4">
-                                            <form action="{{ route('video_galleries.update', $video->id) }}" method="post">
+                                            <form action="{{ route('video_galleries.update', $video->id) }}"
+                                                method="post">
                                                 @csrf
                                                 @method('DELETE')
                                                 <a> <button class="btn btn-danger shadow btn-xs sharp"> <span
@@ -156,12 +158,19 @@
 
                                         <div class="modal-body">
 
-                                            <img src="{{ asset($video->video_thumbnail) }} "
-                                                style="width: 100%; height:60%;">
+                                            {{-- <iframe width="420" height="315" src="{!! asset($video->video_url) !!}">
+
+                                            </iframe> --}}
+
+                                            <iframe width="560" height="315" src={{ $video->video_url  }}
+                                                frameborder="0" allowfullscreen>
+                                            </iframe>
+
+
                                             <hr>
                                             <p>Video Title : {{ $video->video_title }}</p>
                                             <hr>
-                                             <p>Video Link : {{ $video->video_url }}</p>
+                                            <p>Video Link : {{ $video->video_url }}</p>
                                             <hr>
                                             <p>Description : {{ $video->video_description }}</p>
 
@@ -196,12 +205,13 @@
 
                                             <!-- form update Photo menu items -->
 
-                                            <form action="{{ route('video_galleries.update', $video->id) }}" method="post"
-                                                enctype="multipart/form-data">
+                                            <form action="{{ route('video_galleries.update', $video->id) }}"
+                                                method="post" enctype="multipart/form-data">
                                                 @csrf
                                                 @method('PATCH')
                                                 <div class="mb-3">
-                                                    <label for="recipient-name" class="col-form-label">Video Title:</label>
+                                                    <label for="recipient-name" class="col-form-label">Video
+                                                        Title:</label>
                                                     <input type="text" class="form-control" name="video_title"
                                                         value="{{ $video->video_title }}" id="recipient-name">
                                                 </div>
@@ -212,11 +222,12 @@
                                                             value="{{ $video->video_thumbnail }}" placeholder="Zip">
                                                     </div>
                                                 </div>
-                                                 <div class="col-md-6">
+                                                <div class="col-md-6">
                                                     <div class="mb-3">
-                                                        <label class="form-label" for="validationCustom05">Video URL</label>
-                                                         <input type="text" class="form-control" name="video_url"
-                                                        value="{{ $video->video_url }}" id="recipient-name">
+                                                        <label class="form-label" for="validationCustom05">Video
+                                                            URL</label>
+                                                        <input type="text" class="form-control" name="video_url"
+                                                            value="{{ $video->video_url }}" id="recipient-name">
                                                     </div>
                                                 </div>
                                                 <div class="mb-3">
