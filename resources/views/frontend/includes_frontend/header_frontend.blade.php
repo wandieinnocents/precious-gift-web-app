@@ -75,7 +75,7 @@
                                 <li class="dropdown"><a href="javascript::void(0)">Gallery</a>
                                     <ul>
                                         <li><a href="/pictures">Photos</a></li>
-                                        <li><a href="/our_videos">Videos</a></li>
+                                        <li><a href="/video_gallery">Videos</a></li>
 
                                     </ul>
                                 </li>

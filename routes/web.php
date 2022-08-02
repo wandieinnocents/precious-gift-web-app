@@ -37,6 +37,8 @@ Route::resource('/works', 'App\Http\Controllers\FrontEnd\FrontEndServiceControll
 // gallery
 Route::resource('/pictures', 'App\Http\Controllers\FrontEnd\FrontEndGalleryController');
 
+// video gallery
+Route::resource('/video_gallery', 'App\Http\Controllers\FrontEnd\FrontEndVideoGalleryController');
 
 //posts
 Route::resource('/articles', 'App\Http\Controllers\FrontEnd\FrontEndPostController');

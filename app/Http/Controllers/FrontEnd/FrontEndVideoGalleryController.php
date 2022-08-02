@@ -5,7 +5,7 @@ namespace App\Http\Controllers\FrontEnd;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class VideoGalleryController extends Controller
+class FrontEndVideoGalleryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,8 @@ class VideoGalleryController extends Controller
      */
     public function index()
     {
-        //
+        dd("Fetch Videos Here");
+        return view('frontend.pages_frontend.videos.index'); 
     }
 
     /**

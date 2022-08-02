@@ -5,7 +5,7 @@ namespace App\Http\Controllers\BackEnd;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class VideoGalleryController extends Controller
+class BackEndVideoGalleryController extends Controller
 {
     /**
      * Display a listing of the resource.
