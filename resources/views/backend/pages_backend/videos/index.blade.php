@@ -163,8 +163,6 @@
                                             <hr>
                                              <p>Video Link : {{ $video->video_url }}</p>
                                             <hr>
-
-                                            
                                             <p>Description : {{ $video->video_description }}</p>
 
                                         </div>
@@ -173,7 +171,7 @@
                                             </button>
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                                 data-bs-target="#editPhotoOrder{{ $video->id }}"
-                                                data-bs-whatever="@getbootstrap">Edit Photo</button>
+                                                data-bs-whatever="@getbootstrap">Edit Video</button>
                                         </div>
                                     </div>
                                 </div>

@@ -91,7 +91,23 @@ class BackEndVideoGalleryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $video_update = VideoCategory::find($id);
+        $video_update->video_title = $request->video_title;
+        $video_update->video_url = $request->video_url;
+        $video_update->video_description = $request->video_description;
+        // photo
+        if($request->hasfile('video_thumbnail')){
+            $file               = $request->file('video_thumbnail');
+            $extension          = $file->getClientOriginalExtension();  //get image extension
+            $filename           = time() . '.' .$extension;
+            $file->move('uploads/video_thumbnails/',$filename);
+            $video_update->video_thumbnail   = url('uploads' . '/video_thumbnails/'  . $filename);
+        }
+
+        $video_update->save();
+
+        return redirect('/video_galleries');
+   
     }
 
     /**
