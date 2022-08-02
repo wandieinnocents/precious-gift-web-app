@@ -91,7 +91,7 @@ class BackEndVideoGalleryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $video_update = VideoCategory::find($id);
+        $video_update = VideoGallery::find($id);
         $video_update->video_title = $request->video_title;
         $video_update->video_url = $request->video_url;
         $video_update->video_description = $request->video_description;

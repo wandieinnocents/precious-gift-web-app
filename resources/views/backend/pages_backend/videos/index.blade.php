@@ -201,15 +201,22 @@
                                                 @csrf
                                                 @method('PATCH')
                                                 <div class="mb-3">
-                                                    <label for="recipient-name" class="col-form-label">Name:</label>
+                                                    <label for="recipient-name" class="col-form-label">Video Title:</label>
                                                     <input type="text" class="form-control" name="video_title"
-                                                        value="{{ $video->video_name }}" id="recipient-name">
+                                                        value="{{ $video->video_title }}" id="recipient-name">
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom05">Photo</label>
                                                         <input type="file" class="form-control" name="video_thumbnail"
                                                             value="{{ $video->video_thumbnail }}" placeholder="Zip">
+                                                    </div>
+                                                </div>
+                                                 <div class="col-md-6">
+                                                    <div class="mb-3">
+                                                        <label class="form-label" for="validationCustom05">Video URL</label>
+                                                         <input type="text" class="form-control" name="video_url"
+                                                        value="{{ $video->video_url }}" id="recipient-name">
                                                     </div>
                                                 </div>
                                                 <div class="mb-3">
@@ -220,8 +227,7 @@
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary"
                                                         data-bs-dismiss="modal">Close</button>
-                                                    <!-- <button  type="submit" class="btn btn-primary">Submit</button> -->
-                                                    <button class="btn btn-primary" type="submit">Update Photo</button>
+                                                    <button class="btn btn-primary" type="submit">Update Video</button>
                                                 </div>
 
 
