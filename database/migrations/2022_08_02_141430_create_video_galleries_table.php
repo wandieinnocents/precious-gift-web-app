@@ -15,6 +15,10 @@ class CreateVideoGalleriesTable extends Migration
     {
         Schema::create('video_galleries', function (Blueprint $table) {
             $table->id();
+            $table->text('video_title');
+            $table->text('video_url');
+            $table->text('video_thumbnail');
+            $table->text('video_description');
             $table->timestamps();
         });
     }

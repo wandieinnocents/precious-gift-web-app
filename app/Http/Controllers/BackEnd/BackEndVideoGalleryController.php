@@ -4,6 +4,7 @@ namespace App\Http\Controllers\BackEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\VideoGallery;
 
 class BackEndVideoGalleryController extends Controller
 {
@@ -14,6 +15,8 @@ class BackEndVideoGalleryController extends Controller
      */
     public function index()
     {
+        $videos = VideoGallery::all();
+        dd($videos);
         return view('backend.pages_backend.videos.index');
 
     }
@@ -36,7 +39,14 @@ class BackEndVideoGalleryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $video = new VideoGallery();
+        $video->video_title = $request->video_title;
+        $video->video_url = $request->video_url;
+        $video->video_thumbnail = $request->video_thumbnail;
+        $video->video_description = $request->video_description;
+        $video->save();
+
+        return redirect('/video_categories');
     }
 
     /**
