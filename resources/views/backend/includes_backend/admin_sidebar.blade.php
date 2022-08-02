@@ -65,7 +65,7 @@
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-photo-video"></i>
 
-                        <span data-key="t-apps">Gallery</span>
+                        <span data-key="t-apps">Photos</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li>
@@ -90,14 +90,25 @@
                             </a>
                         </li>
                         {{-- video  --}}
-                        <li>
-                            <a href="/galleries">
+                      
+                    </ul>
+                </li>
+
+                {{-- Video gallery --}}
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i class="fas fa-people-carry"></i>
+                        <span data-key="t-apps">Videos</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                             <li>
+                            <a href="/video_galleries/create">
                                 <span data-key="t-chat">Add Video</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/galleries">
-                                <span data-key="t-chat">View Video</span>
+                            <a href="/video_galleries">
+                                <span data-key="t-chat">View Videos</span>
                             </a>
                         </li>
                     </ul>

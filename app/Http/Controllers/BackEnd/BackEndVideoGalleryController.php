@@ -42,11 +42,19 @@ class BackEndVideoGalleryController extends Controller
         $video = new VideoGallery();
         $video->video_title = $request->video_title;
         $video->video_url = $request->video_url;
-        $video->video_thumbnail = $request->video_thumbnail;
         $video->video_description = $request->video_description;
+        // photo
+        if($request->hasfile('video_thumbnail')){
+            $file               = $request->file('video_thumbnail');
+            $extension          = $file->getClientOriginalExtension();  //get image extension
+            $filename           = time() . '.' .$extension;
+            $file->move('uploads/video_thumbnails/',$filename);
+            $video->video_thumbnail   = url('uploads' . '/video_thumbnails/'  . $filename);
+        }
+
         $video->save();
 
-        return redirect('/video_categories');
+        return redirect('/video_galleries');
     }
 
     /**

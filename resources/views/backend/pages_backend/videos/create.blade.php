@@ -1,7 +1,7 @@
 @extends('backend.layouts_backend.master')
 
 @section('title')
-    Add Post
+    Add Video
 @endsection
 
 @section('content')
@@ -13,12 +13,12 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                        <h4 class="mb-sm-0 font-size-18">posts</h4>
+                        <h4 class="mb-sm-0 font-size-18">Add Videos </h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                                <li class="breadcrumb-item active">Posts</li>
+                                <li class="breadcrumb-item active">Videos</li>
                             </ol>
                         </div>
 
@@ -42,35 +42,47 @@
                 <div class="col-xl-6">
                     <div class="card">
                         <div class="card-header">
-                            <h4 class="card-title">Add post </h4>
+                            <h4 class="card-title">Add Video </h4>
                             <!-- <p class="card-title-desc">Add Category</p> -->
                         </div>
                         <div class="card-body">
-                            <form action="{{ route('video_galleries.store') }}" method="POST" enctype="multipart/form-data">
+                            <form action="{{ route('video_galleries.store') }}" method="POST"
+                                enctype="multipart/form-data">
                                 @csrf
                                 <div class="row">
-                                    
+
                                     <div class="col-md-12">
                                         <div class="mb-3">
                                             <label class="form-label" for="validationCustom02">Title</label>
                                             <input type="text" class="form-control" name="video_title"
-                                                id="validationCustom02" placeholder="Enter Video Title" value="" required>
+                                                id="validationCustom02" placeholder="Enter Video Title" value=""
+                                                required>
 
                                         </div>
                                     </div>
 
                                 </div>
-                                
+
                                 <div class="row">
                                     <div class="col-md-12">
-                                         <div class="mb-3">
-                                            <label class="form-label" for="validationCustom02">Video Link</label>
-                                            <input type="text" class="form-control" name="video_url"
-                                                id="validationCustom02" placeholder="Enter Video Link" value="" required>
+                                        <div class="mb-3">
+                                            <label class="form-label" for="validationCustom05">Photo Thumbnail</label>
+                                            <input type="file" class="form-control" name="video_thumbnail"
+                                                id="validationCustom05" placeholder="" required>
 
                                         </div>
                                     </div>
-                                    
+
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label class="form-label" for="validationCustom02">Video Link</label>
+                                            <input type="text" class="form-control" name="video_url"
+                                                id="validationCustom02" placeholder="Eg : Enter Video Link : https://youtube.com/video" value=""
+                                                required>
+
+                                        </div>
+                                    </div>
+
                                 </div>
 
                                 <div class="col-md-12">
