@@ -122,7 +122,7 @@
 
                                         <!-- UPDATE -->
                                         <div class="col-md-4">
-                                            <form action="{{ route('galleries.update', $video->id) }}" method="post">
+                                            <form action="{{ route('video_galleries.update', $video->id) }}" method="post">
                                                 @csrf
                                                 @method('DELETE')
                                                 <a> <button class="btn btn-danger shadow btn-xs sharp"> <span

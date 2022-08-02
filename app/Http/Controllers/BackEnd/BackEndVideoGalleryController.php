@@ -118,6 +118,9 @@ class BackEndVideoGalleryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $video = VideoGallery::findOrFail($id);
+        $video->delete();
+
+        return redirect('/video_galleries')->with('success', 'Video is successfully deleted');
     }
 }
