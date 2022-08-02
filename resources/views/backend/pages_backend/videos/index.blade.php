@@ -158,14 +158,15 @@
 
                                         <div class="modal-body">
 
-                                            {{-- <iframe width="420" height="315" src="{!! asset($video->video_url) !!}">
-
+                                            {{-- <iframe width="420" height="315"
+                                                src="https://www.youtube.com/embed/il_t1WVLNxk?autoplay=1">
                                             </iframe> --}}
 
-                                            <iframe width="560" height="315" src={{ $video->video_url  }}
-                                                frameborder="0" allowfullscreen>
+                                            <iframe width="420" height="315" src=" {{ $video->video_url }}"
+                                                allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
+                                                msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
+                                                webkitallowfullscreen="webkitallowfullscreen">
                                             </iframe>
-
 
                                             <hr>
                                             <p>Video Title : {{ $video->video_title }}</p>

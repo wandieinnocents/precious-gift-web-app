@@ -77,7 +77,7 @@
                                         <div class="mb-3">
                                             <label class="form-label" for="validationCustom02">Video Link</label>
                                             <input type="text" class="form-control" name="video_url"
-                                                id="validationCustom02" placeholder="Eg : Enter Video Link : https://youtube.com/video" value=""
+                                                id="validationCustom02" placeholder="Format : http://www.youtube.com/embed/paste_video_id" value="http://www.youtube.com/embed/paste_video_id"
                                                 required>
 
                                         </div>
