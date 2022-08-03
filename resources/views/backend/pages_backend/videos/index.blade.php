@@ -1,6 +1,7 @@
 @extends('backend.layouts_backend.master')
 
 @section('title')
+    Videos
 @endsection
 
 @section('extra_styles')

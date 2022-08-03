@@ -77,8 +77,9 @@
                                         <div class="mb-3">
                                             <label class="form-label" for="validationCustom02">Video Link</label>
                                             <input type="text" class="form-control" name="video_url"
-                                                id="validationCustom02" placeholder="Format : http://www.youtube.com/embed/paste_video_id" value="http://www.youtube.com/embed/paste_video_id"
-                                                required>
+                                                id="validationCustom02"
+                                                placeholder="Format : http://www.youtube.com/embed/paste_video_id"
+                                                value="http://www.youtube.com/embed/paste_video_id" required>
 
                                         </div>
                                     </div>
@@ -89,7 +90,7 @@
                                     <div class="mb-3">
                                         <label class="form-label">Description</label>
                                         <textarea class="form-control" name="video_description" id="exampleFormControlTextarea5"
-                                            placeholder="Enter Video Description" rows="3" required ></textarea>
+                                            placeholder="Enter Video Description" rows="3" required></textarea>
                                     </div>
                                 </div>
                                 <button class="btn btn-primary" type="submit">Add Video</button>
