@@ -16,6 +16,7 @@
         "laravelcollective/html": "^6.2",
         "mckenziearts/laravel-notify": "^2.2",
         "spatie/laravel-analytics": "*",
+        "spatie/laravel-newsletter": "^4.11",
         "spatie/laravel-permission": "^5.4"
     },
     "require-dev": {
