@@ -57,7 +57,7 @@
                 <!--Form Column--->
                 <div class="form-column col-xl-7 col-lg-12 col-md-12 col-sm-12">
                     <div class="inner">
-                        <div class="shape-box" >
+                        <div class="shape-box">
                             <h3>Working Together To Make A Difference</h3>
                         </div>
                         <div class="default-form contact-form">
@@ -112,8 +112,7 @@
                             data-paroller-direction="vertical"
                             style="transform: translateY(402px); transition: transform 0s linear 0s; will-change: transform;">
                         </div>
-                        <figure class="image" ><img
-                                src="{{ asset('assets/frontend_assets/images/resource/contact.png') }}"
+                        <figure class="image"><img src="{{ asset('assets/frontend_assets/images/resource/contact.png') }}"
                                 alt=""></figure>
                     </div>
                 </div>
@@ -127,13 +126,13 @@
                         <div class="inner">
                             <h3>Newyork</h3>
                             <ul class="info">
-                                <li><span class="fa fa-map-marker-alt"></span>Friedrich-Heller str. 1530455 Hannover
+                                <li><span class="fa fa-map-marker-alt"></span>C/O Assy Nakiyingi Bahner
+                                    Friedrich-Heller str 15
+                                    30455 Hannover
                                 </li>
                                 <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692">Phone
-                                        +256-706-897541 | +49-1521-0172509</a></li>
-                                <li style="visibility:hidden;"><span class="fa fa-phone-alt"></span> <a
-                                        href="tel:812-070-3692">Phone
-                                        Hidden field</a></li>
+                                        +49-1521-0172509 | +256-706-897541 </a></li>
+                              
 
                             </ul>
                             <ul class="social-links clearfix">
@@ -153,10 +152,11 @@
                                 <li><span class="fa fa-envelope-open"></span> <a
                                         href="mailto:info@precious-gift.org">info@precious-gift.org</a></li>
                                 <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:nakiyingiassybahner@gmail.com">nakiyingiassybahner@gmail.com</a></li>
+                                        href="mailto:nakiyingiassybahner@gmail.com">Nakiyingiassybahner@gmail.com  </a></li>
 
                                 <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:stevenssenkungu@precious-gift.org">stevenssenkungu@precious-gift.org</a></li>
+                                        href="mailto:Stevenssenkungu@precious-gift.org">Stevenssenkungu@precious-gift.org</a>
+                                </li>
 
 
 
@@ -174,15 +174,15 @@
                 </div>
             </div>
 
-            
+
         </div>
     </section>
     <div class="row">
 
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7979.440584751308!2d32.043969!3d0.40164000000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0f227b1ce21e831!2sPrecious%20Child%20Development%20Centre!5e0!3m2!1sen!2sus!4v1659799210797!5m2!1sen!2sus"
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7979.440584751308!2d32.043969!3d0.40164000000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0f227b1ce21e831!2sPrecious%20Child%20Development%20Centre!5e0!3m2!1sen!2sus!4v1659799210797!5m2!1sen!2sus"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            </div>
+    </div>
 @endsection

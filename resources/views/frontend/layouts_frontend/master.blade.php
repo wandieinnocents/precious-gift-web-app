@@ -24,6 +24,7 @@
 </head>
 
 <body>
+{{-- @include('cookie-consent::index') --}}
     <div class="page-wrapper">
         <!-- Preloader -->
         {{-- <div class="preloader">

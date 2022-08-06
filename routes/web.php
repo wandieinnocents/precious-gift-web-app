@@ -7,7 +7,6 @@ use App\Models\Post;
 
 
 
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,9 +18,11 @@ use App\Models\Post;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function (Request $request) {
 
     $posts = Post::all();
+   
+
     return view('welcome',compact('posts'));
 });
 
@@ -70,7 +71,9 @@ Route::post('/pay','App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@
 // The callback url after a payment
 Route::get('/rave/callback', 'App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@callback')->name('callback');
 
-
+// mailchimp newsletters
+Route::get('newsletter','App\Http\Controllers\FrontEnd\NewsletterController@index');
+Route::post('newsletter/store','App\Http\Controllers\FrontEnd\NewsletterController@store');
 
 
 

@@ -4,6 +4,7 @@
 @endsection
 
 @section('content')
+
     <!-- Banner Section -->
     @include('frontend.includes_frontend.slider')
     <!--End Banner Section -->
@@ -51,7 +52,7 @@
 
     <!--About Section Two-->
     <section class="about-section-two">
-
+   <p>adafaF</
         <div class="auto-container">
             <div class="row clearfix">
                 <!--Text Column-->
