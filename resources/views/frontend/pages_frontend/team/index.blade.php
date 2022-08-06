@@ -49,7 +49,7 @@
                     style="visibility: visible; animation-delay: 0ms; animation-name: fadeInLeft;">
                     <div class="inner-box">
                         <figure class="image-box"><a href="#"><img
-                                    src="{{ $staff_member_int->team_photo }}" alt=""></a>
+                                    src="{{ $staff_member_int->team_photo }}" alt="" style="max-width: 100%; height: 60%;"></a>
                         </figure>
                         <h3><a href="#">{{ $staff_member_int->team_name }}</a></h3>
                         <div class="designation">{{ $staff_member_int->team_category }} | {{ $staff_member_int->team_role }}</div>

@@ -244,11 +244,11 @@
                                                     </div>
                                                 </section> -->
 
-    <section class="call-to-action alternate">
+    <section class="call-to-action alternate" style="background-color:red;">
         <div class="image-layer"
             style="background-image:url('assets/frontend_assets/images/background/bg-pattern-1.png')"></div>
 
-        <div class="auto-container">
+        <div class="auto-container" >
             <div class="row clearfix">
                 <div class="title-column col-xl-9 col-lg-12 col-md-12 col-sm-12">
                     <h2>Fundraise To Help A Child Today</h2>
@@ -379,7 +379,7 @@
                 </div>
                 <div class="link-column col-xl-6 col-lg-6 col-md-12">
                     <div class="link-box"><a href="/articles" class="theme-btn btn-style-one"><span
-                                class="btn-title">More articles</span></a></div>
+                                class="btn-title" style="background-color:red;">More articles</span></a></div>
                 </div>
             </div>
 
@@ -389,7 +389,7 @@
                     <div class="news-block col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms">
                             <figure class="image-box"><a href="articles/{{ $post->id }}"><img
-                                        src="{{ $post->post_photo }}" alt=""></a>
+                                        src="{{ $post->post_photo }}" alt="" style="max-width: 500px; height: 300px;"></a>
                             </figure>
                             <div class="lower-box">
                                 <div class="info">Posted By : {{ $post->post_created_by }} &ensp;|&ensp;

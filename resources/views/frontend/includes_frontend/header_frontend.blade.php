@@ -65,6 +65,7 @@
                                         <li><a href="/about">About Us</a></li>
                                         <li><a href="/works">What we do</a></li>
                                         <li><a href="/our_team">Our Staff</a></li>
+                                        <li><a href="/voluteer">Voluteer</a></li>
                                         <li><a href="/our_faqs">Faq's</a></li>
                                     </ul>
                                 </li>
@@ -81,9 +82,9 @@
                         </div>
                     </nav>
                     <!-- Main Menu End-->
-                    <div class="donate-link">
-                        <a href="{{ route('donate.create') }}" class="theme-btn btn-style-one"><span
-                                class="btn-title">Donate
+                    <div class="donate-link" >
+                        <a href="{{ route('donate.create') }}" class="theme-btn btn-style-one" ><span
+                                class="btn-title" style="background-color:red;">Donate
                                 Now</span></a>
                     </div>
                 </div>

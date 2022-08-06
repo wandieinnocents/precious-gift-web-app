@@ -77,7 +77,7 @@
                                  <div class="form-group clearfix">
                                      <input type="email" name="email" value="" placeholder="Enter Your Email"
                                          required="">
-                                     <button type="submit" class="theme-btn newsletter-btn">Subscribe</button>
+                                     <button type="submit" class="theme-btn newsletter-btn" style="background-color:red;">Subscribe</button>
                                  </div>
                              </form>
                          </div>

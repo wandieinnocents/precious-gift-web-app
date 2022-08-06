@@ -57,7 +57,7 @@
                 <!--Form Column--->
                 <div class="form-column col-xl-7 col-lg-12 col-md-12 col-sm-12">
                     <div class="inner">
-                        <div class="shape-box">
+                        <div class="shape-box" >
                             <h3>Working Together To Make A Difference</h3>
                         </div>
                         <div class="default-form contact-form">
