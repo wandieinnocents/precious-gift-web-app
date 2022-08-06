@@ -62,8 +62,8 @@
                             @foreach ($photos as $photo)
                                 <!--Activity Block-->
                                 <div class="activity-block mix all animal education col-md-6 col-sm-12"
-                                    style="display: inline-block;">
-                                    <div class="inner-box">
+                                    style="display: inline-block;" >
+                                    <div class="inner-box" >
                                         <figure class="image">
                                             <img src="{{ $photo->gallery_photo }}" alt="">
                                             <a href="{{ $photo->gallery_photo }}" class="lightbox-image overlay"
@@ -155,7 +155,7 @@
                                 <div class="activity-block mix all animal education col-md-6 col-sm-12"
                                     style="display: inline-block;">
                                     <div class="inner-box">
-                                        <figure class="image">
+                                        <figure class="image" >
                                             <img src="{{ $photo->gallery_photo }}" alt="">
                                             <a href="{{ $photo->gallery_photo }}" class="lightbox-image overlay"
                                                 data-fancybox="gallery-two"><span
