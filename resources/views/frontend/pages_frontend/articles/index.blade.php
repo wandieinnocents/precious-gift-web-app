@@ -49,7 +49,7 @@
                                             <div class="image-box">
                                                 <figure class="image">
                                                     <a href="javascript::void(0)"><img src="{{ $post->post_photo }}"
-                                                            alt="" style="width: 100%; height:60%;"></a>
+                                                            alt="" style="max-width: 500px; height: 300px;"></a>
                                                 </figure>
 
                                             </div>

@@ -64,7 +64,7 @@
                                     style="display: inline-block;" >
                                     <div class="inner-box" >
                                         <figure class="image">
-                                            <img src="{{ $photo->gallery_photo }}" alt="">
+                                            <img src="{{ $photo->gallery_photo }}" alt="" style="max-width: 500px; height: 300px;">
                                             <a href="{{ $photo->gallery_photo }}" class="lightbox-image overlay"
                                                 data-fancybox="gallery-two"><span class="icon fa fa-search-plus"></span></a>
                                         </figure>
@@ -95,7 +95,7 @@
                                     style="display: inline-block;">
                                     <div class="inner-box">
                                         <figure class="image">
-                                            <img src="{{ $photo->gallery_photo }}" alt="">
+                                            <img src="{{ $photo->gallery_photo }}" alt="" style="max-width: 500px; height: 300px;">
                                             <a href="{{ $photo->gallery_photo }}" class="lightbox-image overlay"
                                                 data-fancybox="gallery-two"><span class="icon fa fa-search-plus"></span></a>
                                         </figure>
@@ -125,7 +125,7 @@
                                     style="display: inline-block;">
                                     <div class="inner-box">
                                         <figure class="image">
-                                            <img src="{{ $photo->gallery_photo }}" alt="">
+                                            <img src="{{ $photo->gallery_photo }}" alt="" style="max-width: 500px; height: 300px;">
                                             <a href="{{ $photo->gallery_photo }}" class="lightbox-image overlay"
                                                 data-fancybox="gallery-two"><span class="icon fa fa-search-plus"></span></a>
                                         </figure>

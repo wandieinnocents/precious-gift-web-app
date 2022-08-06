@@ -32,28 +32,29 @@
             <div class="row clearfix">
 
                 {{-- FETCH PROJECTS --}}
-                @foreach($projects as $project)
-               
-                <div class="cause-block col-lg-4 col-md-6 col-sm-12">
-                    <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms"
-                        style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">
-                        <div class="image-box">
-                            <figure>
-                           <img src="{{ asset($project->project_photo) }} " style="width: 100%; height:60%;">
-                            
-                            </figure>
-                            </div>
-                        <div class="lower-content">
-                            <h3><a href="our_projects/{{ $project->id }}">{{ $project->project_name }}</a></h3>
-                            <div class="cause-title"><span class="badge badge-success">{{$project->project_category_r->project_category_name  }}</span></div>
-                            <div class="text">{{ $project->project_description }}</div>
-                        </div>
-                        <div class="link-box"><a href="our_projects/{{ $project->id }}" class="theme-btn btn-style-two"><span
-                                    class="btn-title">View Details</span></a></div>
-                    </div>
-                </div>
+                @foreach ($projects as $project)
+                    <div class="cause-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms"
+                            style="visibility: visible; animation-delay: 0ms; animation-name: fadeInUp;">
+                            <div class="image-box">
+                                <figure>
+                                    <img src="{{ asset($project->project_photo) }} "
+                                        style="max-width: 500px; height: 300px;">
 
-                 @endforeach
+                                </figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="our_projects/{{ $project->id }}">{{ $project->project_name }}</a></h3>
+                                <div class="cause-title"><span
+                                        class="badge badge-success">{{ $project->project_category_r->project_category_name }}</span>
+                                </div>
+                                <div class="text">{{ $project->project_description }}</div>
+                            </div>
+                            <div class="link-box"><a href="our_projects/{{ $project->id }}"
+                                    class="theme-btn btn-style-two"><span class="btn-title">View Details</span></a></div>
+                        </div>
+                    </div>
+                @endforeach
 
             </div>
 
