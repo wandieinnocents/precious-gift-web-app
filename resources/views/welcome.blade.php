@@ -58,24 +58,29 @@
                 <div class="text-column col-lg-7 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="sec-title">
-                            <div class="sub-title"><span class="icon"></span> We believe what we achieve</div>
-                            <h2>Honesty & Respect For <br>Giving Human Resources</h2>
+                            <div class="sub-title"><span class="icon"></span> Get to Know</div>
+                            <h2>Our Background</h2>
                         </div>
                         <div class="text">
-                            Consectetur adipisicing elit usmod tempor incididunt laboret dolore magna
-                            aliquaut enim mini veniam quis trud exercitation ullamco laboris nisiut aliquip ex ea
-                            consequat. Duis aute rue dolor prehendrit lorem psum dolor sit amet consectetur
-                            adipisicing.
+                            Precious Child Development Centre is an organization based in a rural area and its major aim is
+                            helping the vulnerable children and the community at large (in poverty stricken households) so
+                            as to enhance development and to improve livelihoods. PCDC operates in Kibale Parish, Bulera
+                            Sub-County in Mityana District and Kakiri in Wakiso District in Uganda.
                         </div><br>
                         <div class="text">
-                            Consectetur adipisicing elit usmod tempor incididunt laboret dolore magna
-                            aliquaut enim mini veniam quis trud exercitation ullamco laboris nisiut aliquip ex ea
-                            consequat. Duis aute rue dolor prehendrit lorem psum dolor sit amet consectetur
-                            adipisicing.
+                            Kibaale Parish is located in Bulera sub-county, Mityana district of the republic of Uganda, 20km
+                            from Mityana Taxi Park. The parish serves as a hub for ten villages of Buleeya, Bulwanyamayinja,
+                            Bombo, Buligiya, Buwalantaama, Nalulangadde, Lubanyi, Kigabi, Kayunga, and Lusaana. The Parish
+                            is identified with scarce poor water sources, poor accommodation, poor sanitation, and high
+                            numbers of school dropouts and young mothers. A primary school which gives foundation to the
+                            rest of the villages and a small healthy centre with limited out patient services which
+                            according to the community was donated by area Member of Parliament also serving the rest of the
+                            communities.
                         </div><br>
                         <div class="text">
-                            Consectetur adipisicing elit usmod tempor incididunt laboret dolore magna
-                            aliquaut enim mini veniam quis trud exercitation ullamco laboris nisiut aliquip ex ea
+                            The core values of the organization are integrity, stewardship, excellence, and dignity. Our
+                            objectives are To educate, support and monitor the registered children and their families
+                            towards a sustainable healthy and development.
 
                         </div>
 
@@ -175,72 +180,72 @@
 
     <!--Upcoming Events Section-->
     <!-- <section class="coming-events">
-                <div class="icon-one paroller" data-paroller-factor="0.20" data-paroller-factor-lg="0.15"
-                    data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
-                    <span class="flaticon-heart-2"></span>
-                </div>
-
-                <div class="icon-two paroller" data-paroller-factor="-0.20" data-paroller-factor-lg="-0.15"
-                    data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
-                    <span class="flaticon-gift-box"></span>
-                </div>
-
-                <div class="auto-container">
-                    <div class="sec-title centered">
-                        <div class="upper-icon"></div>
-                        <h2>Upcoming Events</h2>
-                        <div class="text">Lovely events for everyone to join</div>
-                    </div>
-
-                    <div class="carousel-box">
-                        <div class="kausid-carousel owl-theme owl-carousel"
-                            data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 500, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1024":{ "items" : "2" }}}'>
-                          
-                            <div class="slide-item">
-                               
-                                <div class="event-block-two">
-                                    <div class="inner-box">
-                                        <figure class="image-box"><a href="event-single.html"><img
-                                                    src="assets/frontend_assets//resource/event-image-1.jpg" alt=""></a></figure>
-                                        <div class="lower-box">
-                                            <div class="date"><span>18</span> Aug <br>2019</div>
-                                            <h3><a href="event-single.html">Water Supply Charity & Fundrising Event For
-                                                    Needy People</a></h3>
-                                            <div class="info clearfix">
-                                                <span class="time">From 4:30 PM to 9:30 PM</span>
-                                                <span class="location">Melbourne, Australia</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="slide-item">
-                              
-                                <div class="event-block-two blue-theme">
-                                    <div class="inner-box">
-                                        <figure class="image-box"><a href="event-single.html"><img
-                                                    src="assets/frontend_assets//resource/event-image-2.jpg" alt=""></a></figure>
-                                        <div class="lower-box">
-                                            <div class="date"><span>31</span> Aug<br>2019</div>
-                                            <h3><a href="event-single.html">Grow More Trees And Save Our Planet Fundrising
-                                                    Program</a></h3>
-                                            <div class="info clearfix">
-                                                <span class="time">From 4:30 PM to 9:30 PM</span>
-                                                <span class="location">Kansas City, Newyork</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="icon-one paroller" data-paroller-factor="0.20" data-paroller-factor-lg="0.15"
+                                data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
+                                <span class="flaticon-heart-2"></span>
                             </div>
 
-                         
+                            <div class="icon-two paroller" data-paroller-factor="-0.20" data-paroller-factor-lg="-0.15"
+                                data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
+                                <span class="flaticon-gift-box"></span>
+                            </div>
 
-                        </div>
+                            <div class="auto-container">
+                                <div class="sec-title centered">
+                                    <div class="upper-icon"></div>
+                                    <h2>Upcoming Events</h2>
+                                    <div class="text">Lovely events for everyone to join</div>
+                                </div>
 
-                    </div>
-                </div>
-            </section> -->
+                                <div class="carousel-box">
+                                    <div class="kausid-carousel owl-theme owl-carousel"
+                                        data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 500, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1024":{ "items" : "2" }}}'>
+                                      
+                                        <div class="slide-item">
+                                           
+                                            <div class="event-block-two">
+                                                <div class="inner-box">
+                                                    <figure class="image-box"><a href="event-single.html"><img
+                                                                src="assets/frontend_assets//resource/event-image-1.jpg" alt=""></a></figure>
+                                                    <div class="lower-box">
+                                                        <div class="date"><span>18</span> Aug <br>2019</div>
+                                                        <h3><a href="event-single.html">Water Supply Charity & Fundrising Event For
+                                                                Needy People</a></h3>
+                                                        <div class="info clearfix">
+                                                            <span class="time">From 4:30 PM to 9:30 PM</span>
+                                                            <span class="location">Melbourne, Australia</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="slide-item">
+                                          
+                                            <div class="event-block-two blue-theme">
+                                                <div class="inner-box">
+                                                    <figure class="image-box"><a href="event-single.html"><img
+                                                                src="assets/frontend_assets//resource/event-image-2.jpg" alt=""></a></figure>
+                                                    <div class="lower-box">
+                                                        <div class="date"><span>31</span> Aug<br>2019</div>
+                                                        <h3><a href="event-single.html">Grow More Trees And Save Our Planet Fundrising
+                                                                Program</a></h3>
+                                                        <div class="info clearfix">
+                                                            <span class="time">From 4:30 PM to 9:30 PM</span>
+                                                            <span class="location">Kansas City, Newyork</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                     
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section> -->
 
     <section class="call-to-action alternate">
         <div class="image-layer"
@@ -263,101 +268,101 @@
 
     <!--Testimonials Two Section-->
     <!-- <section class="testimonials-two">
-                <div class="auto-container">
+                            <div class="auto-container">
 
-                    <div class="sec-title centered">
-                        <div class="upper-icon"></div>
-                        <h2>What People Say</h2>
-                        <div class="text">We believe what we achieve</div>
-                    </div>
+                                <div class="sec-title centered">
+                                    <div class="upper-icon"></div>
+                                    <h2>What People Say</h2>
+                                    <div class="text">We believe what we achieve</div>
+                                </div>
 
-                    <div class="carousel-box">
-                        <div class="kausid-carousel owl-theme owl-carousel"
-                            data-options='{"loop": true, "margin": 50, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "2" } , "800":{ "items" : "2" }, "1024":{ "items" : "2" }, "1200":{ "items" : "3" }}}'>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Sandy Thomas</div>
-                                        <div class="designation">Volunteer</div>
+                                <div class="carousel-box">
+                                    <div class="kausid-carousel owl-theme owl-carousel"
+                                        data-options='{"loop": true, "margin": 50, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "2" } , "800":{ "items" : "2" }, "1024":{ "items" : "2" }, "1200":{ "items" : "3" }}}'>
+                                        <div class="testimonial-block-two">
+                                            <div class="inner">
+                                                <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                    ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                    reprehenderit op luptate velit.</div>
+                                                <div class="info">
+                                                    <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                    <div class="author">Sandy Thomas</div>
+                                                    <div class="designation">Volunteer</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-block-two">
+                                            <div class="inner">
+                                                <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                    ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                    reprehenderit op luptate velit.</div>
+                                                <div class="info">
+                                                    <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                    <div class="author">Daowp johns</div>
+                                                    <div class="designation">Donator</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-block-two">
+                                            <div class="inner">
+                                                <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                    ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                    reprehenderit op luptate velit.</div>
+                                                <div class="info">
+                                                    <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                    <div class="author">Kalim Huzoor</div>
+                                                    <div class="designation">Team Member</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-block-two">
+                                            <div class="inner">
+                                                <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                    ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                    reprehenderit op luptate velit.</div>
+                                                <div class="info">
+                                                    <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                    <div class="author">Sandy Thomas</div>
+                                                    <div class="designation">Volunteer</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-block-two">
+                                            <div class="inner">
+                                                <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                    ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                    reprehenderit op luptate velit.</div>
+                                                <div class="info">
+                                                    <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                    <div class="author">Daowp johns</div>
+                                                    <div class="designation">Donator</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-block-two">
+                                            <div class="inner">
+                                                <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                    ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                    reprehenderit op luptate velit.</div>
+                                                <div class="info">
+                                                    <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                    <div class="author">Kalim Huzoor</div>
+                                                    <div class="designation">Team Member</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                       
                                     </div>
                                 </div>
                             </div>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Daowp johns</div>
-                                        <div class="designation">Donator</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Kalim Huzoor</div>
-                                        <div class="designation">Team Member</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Sandy Thomas</div>
-                                        <div class="designation">Volunteer</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Daowp johns</div>
-                                        <div class="designation">Donator</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Kalim Huzoor</div>
-                                        <div class="designation">Team Member</div>
-                                    </div>
-                                </div>
-                            </div>
-                           
-                           
-                        </div>
-                    </div>
-                </div>
-            </section> -->
+                        </section> -->
 
     <!-- News Section -->
     <section class="news-section">
