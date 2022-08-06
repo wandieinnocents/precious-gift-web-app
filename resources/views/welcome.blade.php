@@ -90,7 +90,7 @@
                 <!--Image Column-->
                 <div class="image-column col-lg-5 col-md-12 col-sm-12">
                     <div class="inner wow fadeInLeft">
-                        <figure class="image-box"><img src="assets/frontend_assets/images/resource/featured-image-4.jpg"
+                        <figure class="image-box"><img src="assets/frontend_assets/images/resource/owner-1.png"
                                 alt=""></figure>
                     </div>
                 </div>
@@ -100,8 +100,8 @@
     </section>
 
     <!--Fun Facts Section-->
-    <section class="fun-facts-two">
-        <div class="image-layer" style="background-image:url('assets/frontend_assets/images/background/parallax-bg-2.jpg')">
+    <section class="fun-facts-two" >
+        <div class="image-layer" style="background-image:url('assets/frontend_assets/images/background/a.png')">
         </div>
 
         <div class="auto-container">

@@ -8,7 +8,7 @@
     <!-- content  -->
     <!-- Page Banner Section -->
     <section class="page-banner">
-        <div class="image-layer" style="background-image: url(assets/frontend_assets/images/background/bg-page-title-2.jpg);">
+        <div class="image-layer" style="background-image: url(assets/frontend_assets/images/background/bg-title3.png);">
         </div>
 
         <div class="auto-container" style="margin-top:70px;">

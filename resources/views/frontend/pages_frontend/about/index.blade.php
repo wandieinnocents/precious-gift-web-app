@@ -8,7 +8,7 @@
     <!-- content  -->
     <!-- Page Banner Section -->
     <section class="page-banner">
-        <div class="image-layer" style="background-image: url(assets/frontend_assets/images/background/bg-page-title-2.jpg);">
+        <div class="image-layer" style="background-image: url(assets/frontend_assets/images/background/bg-title3.png);">
         </div>
 
         <div class="auto-container" style="margin-top:70px;">
@@ -55,7 +55,7 @@
                         <div class="sec-title">
                             <h2>About Us</h2>
                         </div>
-                        <div class="lower-text">Located in the hills of Mityana District of Uganda is Mboona Village which
+                        <div class="lower-text">Our organization is Located in the hills of Mityana District of Uganda is Mboona Village which
                             serves as a hub to all all the 7 (Seven) villages which make kibale parish in bulera subcounty.
 
                             The village has got one water source which is also accessed by the other surrounding villages. A
@@ -77,7 +77,7 @@
                 <!--Image Column-->
                 <div class="image-column col-lg-5 col-md-12 col-sm-12">
                     <figure class="image wow slideInRight" data-wow-delay="0ms"><img
-                            src="assets/frontend_assets/images/resource/featured-image-5.jpg" alt="" /></figure>
+                            src="assets/frontend_assets/images/resource/owner-1.png" alt="" /></figure>
                 </div>
             </div>
             {{-- about 2 --}}

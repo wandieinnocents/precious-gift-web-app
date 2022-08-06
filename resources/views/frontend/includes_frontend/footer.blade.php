@@ -1,5 +1,5 @@
  <footer class="main-footer">
-     <div class="image-layer" style="background-image:url('assets/frontend_assets/images/background/footer-bg.jpg')">
+     <div class="image-layer" style="background-image:url('assets/frontend_assets/images/background/foot.png')">
      </div>
 
      <div class="auto-container">

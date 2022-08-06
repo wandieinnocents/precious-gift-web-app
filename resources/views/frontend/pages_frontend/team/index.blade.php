@@ -9,7 +9,7 @@
     <!-- Page Banner Section -->
     <section class="page-banner">
         <div class="image-layer"
-            style="background-image: url({{ asset('assets/frontend_assets/images/background/bg-page-title-2.jpg') }});">
+            style="background-image: url({{ asset('assets/frontend_assets/images/background/bg-title3.png') }});">
         </div>
 
         <div class="auto-container">

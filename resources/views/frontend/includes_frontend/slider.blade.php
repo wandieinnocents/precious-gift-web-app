@@ -11,7 +11,6 @@
                         <div class="inner">
                             <div class="sub-title">we support the community</div>
                             <h2>We empower lives of people with need</h2>
-
                             <div class="links-box">
                                 <a href="/contact/create" class="theme-btn btn-style-two"><span
                                         class="btn-title">CONTACT</span></a>
@@ -24,10 +23,9 @@
                 </div>
             </div>
         </div>
-
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url('assets/frontend_assets/images/main-slider/5.jpg')">
+            <div class="image-layer" style="background-image:url('assets/frontend_assets/images/main-slider/slid2.png')">
             </div>
             <div class="auto-container">
                 <div class="content-box">
@@ -35,7 +33,7 @@
                         <div class="inner">
                             <div class="sub-title">we can save the world together</div>
                             <h2>We change peoples lives , one at a time.</h2>
-                             <div class="links-box">
+                            <div class="links-box">
                                 <a href="/contact/create" class="theme-btn btn-style-two"><span
                                         class="btn-title">CONTACT</span></a>
                                 {{-- <span class="theme-icon"></span> --}}
@@ -47,11 +45,9 @@
                 </div>
             </div>
         </div>
-
-
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url('assets/frontend_assets/images/main-slider/6.jpg')">
+            <div class="image-layer" style="background-image:url('assets/frontend_assets/images/main-slider/slid3.png')">
             </div>
             <div class="auto-container">
                 <div class="content-box">
@@ -59,12 +55,12 @@
                         <div class="inner">
                             <div class="sub-title">we implement projects for the better</div>
                             <h2>Running projects that benefit the community</h2>
-                            <div class="links-box">
-                                <a href="donate.html" class="theme-btn btn-style-two"><span class="btn-title">Get
-                                        involved</span></a>
-                                <span class="theme-icon"></span>
-                                <a href="about.html" class="theme-btn btn-style-three"><span class="btn-title">who we
-                                        are</span></a>
+                             <div class="links-box">
+                                <a href="/contact/create" class="theme-btn btn-style-two"><span
+                                        class="btn-title">CONTACT</span></a>
+                                {{-- <span class="theme-icon"></span> --}}
+                                <a href="/donate/create" class="theme-btn btn-style-three"><span
+                                        class="btn-title">Donate</span></a>
                             </div>
                         </div>
                     </div>

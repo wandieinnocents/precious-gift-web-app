@@ -9,7 +9,7 @@
     <!-- Page Banner Section -->
     <section class="page-banner">
         <div class="image-layer"
-            style="background-image: url({{ asset('assets/frontend_assets/images/background/bg-page-title-2.jpg') }});">
+            style="background-image: url({{ asset('assets/frontend_assets/images/background/bg-title1.png') }});">
         </div>
 
         <div class="auto-container" style="margin-top:70px;">
@@ -49,7 +49,7 @@
         <div class="auto-container">
 
             <div class="sec-title centered">
-                <div class="upper-icon"></div>
+                {{-- <div class="upper-icon"></div> --}}
                 <h2>Have any inquiry?</h2>
                 <div class="text">Leave us a message </div>
             </div>
@@ -113,7 +113,7 @@
                             style="transform: translateY(402px); transition: transform 0s linear 0s; will-change: transform;">
                         </div>
                         <figure class="image"><img
-                                src="{{ asset('assets/frontend_assets/images/resource/featured-image-3.jpg') }}"
+                                src="{{ asset('assets/frontend_assets/images/resource/contact.png') }}"
                                 alt=""></figure>
                     </div>
                 </div>
