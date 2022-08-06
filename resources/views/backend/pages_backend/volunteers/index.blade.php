@@ -52,7 +52,7 @@
                                 <td>{{ $volunteer->volunteer_phone }}</td>
                                 <td>{{ $volunteer->volunteer_email }}</td>
                                 <td>{{ $volunteer->volunteer_level_of_education }}</td>
-                                <td>{!! Str::limit($volunteer->volunteer_reason_to_join, 60, ' ...') !!}</td>
+                                <td>{!! Str::limit($volunteer->volunteer_reason_to_join, 30, ' ...') !!}</td>
                                 <td colspan="6">
                                     <div class="row">
                                         <div class="col-md-4">

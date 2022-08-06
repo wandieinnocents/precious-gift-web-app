@@ -65,7 +65,7 @@
                                 novalidate="novalidate">
                                 @csrf
                                 <div class="row clearfix">
-                                    <div class="col-md-6 col-sm-12 form-group"> 
+                                    <div class="col-md-6 col-sm-12 form-group">
                                         <div class="field-label">Full Name</div>
                                         <input type="text" name="volunteer_name" placeholder="" required="">
                                     </div>
@@ -89,7 +89,15 @@
 
                                     <div class="col-md-6 col-sm-12 form-group">
                                         <div class="field-label">Education Level</div>
-                                        <input type="text" name="volunteer_level_of_education" placeholder="" required="">
+                                        {{-- <input type="text" name="volunteer_level_of_education" placeholder="" required=""> --}}
+                                        <select name="volunteer_level_of_education" class="form-select">
+                                            <option value="certificate">PLE</option>
+                                            <option value="certificate">Certificate</option>
+                                            <option value="diploma">Diploma</option>
+                                            <option value="masters">Masters</option>
+                                            <option value="phd">PHD</option>
+                                             <option value="phd">None</option>
+                                        </select>
                                     </div>
                                     <div class="col-md-6 col-sm-12 form-group">
                                         <div class="field-label">Date of birth</div>
@@ -97,8 +105,8 @@
                                     </div>
                                     <div class="col-md-12 col-sm-12 form-group">
                                         <div class="field-label">Upload your Photo</div>
-                                        <input type="file" class="form-control" name="volunteer_photo"
-                                            placeholder="" required>
+                                        <input type="file" class="form-control" name="volunteer_photo" placeholder=""
+                                            required>
 
                                     </div>
 
