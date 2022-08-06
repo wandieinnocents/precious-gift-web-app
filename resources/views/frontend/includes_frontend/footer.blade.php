@@ -48,7 +48,8 @@
                                      <li><span class="fa fa-envelope-open"></span> <a
                                              href="mailto:info@precious-gift.org">info@precious-gift.org</a></li>
                                      <li><span class="fa fa-envelope-open"></span> <a
-                                             href="mailto:nakiyingiassybahner@gmail.com">nakiyingiassybahner@gmail.com</a></li>
+                                             href="mailto:nakiyingiassybahner@gmail.com">nakiyingiassybahner@gmail.com</a>
+                                     </li>
 
                                      <li><span class="fa fa-envelope-open"></span> <a
                                              href="mailto:stevenssenkungu@precious-gift.org">stevenssenkungu@precious-gift.org</a>
@@ -57,7 +58,7 @@
 
 
                                  </ul>
-                                 
+
                              </div>
                          </div>
                      </div>
@@ -72,12 +73,26 @@
                  <div class="footer-widget info-widget">
                      <div class="widget-content">
                          <h3>Subscribe Our Newsletter</h3>
+                         
                          <div class="newsletter-form">
-                             <form method="post" action="#">
+                         {{-- success or failre msg --}}
+                         @if (\Session::has('success'))
+                             <div class="alert alert-success">
+                                 <p>{{ \Session::get('success') }}</p>
+                             </div><br />
+                         @endif
+                         @if (\Session::has('failure'))
+                             <div class="alert alert-danger">
+                                 <p>{{ \Session::get('failure') }}</p>
+                             </div><br />
+                         @endif
+                             <form method="post" action="{{ url('newsletter/store') }}">
+                                 @csrf
                                  <div class="form-group clearfix">
                                      <input type="email" name="email" value="" placeholder="Enter Your Email"
                                          required="">
-                                     <button type="submit" class="theme-btn newsletter-btn" style="background-color:red;">Subscribe</button>
+                                     <button type="submit" class="theme-btn newsletter-btn"
+                                         style="background-color:red;">Subscribe</button>
                                  </div>
                              </form>
                          </div>

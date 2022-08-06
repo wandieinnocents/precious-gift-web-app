@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
 use App\Models\Post;
-
+use Newsletter;
 
 
 
@@ -19,9 +19,16 @@ use App\Models\Post;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function (Request $request) {
 
     $posts = Post::all();
+    // if ( ! Newsletter::isSubscribed($request->email) ) 
+    // {
+    //     Newsletter::subscribePending($request->email);
+    //     return redirect('/')->with('success', 'Thanks For Your WEB Subscription');
+    // }
+    // return redirect('/')->with('failure', 'Sorry! You have already subscribed ');
+
     return view('welcome',compact('posts'));
 });
 
@@ -71,8 +78,8 @@ Route::post('/pay','App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@
 Route::get('/rave/callback', 'App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@callback')->name('callback');
 
 // mailchimp newsletters
-Route::get('newsletter','NewsletterController@index');
-Route::post('newsletter/store','NewsletterController@store');
+Route::get('newsletter','App\Http\Controllers\FrontEnd\NewsletterController@index');
+Route::post('newsletter/store','App\Http\Controllers\FrontEnd\NewsletterController@store');
 
 
 
