@@ -87,7 +87,7 @@
                 <div class="text-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="lower-text">
-                        Precious Child Development Centre is an organization based in a rural area
+                            Precious Child Development Centre is an organization based in a rural area
                             and its major aim is helping the vulnerable children and the community at large (in poverty
                             stricken households) so as to enhance development and to improve livelihoods. PCDC operates in
                             Kibale Parish, Bulera Sub-County in Mityana District and Kakiri in Wakiso District in Uganda.
@@ -125,10 +125,98 @@
                 </div>
             </div>
         </div>
-        
+
+        </div>
+    </section>
+    <br><br>
+    <!--Moto Section-->
+    <div class="sec-title centered">
+        <h2>Fundraise To Help A Child Today</h2>
+        <div class="text">We offer assistance to a large number of children <br> in Uganda, your assistance means alot to us,
+            Help a child by <br>offering to donate anything.</div>
+    </div>
+
+    <section class="our-moto">
+        <div class="auto-container">
+            <div class="inner-container">
+                <div class="row clearfix">
+                    <!--Moto Block-->
+                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                {{-- <div class="icon"><span class="flaticon-care"></span></div> --}}
+                                <h3>Mission</h3>
+                                <div class="text">To Love and Care for the vulnerable Children to develop socially,
+                                    physically, Economically and spiritualy into responsible people/ citizens.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Moto Block-->
+                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                {{-- <div class="icon"><span class="flaticon-pigeon"></span></div> --}}
+                                <h3>Vision</h3>
+                                <div class="text">To serve as children advocates to enable them lead better lives.​</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Moto Block-->
+                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                {{-- <div class="icon"><span class="flaticon-harvest"></span></div> --}}
+                                <h3>Core Values</h3>
+                                <div class="text">Integrity, Stewardship, Excellence, and Dignity.​</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <br><br><br>
+    <!--Moto Section-->
+    <section class="our-moto">
+        <div class="auto-container">
+            <div class="inner-container">
+                <div class="row clearfix">
+                    <!--Moto Block-->
+                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-care"></span></div>
+                                <h3>Mission</h3>
+                                <div class="text">To Love and Care for the vulnerable Children to develop socially,
+                                    physically, Economically and spiritualy into responsible people/ citizens.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Moto Block-->
+                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-pigeon"></span></div>
+                                <h3>Vision</h3>
+                                <div class="text">To serve as children advocates to enable them lead better lives.​</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Moto Block-->
+                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="icon"><span class="flaticon-harvest"></span></div>
+                                <h3>Core Values</h3>
+                                <div class="text">Integrity, Stewardship, Excellence, and Dignity.​</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Fun Facts Section-->
     <section class="fun-facts-section">
         <div class="auto-container">
@@ -147,7 +235,8 @@
                     <!--Column-->
                     <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                         <div class="inner-box">
-                            <div class="count-box"><span class="count-text" data-speed="306" data-stop="306">0</span></div>
+                            <div class="count-box"><span class="count-text" data-speed="306" data-stop="306">0</span>
+                            </div>
                             <div class="counter-title">Causes Solved</div>
                         </div>
                     </div>
@@ -192,88 +281,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!--Default Section-->
-    <section class="default-section">
-        <div class="auto-container">
-
-            <div class="row clearfix">
-                <!--Text Column-->
-                <div class="text-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner">
-                        <h2>Don’t Just Give. Make Your Money Count Everywhere!</h2>
-                        <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut psum
-                            dolore magna aliqua minim.</div>
-                        <div class="info-list">
-                            <ul class="clearfix">
-                                <li>
-                                    <div class="icon"><span class="flaticon-first-aid-kit"></span></div><span
-                                        class="title">Medical</span>
-                                </li>
-                                <li>
-                                    <div class="icon"><span class="flaticon-book"></span></div><span
-                                        class="title">Education</span>
-                                </li>
-                                <li>
-                                    <div class="icon"><span class="flaticon-shelter"></span></div><span
-                                        class="title">Shelter</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--Faq Column-->
-                <div class="faq-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="accordion-box">
-                        <!--Block-->
-                        <div class="accordion block current wow fadeInUp" data-wow-delay="0ms"
-                            data-wow-duration="1500ms">
-                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> We better help the
-                                people in need <div class="icon flaticon-cross"></div>
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis
-                                        veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis
-                                        rue dolor prehendrit lorem sed ipsum torabs.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Block-->
-                        <div class="accordion block wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                            <div class="acc-btn"><span class="icon-box flaticon-blood-2"></span> Our aim to provide clean
-                                water <div class="icon flaticon-cross"></div>
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis
-                                        veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis
-                                        rue dolor prehendrit lorem sed ipsum torabs.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Block-->
-                        <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Raise funds in
-                                response to a disaster <div class="icon flaticon-cross"></div>
-                            </div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis
-                                        veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis
-                                        rue dolor prehendrit lorem sed ipsum torabs.</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
         </div>
     </section>
 @endsection
