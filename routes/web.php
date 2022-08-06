@@ -4,7 +4,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
 use App\Models\Post;
-use Newsletter;
 
 
 
@@ -22,12 +21,7 @@ use Newsletter;
 Route::get('/', function (Request $request) {
 
     $posts = Post::all();
-    // if ( ! Newsletter::isSubscribed($request->email) ) 
-    // {
-    //     Newsletter::subscribePending($request->email);
-    //     return redirect('/')->with('success', 'Thanks For Your WEB Subscription');
-    // }
-    // return redirect('/')->with('failure', 'Sorry! You have already subscribed ');
+   
 
     return view('welcome',compact('posts'));
 });

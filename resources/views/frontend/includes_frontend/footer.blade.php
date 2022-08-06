@@ -40,19 +40,20 @@
                              <div class="inner">
                                  <h3>Emails</h3>
                                  <ul class="info">
-                                     <li><span class="fa fa-map-marker-alt"></span> Friedrich-Heller str. 1530455
-                                         Hannover
+                                     <li><span class="fa fa-map-marker-alt"></span> C/O Assy Nakiyingi Bahner
+                                         Friedrich-Heller str 15
+                                         30455 Hannover
                                      </li>
                                      <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692"> Phone
-                                             +256-706-897541 | +49-1521-0172509</a></li>
+                                             +49-1521-0172509 | +256-706-897541 </a></li>
                                      <li><span class="fa fa-envelope-open"></span> <a
                                              href="mailto:info@precious-gift.org">info@precious-gift.org</a></li>
                                      <li><span class="fa fa-envelope-open"></span> <a
-                                             href="mailto:nakiyingiassybahner@gmail.com">nakiyingiassybahner@gmail.com</a>
+                                             href="mailto:nakiyingiassybahner@gmail.com">Nakiyingiassybahner@gmail.com </a>
                                      </li>
 
                                      <li><span class="fa fa-envelope-open"></span> <a
-                                             href="mailto:stevenssenkungu@precious-gift.org">stevenssenkungu@precious-gift.org</a>
+                                             href="mailto:Stevenssenkungu@precious-gift.org">Stevenssenkungu@precious-gift.org</a>
                                      </li>
 
 
@@ -73,19 +74,19 @@
                  <div class="footer-widget info-widget">
                      <div class="widget-content">
                          <h3>Subscribe Our Newsletter</h3>
-                         
+
                          <div class="newsletter-form">
-                         {{-- success or failre msg --}}
-                         @if (\Session::has('success'))
-                             <div class="alert alert-success">
-                                 <p>{{ \Session::get('success') }}</p>
-                             </div><br />
-                         @endif
-                         @if (\Session::has('failure'))
-                             <div class="alert alert-danger">
-                                 <p>{{ \Session::get('failure') }}</p>
-                             </div><br />
-                         @endif
+                             {{-- success or failre msg --}}
+                             @if (\Session::has('success'))
+                                 <div class="alert alert-success">
+                                     <p>{{ \Session::get('success') }}</p>
+                                 </div><br />
+                             @endif
+                             @if (\Session::has('failure'))
+                                 <div class="alert alert-danger">
+                                     <p>{{ \Session::get('failure') }}</p>
+                                 </div><br />
+                             @endif
                              <form method="post" action="{{ url('newsletter/store') }}">
                                  @csrf
                                  <div class="form-group clearfix">
