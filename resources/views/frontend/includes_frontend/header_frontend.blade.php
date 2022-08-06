@@ -70,7 +70,7 @@
                                         <li><a href="/about">About Us</a></li>
                                         <li><a href="/works">What we do</a></li>
                                         <li><a href="/our_team">Our Staff</a></li>
-                                        <li><a href="/voluteer">Voluteer</a></li>
+                                        <li><a href="/join_volunteers/create">Voluteer</a></li>
                                         <li><a href="/our_faqs">Faq's</a></li>
                                     </ul>
                                 </li>

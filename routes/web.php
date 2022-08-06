@@ -74,6 +74,8 @@ Route::get('/rave/callback', 'App\Http\Controllers\FrontEnd\FlutterwavePaymentsC
 // mailchimp newsletters
 Route::get('newsletter','App\Http\Controllers\FrontEnd\NewsletterController@index');
 Route::post('newsletter/store','App\Http\Controllers\FrontEnd\NewsletterController@store');
+// volunteers
+Route::resource('join_volunteers','App\Http\Controllers\FrontEnd\FrontEndVolunteerController');
 
 
 
@@ -154,6 +156,8 @@ Route::resource('/services', 'App\Http\Controllers\BackEnd\ServiceController');
 Route::resource('/project_categories', 'App\Http\Controllers\BackEnd\ProjectCategoryController');
 // Projects
 Route::resource('/projects', 'App\Http\Controllers\BackEnd\ProjectController');
+// volunteers
+Route::resource('/volunteers', 'App\Http\Controllers\BackEnd\BackEndVolunteerController');
 
 });
 
