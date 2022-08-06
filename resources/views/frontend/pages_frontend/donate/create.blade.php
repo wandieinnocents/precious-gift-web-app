@@ -39,14 +39,13 @@ Gallery
                 <div class="text-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner">
                         <h2>Donation</h2>
-                        <div class="text">Auis nostrud exercitation ullam laboris aliquip exsed consequat duis aut psum dolore magna aliqua minim.</div>
-                        <div class="info-list">
-                            <ul class="clearfix">
-                                <li><div class="icon"><span class="flaticon-first-aid-kit"></span></div><span class="title">Medical</span></li>
-                                <li><div class="icon"><span class="flaticon-book"></span></div><span class="title">Education</span></li>
-                                <li><div class="icon"><span class="flaticon-shelter"></span></div><span class="title">Shelter</span></li>
-                            </ul>
-                        </div>
+                        <div class="text">We use the donations to support the community and make this world a better place , we work as a team to deliver the best to the world.</div>
+                        <p class="text" style="margin-top:-30px;"><strong>BENEFICIARY NAME </strong>: Precious Gift e. V.</p>
+                        <p class="text" style="margin-top:-40px;"><strong>BANK NAME</strong> : Deutsche Postbank AG​</p>
+                        <p class="text" style="margin-top:-40px;"><strong>IBAN</strong>: DE90100100100941776103​</p>
+                        <p class="text" style="margin-top:-40px;"><strong>BIC</strong>: PBNKDEFF​
+
+</p>
                     </div>
                 </div>
                 <!--Faq Column-->
@@ -54,30 +53,22 @@ Gallery
                     <div class="accordion-box">
                         <!--Block-->
                         <div class="accordion block current wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> We better help the people in need <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-btn active"><span class="icon-box flaticon-world-1"></span> How to donate<div class="icon flaticon-cross"></div></div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <div class="text">iam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                    <div class="text">To make a donation , use the account numbers on our platform , the beneficiary name is Precious Gift e. V then make a donation which will go to precious child account.</div>
                                 </div>
                             </div>
                         </div> 
 
-                        <!--Block-->
-                        <div class="accordion block wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                            <div class="acc-btn"><span class="icon-box flaticon-blood-2"></span> Our aim to provide clean water <div class="icon flaticon-cross"></div></div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
-                                </div>
-                            </div>
-                        </div>
+                        
 
                         <!--Block-->
                         <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Raise funds in response to a disaster <div class="icon flaticon-cross"></div></div>
+                            <div class="acc-btn"><span class="icon-box flaticon-donation-2"></span> Payment Platforms <div class="icon flaticon-cross"></div></div>
                             <div class="acc-content">
                                 <div class="content">
-                                    <div class="text">Alit usmod tempor incididunt laboret doloe magn aliquaut enis veniam quis trud exercitation ullamco laboris nisiut aliquip. Exea consequat duis rue dolor prehendrit lorem sed ipsum torabs.</div>
+                                    <div class="text">We use bank to make direct deposits for the donations.</div>
                                 </div>
                             </div>
                         </div>
