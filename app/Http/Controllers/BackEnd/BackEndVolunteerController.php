@@ -4,6 +4,7 @@ namespace App\Http\Controllers\BackEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Volunteer;
 
 class BackEndVolunteerController extends Controller
 {
@@ -14,7 +15,10 @@ class BackEndVolunteerController extends Controller
      */
     public function index()
     {
-        return "volunteer back";
+        $volunteers = Volunteer::all();
+        $count_volunteers = Volunteer::count();
+        // dd($volunteers);
+        return view('backend.pages_backend.volunteers.index',compact('volunteers','count_volunteers'));
     }
 
     /**
@@ -80,6 +84,9 @@ class BackEndVolunteerController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $volunteer = Volunteer::findOrFail($id);
+        $volunteer->delete();
+
+        return redirect('/volunteers')->with('success', 'Volunteer is successfully deleted');
     }
 }

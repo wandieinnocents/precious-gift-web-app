@@ -61,11 +61,11 @@
                             <h3>Working Together To Make A Difference</h3>
                         </div>
                         <div class="default-form contact-form">
-                            <form method="post" action="{{ route('join_volunteers.store') }}" id="contact-form"
+                            <form method="post" action="{{ route('join_volunteers.store') }}" enctype="multipart/form-data"
                                 novalidate="novalidate">
                                 @csrf
                                 <div class="row clearfix">
-                                    <div class="col-md-6 col-sm-12 form-group">
+                                    <div class="col-md-6 col-sm-12 form-group"> 
                                         <div class="field-label">Full Name</div>
                                         <input type="text" name="volunteer_name" placeholder="" required="">
                                     </div>
@@ -98,7 +98,7 @@
                                     <div class="col-md-12 col-sm-12 form-group">
                                         <div class="field-label">Upload your Photo</div>
                                         <input type="file" class="form-control" name="volunteer_photo"
-                                            id="validationCustom05" placeholder="" required>
+                                            placeholder="" required>
 
                                     </div>
 
