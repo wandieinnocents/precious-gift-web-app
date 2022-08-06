@@ -20,8 +20,7 @@
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Pages</a></li>
-                    <li class="active">Projects</li>
+                    <li class="active">Videos</li>
                 </ul>
             </div>
         </div>
