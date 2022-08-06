@@ -50,8 +50,8 @@
 
             <div class="sec-title centered">
                 <div class="upper-icon"></div>
-                <h2>Spread The Love &amp; Get Involved!</h2>
-                <div class="text">Join Us To Save The World Of Humanitarian And Feel Happy To Support</div>
+                <h2>Have any inquiry?</h2>
+                <div class="text">Leave us a message </div>
             </div>
             <div class="row clearfix">
                 <!--Form Column--->
@@ -63,7 +63,7 @@
                         <div class="default-form contact-form">
                             <form method="post" action="{{ route('contact.store') }}" id="contact-form"
                                 novalidate="novalidate">
-                                 @csrf
+                                @csrf
                                 <div class="row clearfix">
                                     <div class="col-md-6 col-sm-12 form-group">
                                         <div class="field-label">Your Name</div>
@@ -123,16 +123,17 @@
             <div class="info-container">
                 <div class="row clearfix">
                     <!--Info Block-->
-                    <div class="info-block bg-blue col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="info-block bg-blue col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="inner">
                             <h3>Newyork</h3>
                             <ul class="info">
-                                <li><span class="fa fa-map-marker-alt"></span> 91 Glenview Drive, Florence, Newyork 29501
-                                    USA</li>
+                                <li><span class="fa fa-map-marker-alt"></span>Friedrich-Heller str. 1530455 Hannover
+                                </li>
                                 <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692">Phone
-                                        812-070-3692</a></li>
-                                <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:donations@example.org">donations@example.org</a></li>
+                                        +256-706-897541 | +49-1521-0172509</a></li>
+                                         <li style="visibility:hidden;"><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692">Phone
+                                        Hidden field</a></li>
+
                             </ul>
                             <ul class="social-links clearfix">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
@@ -144,16 +145,20 @@
                         </div>
                     </div>
                     <!--Info Block-->
-                    <div class="info-block bg-light-blue col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="info-block bg-light-blue col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="inner">
-                            <h3>North Carolina</h3>
+                            <h3>Emails</h3>
                             <ul class="info">
-                                <li><span class="fa fa-map-marker-alt"></span> 91 Glenview Drive, Florence, Newyork 29501
-                                    USA</li>
-                                <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692">Phone
-                                        812-070-3692</a></li>
                                 <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:donations@example.org">donations@example.org</a></li>
+                                        href="mailto:donations@example.org">info@precious-gift.org</a></li>
+                                <li><span class="fa fa-envelope-open"></span> <a
+                                        href="mailto:donations@example.org">nakiyingiassybahner@gmail.com</a></li>
+
+                                <li><span class="fa fa-envelope-open"></span> <a
+                                        href="mailto:donations@example.org">stevenssenkungu@precious-gift.org</a></li>
+
+
+
                             </ul>
                             <ul class="social-links clearfix">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
@@ -164,27 +169,7 @@
                             </ul>
                         </div>
                     </div>
-                    <!--Info Block-->
-                    <div class="info-block bg-red col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner">
-                            <h3>Kenya &amp; Uganda</h3>
-                            <ul class="info">
-                                <li><span class="fa fa-map-marker-alt"></span> 91 Glenview Drive, Florence, Newyork 29501
-                                    USA</li>
-                                <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692">Phone
-                                        812-070-3692</a></li>
-                                <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:donations@example.org">donations@example.org</a></li>
-                            </ul>
-                            <ul class="social-links clearfix">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
-                                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                                <li><a href="#"><span class="fab fa-youtube"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
