@@ -9,20 +9,22 @@
                         <div class="content-box">
                             <div class="content">
                                 <div class="inner">
-                                    <div class="sub-title">support the causes that matters</div>
-                                    <h2>Empowering the lives of needy people</h2>
+                                    <div class="sub-title">we support the community</div>
+                                    <h2>We empower lives of people with need</h2>
+                                    
                                     <div class="links-box">
-                                        <a href="donate.html" class="theme-btn btn-style-two"><span
-                                                class="btn-title">Get involved</span></a>
-                                        <span class="theme-icon"></span>
-                                        <a href="about.html" class="theme-btn btn-style-three"><span
-                                                class="btn-title">who we are</span></a>
+                                        <a href="/contact/create" class="theme-btn btn-style-two"><span
+                                                class="btn-title">CONTACT</span></a>
+                                        {{-- <span class="theme-icon"></span> --}}
+                                        <a href="/donate/create" class="theme-btn btn-style-three"><span
+                                                class="btn-title">Donate</span></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
                 <!-- Slide Item -->
                 <div class="slide-item">
                     <div class="image-layer"
