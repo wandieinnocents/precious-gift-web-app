@@ -35,7 +35,28 @@ class FrontEndVolunteerController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $volunteer = new Volunteer();
+        $volunteer->volunteer_name       = $request->volunteer_name;
+        $volunteer->volunteer_dob        = $request->volunteer_dob;
+        $volunteer->volunteer_address    = $request->volunteer_address;
+        $volunteer->volunteer_phone    = $request->volunteer_phone;
+        $volunteer->volunteer_email    = $request->volunteer_email;
+        $volunteer->volunteer_level_of_education    = $request->volunteer_level_of_education;
+        $volunteer->volunteer_reason_to_join    = $request->volunteer_reason_to_join;
+    
+        // photo
+        if($request->hasfile('volunteer_photo')){
+            $file               = $request->file('project_photo');
+            $extension          = $file->getClientOriginalExtension();  //get image extension
+            $filename           = time() . '.' .$extension;
+            $file->move('uploads/volunteer_photos/',$filename);
+            $volunteer->volunteer_photo   = url('uploads' . '/volunteer_photos/'  . $filename);
+        }
+    
+        
+        $volunteer->save();
+    
+        return redirect('/projects');
     }
 
     /**

@@ -61,7 +61,7 @@
                             <h3>Working Together To Make A Difference</h3>
                         </div>
                         <div class="default-form contact-form">
-                            <form method="post" action="{{ route('contact.store') }}" id="contact-form"
+                            <form method="post" action="{{ route('join_volunteers.store') }}" id="contact-form"
                                 novalidate="novalidate">
                                 @csrf
                                 <div class="row clearfix">
