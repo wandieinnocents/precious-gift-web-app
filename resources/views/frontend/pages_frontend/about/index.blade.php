@@ -53,7 +53,6 @@
                 <div class="text-column col-lg-7 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="sec-title">
-                            <div class="sub-title">Know</div>
                             <h2>About Us</h2>
                         </div>
                         <div class="lower-text">Located in the hills of Mityana District of Uganda is Mboona Village which
@@ -128,95 +127,8 @@
 
         </div>
     </section>
-    <br><br>
-    <!--Moto Section-->
-    <div class="sec-title centered">
-        <h2>Fundraise To Help A Child Today</h2>
-        <div class="text">We offer assistance to a large number of children <br> in Uganda, your assistance means alot to us,
-            Help a child by <br>offering to donate anything.</div>
-    </div>
-
-    <section class="our-moto">
-        <div class="auto-container">
-            <div class="inner-container">
-                <div class="row clearfix">
-                    <!--Moto Block-->
-                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="inner">
-                                {{-- <div class="icon"><span class="flaticon-care"></span></div> --}}
-                                <h3>Mission</h3>
-                                <div class="text">To Love and Care for the vulnerable Children to develop socially,
-                                    physically, Economically and spiritualy into responsible people/ citizens.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Moto Block-->
-                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="inner">
-                                {{-- <div class="icon"><span class="flaticon-pigeon"></span></div> --}}
-                                <h3>Vision</h3>
-                                <div class="text">To serve as children advocates to enable them lead better lives.​</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Moto Block-->
-                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="inner">
-                                {{-- <div class="icon"><span class="flaticon-harvest"></span></div> --}}
-                                <h3>Core Values</h3>
-                                <div class="text">Integrity, Stewardship, Excellence, and Dignity.​</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <br><br><br>
-    <!--Moto Section-->
-    <section class="our-moto">
-        <div class="auto-container">
-            <div class="inner-container">
-                <div class="row clearfix">
-                    <!--Moto Block-->
-                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="inner">
-                                <div class="icon"><span class="flaticon-care"></span></div>
-                                <h3>Mission</h3>
-                                <div class="text">To Love and Care for the vulnerable Children to develop socially,
-                                    physically, Economically and spiritualy into responsible people/ citizens.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Moto Block-->
-                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="inner">
-                                <div class="icon"><span class="flaticon-pigeon"></span></div>
-                                <h3>Vision</h3>
-                                <div class="text">To serve as children advocates to enable them lead better lives.​</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Moto Block-->
-                    <div class="moto-block col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="inner">
-                                <div class="icon"><span class="flaticon-harvest"></span></div>
-                                <h3>Core Values</h3>
-                                <div class="text">Integrity, Stewardship, Excellence, and Dignity.​</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
+  
     <!--Fun Facts Section-->
     <section class="fun-facts-section">
         <div class="auto-container">

@@ -65,6 +65,7 @@
                                 <li class="dropdown"><a href="javascript::void(0)">Know Us</a>
                                     <ul>
                                         <li><a href="/about">About Us</a></li>
+                                        <li><a href="/works">What we do</a></li>
                                         <li><a href="/our_team">Our Staff</a></li>
                                         <li><a href="/our_faqs">Faq's</a></li>
 
