@@ -13,7 +13,7 @@ class NewsletterController extends Controller
     {
         // return view('newsletter');
         // dd("adfaf");
-        return view('/');
+        return view('frontend.pages_frontend.newsletters.create');
     }
 
     // store data
