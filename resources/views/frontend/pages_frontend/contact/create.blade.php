@@ -13,15 +13,14 @@
         </div>
 
         <div class="auto-container" style="margin-top:70px;">
-            <h1>About Us</h1>
+            <h1>Contact Us</h1>
         </div>
 
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Pages</a></li>
-                    <li class="active">About</li>
+                    <li class="active">Contact Us</li>
                 </ul>
             </div>
         </div>

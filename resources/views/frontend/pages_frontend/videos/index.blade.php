@@ -13,7 +13,7 @@
         </div>
 
         <div class="auto-container" style="margin-top:70px;">
-            <h1>Projects</h1>
+            <h1>Videos</h1>
         </div>
 
         <div class="breadcrumb-box">
