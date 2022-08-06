@@ -112,7 +112,7 @@
                             data-paroller-direction="vertical"
                             style="transform: translateY(402px); transition: transform 0s linear 0s; will-change: transform;">
                         </div>
-                        <figure class="image"><img
+                        <figure class="image" ><img
                                 src="{{ asset('assets/frontend_assets/images/resource/contact.png') }}"
                                 alt=""></figure>
                     </div>
@@ -174,7 +174,10 @@
                 </div>
             </div>
 
-            <div class="row">
+            
+        </div>
+    </section>
+    <div class="row">
 
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7979.440584751308!2d32.043969!3d0.40164000000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0f227b1ce21e831!2sPrecious%20Child%20Development%20Centre!5e0!3m2!1sen!2sus!4v1659799210797!5m2!1sen!2sus"
@@ -182,6 +185,4 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
-        </div>
-    </section>
 @endsection
