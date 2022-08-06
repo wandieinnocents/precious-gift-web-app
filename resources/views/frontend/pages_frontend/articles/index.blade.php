@@ -18,8 +18,7 @@
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Pages</a></li>
+                    <li><a href="/">Home</a></li>
                     <li class="active">Blogs</li>
                 </ul>
             </div>
@@ -49,7 +48,8 @@
                                         <div class="inner-box">
                                             <div class="image-box">
                                                 <figure class="image">
-                                                    <a href="javascript::void(0)"><img  src="{{ $post->post_photo }}" alt="" style="width: 100%; height:60%;"></a>
+                                                    <a href="javascript::void(0)"><img src="{{ $post->post_photo }}"
+                                                            alt="" style="width: 100%; height:60%;"></a>
                                                 </figure>
 
                                             </div>

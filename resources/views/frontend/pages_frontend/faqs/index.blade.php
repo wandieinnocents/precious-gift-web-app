@@ -19,8 +19,7 @@
         <div class="breadcrumb-box">
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Pages</a></li>
+                    <li><a href="/">Home</a></li>
                     <li class="active">Faqs</li>
                 </ul>
             </div>
