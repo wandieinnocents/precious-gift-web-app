@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
+use App\Models\Post;
 
 
 
@@ -20,7 +21,8 @@ use App\Http\Controllers;
 
 Route::get('/', function () {
 
-    return view('welcome');
+    $posts = Post::all();
+    return view('welcome',compact('posts'));
 });
 
 

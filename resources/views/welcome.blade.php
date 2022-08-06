@@ -111,7 +111,7 @@
                 <div class="row clearfix">
 
                     <div class="text-column col-lg-6 col-md-12 col-sm-12">
-                        <div class="inner" >
+                        <div class="inner">
                             <h2>You can be part of <br>Our organization</h2>
                             <div class="text">PRECIOUS GIFT E.V is a community based organisation aimed to carry out the
                                 developments of Kibale Parish, Bulera Sub-County, Mityana district in Uganda.
@@ -177,72 +177,72 @@
 
     <!--Upcoming Events Section-->
     <!-- <section class="coming-events">
-                                        <div class="icon-one paroller" data-paroller-factor="0.20" data-paroller-factor-lg="0.15"
-                                            data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
-                                            <span class="flaticon-heart-2"></span>
-                                        </div>
-
-                                        <div class="icon-two paroller" data-paroller-factor="-0.20" data-paroller-factor-lg="-0.15"
-                                            data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
-                                            <span class="flaticon-gift-box"></span>
-                                        </div>
-
-                                        <div class="auto-container">
-                                            <div class="sec-title centered">
-                                                <div class="upper-icon"></div>
-                                                <h2>Upcoming Events</h2>
-                                                <div class="text">Lovely events for everyone to join</div>
-                                            </div>
-
-                                            <div class="carousel-box">
-                                                <div class="kausid-carousel owl-theme owl-carousel"
-                                                    data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 500, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1024":{ "items" : "2" }}}'>
-                                                  
-                                                    <div class="slide-item">
-                                                       
-                                                        <div class="event-block-two">
-                                                            <div class="inner-box">
-                                                                <figure class="image-box"><a href="event-single.html"><img
-                                                                            src="assets/frontend_assets//resource/event-image-1.jpg" alt=""></a></figure>
-                                                                <div class="lower-box">
-                                                                    <div class="date"><span>18</span> Aug <br>2019</div>
-                                                                    <h3><a href="event-single.html">Water Supply Charity & Fundrising Event For
-                                                                            Needy People</a></h3>
-                                                                    <div class="info clearfix">
-                                                                        <span class="time">From 4:30 PM to 9:30 PM</span>
-                                                                        <span class="location">Melbourne, Australia</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div class="slide-item">
-                                                      
-                                                        <div class="event-block-two blue-theme">
-                                                            <div class="inner-box">
-                                                                <figure class="image-box"><a href="event-single.html"><img
-                                                                            src="assets/frontend_assets//resource/event-image-2.jpg" alt=""></a></figure>
-                                                                <div class="lower-box">
-                                                                    <div class="date"><span>31</span> Aug<br>2019</div>
-                                                                    <h3><a href="event-single.html">Grow More Trees And Save Our Planet Fundrising
-                                                                            Program</a></h3>
-                                                                    <div class="info clearfix">
-                                                                        <span class="time">From 4:30 PM to 9:30 PM</span>
-                                                                        <span class="location">Kansas City, Newyork</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                 
-
+                                                <div class="icon-one paroller" data-paroller-factor="0.20" data-paroller-factor-lg="0.15"
+                                                    data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
+                                                    <span class="flaticon-heart-2"></span>
                                                 </div>
 
-                                            </div>
-                                        </div>
-                                    </section> -->
+                                                <div class="icon-two paroller" data-paroller-factor="-0.20" data-paroller-factor-lg="-0.15"
+                                                    data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
+                                                    <span class="flaticon-gift-box"></span>
+                                                </div>
+
+                                                <div class="auto-container">
+                                                    <div class="sec-title centered">
+                                                        <div class="upper-icon"></div>
+                                                        <h2>Upcoming Events</h2>
+                                                        <div class="text">Lovely events for everyone to join</div>
+                                                    </div>
+
+                                                    <div class="carousel-box">
+                                                        <div class="kausid-carousel owl-theme owl-carousel"
+                                                            data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 500, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1024":{ "items" : "2" }}}'>
+                                                          
+                                                            <div class="slide-item">
+                                                               
+                                                                <div class="event-block-two">
+                                                                    <div class="inner-box">
+                                                                        <figure class="image-box"><a href="event-single.html"><img
+                                                                                    src="assets/frontend_assets//resource/event-image-1.jpg" alt=""></a></figure>
+                                                                        <div class="lower-box">
+                                                                            <div class="date"><span>18</span> Aug <br>2019</div>
+                                                                            <h3><a href="event-single.html">Water Supply Charity & Fundrising Event For
+                                                                                    Needy People</a></h3>
+                                                                            <div class="info clearfix">
+                                                                                <span class="time">From 4:30 PM to 9:30 PM</span>
+                                                                                <span class="location">Melbourne, Australia</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="slide-item">
+                                                              
+                                                                <div class="event-block-two blue-theme">
+                                                                    <div class="inner-box">
+                                                                        <figure class="image-box"><a href="event-single.html"><img
+                                                                                    src="assets/frontend_assets//resource/event-image-2.jpg" alt=""></a></figure>
+                                                                        <div class="lower-box">
+                                                                            <div class="date"><span>31</span> Aug<br>2019</div>
+                                                                            <h3><a href="event-single.html">Grow More Trees And Save Our Planet Fundrising
+                                                                                    Program</a></h3>
+                                                                            <div class="info clearfix">
+                                                                                <span class="time">From 4:30 PM to 9:30 PM</span>
+                                                                                <span class="location">Kansas City, Newyork</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                         
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </section> -->
 
     <section class="call-to-action alternate">
         <div class="image-layer"
@@ -258,8 +258,8 @@
                 </div>
                 <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
                     <div class="link-box">
-                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Talk to Us Toda
-                                !</span></a>
+                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Talk to Us
+                                Today!</span></a>
                     </div>
                 </div>
             </div>
@@ -268,101 +268,101 @@
 
     <!--Testimonials Two Section-->
     <!-- <section class="testimonials-two">
-                                        <div class="auto-container">
+                                                <div class="auto-container">
 
-                                            <div class="sec-title centered">
-                                                <div class="upper-icon"></div>
-                                                <h2>What People Say</h2>
-                                                <div class="text">We believe what we achieve</div>
-                                            </div>
+                                                    <div class="sec-title centered">
+                                                        <div class="upper-icon"></div>
+                                                        <h2>What People Say</h2>
+                                                        <div class="text">We believe what we achieve</div>
+                                                    </div>
 
-                                            <div class="carousel-box">
-                                                <div class="kausid-carousel owl-theme owl-carousel"
-                                                    data-options='{"loop": true, "margin": 50, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "2" } , "800":{ "items" : "2" }, "1024":{ "items" : "2" }, "1200":{ "items" : "3" }}}'>
-                                                    <div class="testimonial-block-two">
-                                                        <div class="inner">
-                                                            <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                                            <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                                                ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                                                reprehenderit op luptate velit.</div>
-                                                            <div class="info">
-                                                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                                                <div class="author">Sandy Thomas</div>
-                                                                <div class="designation">Volunteer</div>
+                                                    <div class="carousel-box">
+                                                        <div class="kausid-carousel owl-theme owl-carousel"
+                                                            data-options='{"loop": true, "margin": 50, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "2" } , "800":{ "items" : "2" }, "1024":{ "items" : "2" }, "1200":{ "items" : "3" }}}'>
+                                                            <div class="testimonial-block-two">
+                                                                <div class="inner">
+                                                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                                        reprehenderit op luptate velit.</div>
+                                                                    <div class="info">
+                                                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                                        <div class="author">Sandy Thomas</div>
+                                                                        <div class="designation">Volunteer</div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
+                                                            <div class="testimonial-block-two">
+                                                                <div class="inner">
+                                                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                                        reprehenderit op luptate velit.</div>
+                                                                    <div class="info">
+                                                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                                        <div class="author">Daowp johns</div>
+                                                                        <div class="designation">Donator</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="testimonial-block-two">
+                                                                <div class="inner">
+                                                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                                        reprehenderit op luptate velit.</div>
+                                                                    <div class="info">
+                                                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                                        <div class="author">Kalim Huzoor</div>
+                                                                        <div class="designation">Team Member</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="testimonial-block-two">
+                                                                <div class="inner">
+                                                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                                        reprehenderit op luptate velit.</div>
+                                                                    <div class="info">
+                                                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                                        <div class="author">Sandy Thomas</div>
+                                                                        <div class="designation">Volunteer</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="testimonial-block-two">
+                                                                <div class="inner">
+                                                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                                        reprehenderit op luptate velit.</div>
+                                                                    <div class="info">
+                                                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                                        <div class="author">Daowp johns</div>
+                                                                        <div class="designation">Donator</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="testimonial-block-two">
+                                                                <div class="inner">
+                                                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
+                                                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
+                                                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
+                                                                        reprehenderit op luptate velit.</div>
+                                                                    <div class="info">
+                                                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
+                                                                        <div class="author">Kalim Huzoor</div>
+                                                                        <div class="designation">Team Member</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                           
+                                                           
                                                         </div>
                                                     </div>
-                                                    <div class="testimonial-block-two">
-                                                        <div class="inner">
-                                                            <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                                            <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                                                ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                                                reprehenderit op luptate velit.</div>
-                                                            <div class="info">
-                                                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                                                <div class="author">Daowp johns</div>
-                                                                <div class="designation">Donator</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="testimonial-block-two">
-                                                        <div class="inner">
-                                                            <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                                            <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                                                ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                                                reprehenderit op luptate velit.</div>
-                                                            <div class="info">
-                                                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                                                <div class="author">Kalim Huzoor</div>
-                                                                <div class="designation">Team Member</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="testimonial-block-two">
-                                                        <div class="inner">
-                                                            <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                                            <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                                                ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                                                reprehenderit op luptate velit.</div>
-                                                            <div class="info">
-                                                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                                                <div class="author">Sandy Thomas</div>
-                                                                <div class="designation">Volunteer</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="testimonial-block-two">
-                                                        <div class="inner">
-                                                            <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                                            <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                                                ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                                                reprehenderit op luptate velit.</div>
-                                                            <div class="info">
-                                                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                                                <div class="author">Daowp johns</div>
-                                                                <div class="designation">Donator</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="testimonial-block-two">
-                                                        <div class="inner">
-                                                            <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                                            <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                                                ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                                                reprehenderit op luptate velit.</div>
-                                                            <div class="info">
-                                                                <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                                                <div class="author">Kalim Huzoor</div>
-                                                                <div class="designation">Team Member</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                   
-                                                   
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </section> -->
+                                            </section> -->
 
     <!-- News Section -->
     <section class="news-section">
@@ -373,61 +373,37 @@
             <div class="row clearfix">
                 <div class="title-column col-xl-6 col-lg-6 col-md-12">
                     <div class="sec-title">
-                        <div class="sub-title"><span class="icon"></span> We believe what we achieve</div>
+                        <div class="sub-title"></span> Get updates on our works, </div>
                         <h2>Read The Articles</h2>
                     </div>
                 </div>
                 <div class="link-column col-xl-6 col-lg-6 col-md-12">
-                    <div class="link-box"><a href="blog.html" class="theme-btn btn-style-one"><span
+                    <div class="link-box"><a href="/articles" class="theme-btn btn-style-one"><span
                                 class="btn-title">More articles</span></a></div>
                 </div>
             </div>
 
             <div class="row clearfix">
                 <!--News Block-->
-                <div class="news-block col-lg-4 col-md-6 col-sm-12">
-                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms">
-                        <figure class="image-box"><a href="blog-single.html"><img
-                                    src="assets/frontend_assets/images/resource/blog-image-1.jpg" alt=""></a>
-                        </figure>
-                        <div class="lower-box">
-                            <div class="info">By Mark Shawn &ensp;|&ensp; July 23, 2019</div>
-                            <h3><a href="blog-single.html">Millions Collected By Kausid Charity For Poor Families:
-                                    By Sources</a></h3>
+                @foreach ($posts as $post)
+                    <div class="news-block col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms">
+                            <figure class="image-box"><a href="articles/{{ $post->id }}"><img
+                                        src="{{ $post->post_photo }}" alt=""></a>
+                            </figure>
+                            <div class="lower-box">
+                                <div class="info">Posted By : {{ $post->post_created_by }} &ensp;|&ensp; {{ \Carbon\Carbon::parse($post->created_at)->format('d/m/Y') }} | </div>
+                                <h3><a href="articles/{{ $post->id }}">{{ $post->post_title }}</a></h3>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!--News Block-->
-                <div class="news-block col-lg-4 col-md-6 col-sm-12">
-                    <div class="inner-box wow fadeInLeft" data-wow-delay="300ms">
-                        <figure class="image-box"><a href="blog-single.html"><img
-                                    src="assets/frontend_assets/images/resource/blog-image-2.jpg" alt=""></a>
-                        </figure>
-                        <div class="lower-box">
-                            <div class="info">By Mark Shawn &ensp;|&ensp; July 23, 2019</div>
-                            <h3><a href="blog-single.html">Popular Fundraising Pages Could Be Useful, Experts Says
-                                    Everyone</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <!--News Block-->
-                <div class="news-block col-lg-4 col-md-6 col-sm-12">
-                    <div class="inner-box wow fadeInLeft" data-wow-delay="600ms">
-                        <figure class="image-box"><a href="blog-single.html"><img
-                                    src="assets/frontend_assets/images/resource/blog-image-3.jpg" alt=""></a>
-                        </figure>
-                        <div class="lower-box">
-                            <div class="info">By Mark Shawn &ensp;|&ensp; July 23, 2019</div>
-                            <h3><a href="blog-single.html">With Much Need, What's The Best Way To Donate time Or
-                                    Money?</a></h3>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
+
             </div>
 
         </div>
 
-        <div class="sponsors-outer">
+        {{-- <div class="sponsors-outer">
             <div class="auto-container">
                 <!--Sponsors Carousel-->
                 <div class="kausid-carousel owl-theme owl-carousel"
@@ -466,7 +442,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
     </section>
 @endsection
