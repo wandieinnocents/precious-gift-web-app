@@ -26,6 +26,13 @@
                         <span data-key="t-dashboard">Feedback</span>
                     </a>
                 </li>
+                {{-- volunteers --}}
+                <li>
+                    <a href="/volunteers">
+                        <i class="fas fa-comment-alt "></i>
+                        <span data-key="t-dashboard">Volunteers</span>
+                    </a>
+                </li>
                 <!-- Resources -->
                 {{-- <li>
                     <a href="javascript: void(0);" class="has-arrow">

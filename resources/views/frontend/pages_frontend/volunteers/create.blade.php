@@ -66,28 +66,45 @@
                                 @csrf
                                 <div class="row clearfix">
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <div class="field-label">Your Name</div>
-                                        <input type="text" name="name" placeholder="" required="">
+                                        <div class="field-label">Full Name</div>
+                                        <input type="text" name="volunteer_name" placeholder="" required="">
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
                                         <div class="field-label">Email</div>
-                                        <input type="email" name="email" placeholder="" required="">
+                                        <input type="email" name="volunteer_email" placeholder="" required="">
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
                                         <div class="field-label">Phone</div>
-                                        <input type="text" name="phone" placeholder="" required="">
+                                        <input type="text" name="volunteer_phone" placeholder="" required="">
                                     </div>
 
                                     <div class="col-md-6 col-sm-12 form-group">
-                                        <div class="field-label">subject</div>
-                                        <input type="text" name="subject" placeholder="" required="">
+                                        <div class="field-label">Address</div>
+                                        <input type="text" name="volunteer_address" placeholder="" required="">
+                                    </div>
+
+
+
+                                    <div class="col-md-6 col-sm-12 form-group">
+                                        <div class="field-label">Education Level</div>
+                                        <input type="text" name="volunteer_level_of_education" placeholder="" required="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 form-group">
+                                        <div class="field-label">Date of birth</div>
+                                        <input type="date" name="volunteer_dob" placeholder="" required="">
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 form-group">
+                                        <div class="field-label">Upload your Photo</div>
+                                        <input type="file" class="form-control" name="volunteer_photo"
+                                            id="validationCustom05" placeholder="" required>
+
                                     </div>
 
                                     <div class="col-md-12 col-sm-12 form-group">
                                         <div class="field-label">Message</div>
-                                        <textarea name="description" placeholder="Write your message"></textarea>
+                                        <textarea name="volunteer_reason_to_join" placeholder="Write your message"></textarea>
                                     </div>
 
                                     <div class="col-md-12 col-sm-12 form-group">
@@ -112,16 +129,16 @@
                             data-paroller-direction="vertical"
                             style="transform: translateY(402px); transition: transform 0s linear 0s; will-change: transform;">
                         </div>
-                        <figure class="image"><img src="{{ asset('assets/frontend_assets/images/resource/contact.png') }}"
-                                alt=""></figure>
+                        <figure class="image"><img
+                                src="{{ asset('assets/frontend_assets/images/resource/contact.png') }}" alt="">
+                        </figure>
                     </div>
                 </div>
 
             </div>
 
-         
+
 
         </div>
     </section>
-   
 @endsection
