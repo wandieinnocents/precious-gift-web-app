@@ -3,7 +3,7 @@
         data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url('assets/frontend_assets/images/main-slider/4.jpg')">
+            <div class="image-layer" style="background-image:url('assets/frontend_assets/images/main-slider/slid1.png')">
             </div>
             <div class="auto-container">
                 <div class="content-box">
