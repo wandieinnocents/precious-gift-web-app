@@ -131,7 +131,8 @@
                                 </li>
                                 <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692">Phone
                                         +256-706-897541 | +49-1521-0172509</a></li>
-                                         <li style="visibility:hidden;"><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692">Phone
+                                <li style="visibility:hidden;"><span class="fa fa-phone-alt"></span> <a
+                                        href="tel:812-070-3692">Phone
                                         Hidden field</a></li>
 
                             </ul>
@@ -169,13 +170,16 @@
                             </ul>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
 
             <div class="row">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7979.440584751308!2d32.043969!3d0.40164000000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0f227b1ce21e831!2sPrecious%20Child%20Development%20Centre!5e0!3m2!1sen!2sus!4v1659799210797!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7979.440584751308!2d32.043969!3d0.40164000000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0f227b1ce21e831!2sPrecious%20Child%20Development%20Centre!5e0!3m2!1sen!2sus!4v1659799210797!5m2!1sen!2sus"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
         </div>
