@@ -4,6 +4,7 @@ namespace App\Http\Controllers\FrontEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\VideoGallery;
 
 class FrontEndVideoGalleryController extends Controller
 {
@@ -14,8 +15,9 @@ class FrontEndVideoGalleryController extends Controller
      */
     public function index()
     {
-        dd("Fetch Videos Here");
-        return view('frontend.pages_frontend.videos.index'); 
+        $videos = VideoGallery::all();
+        // dd("Fetch Videos Here");
+        return view('frontend.pages_frontend.videos.index',compact('videos')); 
     }
 
     /**

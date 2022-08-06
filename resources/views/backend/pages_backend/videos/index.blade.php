@@ -1,9 +1,7 @@
 @extends('backend.layouts_backend.master')
-
 @section('title')
     Videos
 @endsection
-
 @section('extra_styles')
     <style>
         body.modal-open {
@@ -12,17 +10,10 @@
         }
     </style>
 @endsection
-
 @section('content')
     <!-- Main content dashboard  -->
-
-
-
     <div class="page-content">
         <div class="container-fluid">
-
-
-
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="mb-3">
@@ -30,27 +21,18 @@
                         </h5>
                     </div>
                 </div>
-
                 <div class="col-md-6">
                     <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
-
                         <div>
                             <a href="/video_galleries/create" class="btn bg-primary text-light"><i
                                     class="bx bx-plus me-1"></i> Add
                                 Video</a>
                         </div>
-
-
                     </div>
-
                 </div>
             </div>
             <!-- end row -->
-
-
-
             <!-- FETCH FEEDBACKS -->
-
             <div class="table-responsive mb-4">
                 <table class="table align-middle datatable dt-responsive table-check nowrap"
                     style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
@@ -66,14 +48,11 @@
                             <th scope="col">Video Title</th>
                             <th scope="col">Video URL</th>
                             <th scope="col">Video Thumbnail</th>
-
                             <th scope="col">Description</th>
                             <th style="width: 150px; min-width: 80px;">Action</th>
                         </tr>
                     </thead>
                     <tbody>
-
-
                         @foreach ($videos as $video)
                             <tr>
                                 <th scope="row">
@@ -86,20 +65,13 @@
                                 <td>{{ $video->video_title }}</td>
                                 <td>{{ $video->video_url }}</td>
                                 <td>
-
                                     <iframe width="130" height="175" src=" {{ $video->video_url }}"
                                         allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
                                         msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
                                         webkitallowfullscreen="webkitallowfullscreen">
                                     </iframe>
-
-
-
-
                                     <!-- <img src="assets/backend_assets/assets/images/users/avatar-2.jpg" alt="" class="avatar-sm rounded-circle me-2">  -->
                                 </td>
-
-
                                 <td>{{ $video->video_description }}</td>
                                 <td colspan="6">
                                     <div class="row">
@@ -108,14 +80,11 @@
                                                 data-bs-target="#exampleModal{{ $video->id }}"
                                                 data-bs-whatever="@getbootstrap"><i class=" far fa-eye  "></i></button>
                                         </div>
-
                                         <div class="col-md-4">
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                                 data-bs-target="#editPhotoOrder{{ $video->id }}"
                                                 data-bs-whatever="@getbootstrap"><i class="fas fa-pencil-alt "></i></button>
-
                                         </div>
-
                                         <!-- UPDATE -->
                                         <div class="col-md-4">
                                             <form action="{{ route('video_galleries.update', $video->id) }}" method="post">
@@ -123,20 +92,11 @@
                                                 @method('DELETE')
                                                 <a> <button class="btn btn-danger shadow btn-xs sharp"> <span
                                                             class="fa fa-trash"> </button> </a>
-
                                             </form>
-
-
-
                                         </div>
-
-
-
                                     </div>
                                 </td>
                             </tr>
-
-
                             <!-- VIEW DETAILS MODEL -->
                             <div class="modal fade" id="exampleModal{{ $video->id }}" tabindex="-1"
                                 aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
@@ -147,28 +107,21 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
                                         </div>
-
-
-
                                         <div class="modal-body">
-
                                             {{-- <iframe width="420" height="315"
                                                 src="https://www.youtube.com/embed/il_t1WVLNxk?autoplay=1">
                                             </iframe> --}}
-
                                             <iframe width="420" height="315" src=" {{ $video->video_url }}"
                                                 allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
                                                 msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
                                                 webkitallowfullscreen="webkitallowfullscreen">
                                             </iframe>
-
                                             <hr>
                                             <p>Video Title : {{ $video->video_title }}</p>
                                             <hr>
                                             <p>Video Link : {{ $video->video_url }}</p>
                                             <hr>
                                             <p>Description : {{ $video->video_description }}</p>
-
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close
@@ -181,10 +134,6 @@
                                 </div>
                             </div>
                             <!-- END OF VIEW DETAILS MODEL -->
-
-
-
-
                             <!-- edit  Photo MENU DETAILS MODEL -->
                             <div class="modal fade" id="editPhotoOrder{{ $video->id }}" tabindex="-1"
                                 aria-labelledby="editPhotoOrderLabel" style="display: none;" aria-hidden="true">
@@ -196,10 +145,7 @@
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-
-
                                             <!-- form update Photo menu items -->
-
                                             <form action="{{ route('video_galleries.update', $video->id) }}"
                                                 method="post" enctype="multipart/form-data">
                                                 @csrf
@@ -229,18 +175,13 @@
                                                     <label for="message-text" class="col-form-label">Description:</label>
                                                     <textarea class="form-control" name="video_description" value="" id="message-text">{{ $video->video_description }}</textarea>
                                                 </div>
-
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary"
                                                         data-bs-dismiss="modal">Close</button>
                                                     <button class="btn btn-primary" type="submit">Update Video</button>
                                                 </div>
-
-
                                             </form>
                                         </div>
-
-
                                     </div>
                                 </div>
                             </div>
@@ -251,15 +192,9 @@
                 <!-- end table -->
             </div>
             <!-- end table responsive -->
-
         </div> <!-- container-fluid -->
     </div>
     <!-- End Page-content -->
-
-
-
-
-
     </div>
     <!-- container-fluid -->
     </div>
