@@ -6,10 +6,11 @@
             <div class="inner clearfix">
                 <div class="top-left clearfix">
                     <ul class="info clearfix">
-                        <li>We are here to support you</li>
+                        <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692" style="color:#ffffff;"> Tel : 
+                                +256-706-897541 | +49-1521-0172509</a></li>
+                        <li><span class="fa fa-envelope-open"></span> <a href="mailto:donations@example.org" style="color:#ffffff;">info@precious-gift.org</a></li>
                     </ul>
                 </div>
-
                 <div class="top-right clearfix">
                     <ul class="info clearfix">
                         {{-- <li>
@@ -40,7 +41,6 @@
             </div>
         </div>
     </div>
-
     <!-- Header Upper -->
     <div class="header-upper">
         <div class="auto-container">
@@ -51,12 +51,10 @@
                                 src="{{ asset('assets/frontend_assets/images/logo-2.png') }}" alt="Precious Gift"
                                 title="Precious Gift"></a></div>
                 </div>
-
                 <!--Nav Box-->
                 <div class="nav-outer clearfix">
                     <!--Mobile Navigation Toggler-->
                     <div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
-
                     <!-- Main Menu -->
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
@@ -68,7 +66,6 @@
                                         <li><a href="/works">What we do</a></li>
                                         <li><a href="/our_team">Our Staff</a></li>
                                         <li><a href="/our_faqs">Faq's</a></li>
-
                                     </ul>
                                 </li>
                                 <li><a href="/our_projects">Projects</a></li>
@@ -77,19 +74,16 @@
                                     <ul>
                                         <li><a href="/pictures">Photos</a></li>
                                         <li><a href="/video_gallery">Videos</a></li>
-
                                     </ul>
                                 </li>
-
-
                                 <li><a href="/contact/create">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
                     <!-- Main Menu End-->
-
                     <div class="donate-link">
-                        <a href="{{ route('donate.create') }}" class="theme-btn btn-style-one"><span class="btn-title">Donate
+                        <a href="{{ route('donate.create') }}" class="theme-btn btn-style-one"><span
+                                class="btn-title">Donate
                                 Now</span></a>
                     </div>
                 </div>
@@ -97,7 +91,6 @@
         </div>
     </div>
     <!--End Header Upper-->
-
     <!-- Sticky Header  -->
     <div class="sticky-header">
         <div class="auto-container clearfix">
@@ -116,12 +109,10 @@
             </div>
         </div>
     </div><!-- End Sticky Menu -->
-
     <!-- Mobile Menu  -->
     <div class="mobile-menu">
         <div class="menu-backdrop"></div>
         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
-
         <nav class="menu-box">
             <div class="nav-logo"><a href="index.html"><img
                         src="{{ asset('assets/frontend_assets/images/nav-logo.png') }}" alt=""

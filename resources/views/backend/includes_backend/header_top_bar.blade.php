@@ -17,7 +17,7 @@
                                     <b>P</b>
                                 </span>
                                 <span class="logo-lg">
-                                    <b>SENSE</b>
+                                    <b>PG</b>
                                 </span>
                             </a>
                         </div>

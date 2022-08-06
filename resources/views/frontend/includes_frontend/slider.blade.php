@@ -5,7 +5,6 @@
                 <div class="slide-item">
                     <div class="image-layer"
                         style="background-image:url('assets/frontend_assets/images/main-slider/4.jpg')"></div>
-
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="content">
@@ -24,12 +23,10 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Slide Item -->
                 <div class="slide-item">
                     <div class="image-layer"
                         style="background-image:url('assets/frontend_assets/images/main-slider/5.jpg')"></div>
-
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="content">
@@ -48,12 +45,10 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Slide Item -->
                 <div class="slide-item">
                     <div class="image-layer"
                         style="background-image:url('assets/frontend_assets/images/main-slider/6.jpg')"></div>
-
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="content">
@@ -72,6 +67,5 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
