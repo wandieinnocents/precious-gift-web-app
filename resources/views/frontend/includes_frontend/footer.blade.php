@@ -40,10 +40,10 @@
                              <div class="inner">
                                  <h3>Emails</h3>
                                  <ul class="info">
-                                     <li><span class="fa fa-map-marker-alt"></span>Friedrich-Heller str. 1530455
+                                     <li><span class="fa fa-map-marker-alt"></span> Friedrich-Heller str. 1530455
                                          Hannover
                                      </li>
-                                     <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692">Phone
+                                     <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692"> Phone
                                              +256-706-897541 | +49-1521-0172509</a></li>
                                      <li><span class="fa fa-envelope-open"></span> <a
                                              href="mailto:donations@example.org">info@precious-gift.org</a></li>
@@ -71,9 +71,9 @@
              <div class="col-md-6">
                  <div class="footer-widget info-widget">
                      <div class="widget-content">
-                         <h3>Subscribe Our Newsletter For Updates</h3>
+                         <h3>Subscribe Our Newsletter</h3>
                          <div class="newsletter-form">
-                             <form method="post" action="http://t.commonsupport.xyz/kausid/contact.html">
+                             <form method="post" action="#">
                                  <div class="form-group clearfix">
                                      <input type="email" name="email" value="" placeholder="Enter Your Email"
                                          required="">
