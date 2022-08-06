@@ -18,11 +18,13 @@ class FrontEndGalleryController extends Controller
     public function index()
     {
         $photos = Gallery::all();
-        $photos_categories = GalleryCategory::where('gallery_category_name','school')->get();
-        $photos_categories = GalleryCategory::all();
+        $photos_categories_school = Gallery::where('gallery_category_id','1')->get();
+        $photos_categories_workshop = Gallery::where('gallery_category_id','2')->get();
+        $photos_categories_education = Gallery::where('gallery_category_id','3')->get();
+        // $photos_categories = GalleryCategory::all();
 
         // dd($photos_categories);
-        return view('frontend.pages_frontend.pictures.index',compact('photos','photos_categories'));    
+        return view('frontend.pages_frontend.pictures.index',compact('photos','photos_categories_workshop','photos_categories_education','photos_categories_school'));    
      }
 
     /**

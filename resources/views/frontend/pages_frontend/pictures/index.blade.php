@@ -48,9 +48,9 @@
             {{-- TABS --}}
             <ul class="nav nav-pills justify-content-center" style="align:center;">
                 <li class="active"><a data-toggle="pill" href="#all">ALL </a></li>
-                <li><a data-toggle="pill" href="#category1">CATEGORY 1 </a></li>
-                <li><a data-toggle="pill" href="#category2">CATEGORY 2</a></li>
-                <li><a data-toggle="pill" href="#category3">CATEGORY 3</a></li>
+                <li><a data-toggle="pill" href="#school">School </a></li>
+                <li><a data-toggle="pill" href="#workshop">Workshop</a></li>
+                <li><a data-toggle="pill" href="#education">Education</a></li>
             </ul>
             <div style="height:30px;"></div>
             <div class="tab-content">
@@ -86,11 +86,11 @@
                     </div>
                 </div>
                 {{-- CATEGORY 1 --}}
-                <div id="category1" class="tab-pane fade in ">
+                <div id="school" class="tab-pane fade in ">
                     <div class="mixit-gallery">
                         <!--Filter-->
                         <div class="filter-list row clearfix" id="MixItUpD7DD85">
-                            @foreach ($photos as $photo)
+                            @foreach ($photos_categories_school as $photo)
                                 <!--Activity Block-->
                                 <div class="activity-block mix all animal education col-md-6 col-sm-12"
                                     style="display: inline-block;">
@@ -116,11 +116,11 @@
                     </div>
                 </div>
                 {{-- CATEGORY 2 --}}
-                <div id="category2" class="tab-pane fade">
+                <div id="workshop" class="tab-pane fade">
                     <div class="mixit-gallery">
                         <!--Filter-->
                         <div class="filter-list row clearfix" id="MixItUpD7DD85">
-                            @foreach ($photos as $photo)
+                            @foreach ($photos_categories_workshop as $photo)
                                 <!--Activity Block-->
                                 <div class="activity-block mix all animal education col-md-6 col-sm-12"
                                     style="display: inline-block;">
@@ -146,12 +146,12 @@
                     </div>
                 </div>
                 {{-- CATEGORY 3 --}}
-                <div id="category3" class="tab-pane fade">
+                <div id="education" class="tab-pane fade">
                     <div class="mixit-gallery">
                         <!--Filter-->
                         <div class="filter-list row clearfix" id="MixItUpD7DD85">
                             <!--Activity Block-->
-                            @foreach ($photos as $photo)
+                            @foreach ($photos_categories_education as $photo)
                                 <div class="activity-block mix all animal education col-md-6 col-sm-12"
                                     style="display: inline-block;">
                                     <div class="inner-box">
