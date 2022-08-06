@@ -58,7 +58,7 @@
                 <div class="text-column col-lg-7 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="sec-title">
-                            <div class="sub-title"><span class="icon"></span> Get to Know</div>
+                            <div class="sub-title"> Get to Know</div>
                             <h2>Our Background</h2>
                         </div>
                         <div class="text">
@@ -84,14 +84,7 @@
 
                         </div>
 
-                        <div class="quote-box">
-                            <div class="text">Consectetur adipisicing elit usmod tempor incididunt laboret dolore
-                                magna aliquaut enim mini veniam quis trud exercitation ullamco laboris nisiut
-
-                            </div>
-
-
-                        </div>
+                       
                     </div>
                 </div>
                 <!--Image Column-->
