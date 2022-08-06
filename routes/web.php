@@ -70,7 +70,9 @@ Route::post('/pay','App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@
 // The callback url after a payment
 Route::get('/rave/callback', 'App\Http\Controllers\FrontEnd\FlutterwavePaymentsController@callback')->name('callback');
 
-
+// mailchimp newsletters
+Route::get('newsletter','NewsletterController@index');
+Route::post('newsletter/store','NewsletterController@store');
 
 
 
