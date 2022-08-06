@@ -6,9 +6,10 @@
             <div class="inner clearfix">
                 <div class="top-left clearfix">
                     <ul class="info clearfix">
-                        <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692" style="color:#ffffff;"> Tel : 
+                        <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692" style="color:#ffffff;"> Tel :
                                 +256-706-897541 | +49-1521-0172509</a></li>
-                        <li><span class="fa fa-envelope-open"></span> <a href="mailto:donations@example.org" style="color:#ffffff;">info@precious-gift.org</a></li>
+                        <li><span class="fa fa-envelope-open"></span> <a href="mailto:donations@example.org"
+                                style="color:#ffffff;">info@precious-gift.org</a></li>
                     </ul>
                 </div>
                 <div class="top-right clearfix">
@@ -47,9 +48,13 @@
             <div class="inner-container clearfix">
                 <!--Logo-->
                 <div class="logo-box">
-                    <div class="logo"><a href="/" title="Precious Gift"><img
+                    {{-- <div class="logo"><a href="/" title="Precious Gift"><img
                                 src="{{ asset('assets/frontend_assets/images/logo-2.png') }}" alt="Precious Gift"
-                                title="Precious Gift"></a></div>
+                                title="Precious Gift"></a></div> --}}
+
+                    <div class="logo" ><a href="/" title="Precious Gift"><img
+                                src="{{ asset('assets/frontend_assets/images/logosvg.svg') }}" alt="Precious Gift"
+                                title="Precious Gift" ></a></div>
                 </div>
                 <!--Nav Box-->
                 <div class="nav-outer clearfix">
@@ -82,9 +87,9 @@
                         </div>
                     </nav>
                     <!-- Main Menu End-->
-                    <div class="donate-link" >
-                        <a href="{{ route('donate.create') }}" class="theme-btn btn-style-one" ><span
-                                class="btn-title" style="background-color:red;">Donate
+                    <div class="donate-link">
+                        <a href="{{ route('donate.create') }}" class="theme-btn btn-style-one"><span class="btn-title"
+                                style="background-color:red;">Donate
                                 Now</span></a>
                     </div>
                 </div>
@@ -97,9 +102,11 @@
         <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="index.html" title=""><img
+                {{-- <a href="index.html" title=""><img
                         src="{{ asset('assets/frontend_assets/images/sticky-logo.png') }}" alt=""
-                        title=""></a>
+                        title=""></a> --}}
+
+                        <h3><strong>PRECIOUS CHILD</strong></h3>
             </div>
             <!--Right Col-->
             <div class="pull-right">
@@ -116,7 +123,7 @@
         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
         <nav class="menu-box">
             <div class="nav-logo"><a href="index.html"><img
-                        src="{{ asset('assets/frontend_assets/images/nav-logo.png') }}" alt=""
+                        src="{{ asset('assets/frontend_assets/images/logosvg.svg') }}" alt=""
                         title=""></a></div>
             <div class="menu-outer">
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
