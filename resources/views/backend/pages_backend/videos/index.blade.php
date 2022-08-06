@@ -1,6 +1,7 @@
 @extends('backend.layouts_backend.master')
 
 @section('title')
+    Videos
 @endsection
 
 @section('extra_styles')
@@ -86,17 +87,11 @@
                                 <td>{{ $video->video_url }}</td>
                                 <td>
 
-                                    @if ($video->video_thumbnail)
-                                        <a href="{!! asset($video->video_thumbnail) !!}" target="_blank">
-                                            <img class="img-thumbnail avatar-sm rounded-circle me-2" class="user-img"
-                                                style="width: 100px; height:100px;"
-                                                onerror="if (this.src != '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}') this.src = '{{ asset('assets/backend_assets/assets/images/users/avatar-2.jpg') }}';"
-                                                src="{{ asset($video->video_thumbnail) }}" alt="preview"
-                                                style="height:120px !important; width:80px !important; margin-left:20px;">
-                                        </a>
-                                    @else
-                                        <p class="text-danger">No Photo</p>
-                                    @endif
+                                    <iframe width="130" height="175" src=" {{ $video->video_url }}"
+                                        allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
+                                        msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
+                                        webkitallowfullscreen="webkitallowfullscreen">
+                                    </iframe>
 
 
 
@@ -123,8 +118,7 @@
 
                                         <!-- UPDATE -->
                                         <div class="col-md-4">
-                                            <form action="{{ route('video_galleries.update', $video->id) }}"
-                                                method="post">
+                                            <form action="{{ route('video_galleries.update', $video->id) }}" method="post">
                                                 @csrf
                                                 @method('DELETE')
                                                 <a> <button class="btn btn-danger shadow btn-xs sharp"> <span
@@ -158,14 +152,15 @@
 
                                         <div class="modal-body">
 
-                                            {{-- <iframe width="420" height="315" src="{!! asset($video->video_url) !!}">
-
+                                            {{-- <iframe width="420" height="315"
+                                                src="https://www.youtube.com/embed/il_t1WVLNxk?autoplay=1">
                                             </iframe> --}}
 
-                                            <iframe width="560" height="315" src={{ $video->video_url  }}
-                                                frameborder="0" allowfullscreen>
+                                            <iframe width="420" height="315" src=" {{ $video->video_url }}"
+                                                allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
+                                                msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
+                                                webkitallowfullscreen="webkitallowfullscreen">
                                             </iframe>
-
 
                                             <hr>
                                             <p>Video Title : {{ $video->video_title }}</p>
@@ -215,14 +210,14 @@
                                                     <input type="text" class="form-control" name="video_title"
                                                         value="{{ $video->video_title }}" id="recipient-name">
                                                 </div>
-                                                <div class="col-md-6">
+                                                <div class="col-md-12">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom05">Photo</label>
                                                         <input type="file" class="form-control" name="video_thumbnail"
                                                             value="{{ $video->video_thumbnail }}" placeholder="Zip">
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6">
+                                                <div class="col-md-12">
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom05">Video
                                                             URL</label>

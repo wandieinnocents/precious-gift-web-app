@@ -5,6 +5,7 @@ namespace App\Http\Controllers\FrontEnd;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Gallery;
+use App\Models\GalleryCategory;
 
 class FrontEndGalleryController extends Controller
 {
@@ -13,11 +14,15 @@ class FrontEndGalleryController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function index()
     {
         $photos = Gallery::all();
-        // dd($photos);
-        return view('frontend.pages_frontend.pictures.index',compact('photos'));    
+        $photos_categories = GalleryCategory::where('gallery_category_name','school')->get();
+        $photos_categories = GalleryCategory::all();
+
+        // dd($photos_categories);
+        return view('frontend.pages_frontend.pictures.index',compact('photos','photos_categories'));    
      }
 
     /**
