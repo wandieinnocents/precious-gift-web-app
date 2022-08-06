@@ -151,12 +151,12 @@
                             <h3>Emails</h3>
                             <ul class="info">
                                 <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:donations@example.org">info@precious-gift.org</a></li>
+                                        href="mailto:info@precious-gift.org">info@precious-gift.org</a></li>
                                 <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:donations@example.org">nakiyingiassybahner@gmail.com</a></li>
+                                        href="mailto:nakiyingiassybahner@gmail.com">nakiyingiassybahner@gmail.com</a></li>
 
                                 <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:donations@example.org">stevenssenkungu@precious-gift.org</a></li>
+                                        href="mailto:stevenssenkungu@precious-gift.org">stevenssenkungu@precious-gift.org</a></li>
 
 
 

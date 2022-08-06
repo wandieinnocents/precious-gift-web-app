@@ -46,12 +46,12 @@
                                      <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692"> Phone
                                              +256-706-897541 | +49-1521-0172509</a></li>
                                      <li><span class="fa fa-envelope-open"></span> <a
-                                             href="mailto:donations@example.org">info@precious-gift.org</a></li>
+                                             href="mailto:info@precious-gift.org">info@precious-gift.org</a></li>
                                      <li><span class="fa fa-envelope-open"></span> <a
-                                             href="mailto:donations@example.org">nakiyingiassybahner@gmail.com</a></li>
+                                             href="mailto:nakiyingiassybahner@gmail.com">nakiyingiassybahner@gmail.com</a></li>
 
                                      <li><span class="fa fa-envelope-open"></span> <a
-                                             href="mailto:donations@example.org">stevenssenkungu@precious-gift.org</a>
+                                             href="mailto:stevenssenkungu@precious-gift.org">stevenssenkungu@precious-gift.org</a>
                                      </li>
 
 
