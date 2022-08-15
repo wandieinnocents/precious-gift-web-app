@@ -16,8 +16,10 @@
                             <div class="inner">
                                 <div class="icon"><span class="flaticon-care"></span></div>
                                 <h3>Mission</h3>
-                                <div class="text">To Love and Care for the vulnerable Children to develop socially,
-                                    physically, Economically and spiritualy into responsible people/ citizens.</div>
+                                <div class="text">
+                                To Love and Care for the vulnerable Children to develop socially,
+                                physically, Economically and spiritualy into responsible people/ citizens.
+                                </div>
                             </div>
                         </div>
                     </div>
