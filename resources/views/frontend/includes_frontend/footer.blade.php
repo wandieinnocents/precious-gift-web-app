@@ -8,9 +8,12 @@
                      <div class="footer-widget logo-widget">
                          <div class="widget-content">
                              <h3>About Us</h3>
-                             <div class="text">Precious Child Development Centre is an organization based in a rural
+                             <div class="text">
+                             Precious Child Development Centre is an organization based in a rural
                                  area and its major aim is helping the vulnerable children and the community at large
-                                 (in poverty stricken households) so as to enhance development.</div>
+                                 (in poverty stricken households) so as to enhance development and to improve
+                                 livelihoods. 
+                                 </div>
                          </div>
                      </div>
                  </div>
@@ -28,6 +31,9 @@
                                 </li>
                                 <li><span class="fa fa-phone-alt"></span> 
                                 <a href="tel:+49 (0) 15210172509">Phone :+49 (0) 15210172509 </a></li>
+                                 <li><span class="fa fa-envelope-open"></span>
+                                     Nakiyingiassybahner@gmail.com
+                                </li>
                             </ul>
                             {{-- Uganda --}}
                            
@@ -53,6 +59,9 @@
                                          <a href="tel:+256 (0) 706-897541">Phone :+256(0) 706-897541 </a>
                                      </li>
                                      <li><a href="tel:+256 (0) 706-897541">Fax : +256 (0) 706-897541</a></li>
+                                      <li><span class="fa fa-envelope-open"></span>
+                                     info@precious-gifts.org
+                                </li>
 
 
                                  </ul>
