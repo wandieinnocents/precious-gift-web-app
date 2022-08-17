@@ -133,6 +133,9 @@
                                 </li>
                                 <li><span class="fa fa-phone-alt"></span> 
                                 <a href="tel:+49 (0) 15210172509">Phone :+49 (0) 15210172509 </a></li>
+                                 <li><span class="fa fa-envelope-open"></span>
+                                     Nakiyingiassybahner@gmail.com
+                                </li>
 
 
                             </ul>
@@ -159,6 +162,9 @@
                                 <li><span class="fa fa-phone-alt"></span> 
                                 <a href="tel:+256 (0) 706-897541">Phone :+256(0) 706-897541 </a></li>
                                 <li><a href="tel:+256 (0) 706-897541">Fax : +256 (0) 706-897541</a></li>
+                                 <li><span class="fa fa-envelope-open"></span>
+                                     info@precious-gifts.org
+                                </li>
 
 
                             </ul>

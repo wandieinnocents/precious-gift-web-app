@@ -7,9 +7,9 @@
                 <div class="top-left clearfix">
                     <ul class="info clearfix">
                         <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692" style="color:#ffffff;"> Tel :
-                                +256-706-897541 | +49-1521-0172509</a></li>
+                                +49 (0) 15210172509  | +256(0) 706-897541</a></li>
                         <li><span class="fa fa-envelope-open"></span> <a href="mailto:donations@example.org"
-                                style="color:#ffffff;">Nakiyingiassybahner@gmail.com  | info@precious-gift.org</a></li>
+                                style="color:#ffffff;">Nakiyingiassybahner@gmail.com  | info@precious-gifts.org</a></li>
                     </ul>
                 </div>
                 <div class="top-right clearfix">
