@@ -1,7 +1,7 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-    Gallery
+    Contact Us
 @endsection
 
 @section('content')
