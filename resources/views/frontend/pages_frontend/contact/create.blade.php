@@ -124,15 +124,16 @@
                     <!--Info Block-->
                     <div class="info-block bg-blue col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="inner">
-                            <h3>Newyork</h3>
+                            <h3>German</h3>
                             <ul class="info">
-                                <li><span class="fa fa-map-marker-alt"></span>C/O Assy Nakiyingi Bahner
-                                    Friedrich-Heller str 15
-                                    30455 Hannover
+                                <br> 
+                                <li><span class="fa fa-contact"></span>Assy Kanya Nakiyingi Bahner </li>
+                                <li><span class="fa fa-map-marker-alt"></span>
+                                    Friedrich-Heller str. 15
                                 </li>
-                                <li><span class="fa fa-phone-alt"></span> <a href="tel:812-070-3692">Phone
-                                        +49-1521-0172509 | +256-706-897541 </a></li>
-                              
+                                <li><span class="fa fa-phone-alt"></span> 
+                                <a href="tel:+49 (0) 15210172509">Phone :+49 (0) 15210172509 </a></li>
+
 
                             </ul>
                             <ul class="social-links clearfix">
@@ -152,7 +153,7 @@
                                 <li><span class="fa fa-envelope-open"></span> <a
                                         href="mailto:info@precious-gift.org">info@precious-gift.org</a></li>
                                 <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:nakiyingiassybahner@gmail.com">Nakiyingiassybahner@gmail.com  </a></li>
+                                        href="mailto:nakiyingiassybahner@gmail.com">Nakiyingiassybahner@gmail.com </a></li>
 
                                 <li><span class="fa fa-envelope-open"></span> <a
                                         href="mailto:Stevenssenkungu@precious-gift.org">Stevenssenkungu@precious-gift.org</a>
