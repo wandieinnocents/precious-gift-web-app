@@ -127,7 +127,7 @@
                             <h3>German</h3>
                             <ul class="info">
                                 <br> 
-                                <li><span class="fa fa-contact"></span>Assy Kanya Nakiyingi Bahner </li>
+                                <li><span class="fa fa-user"></span>Assy Kanya Nakiyingi Bahner </li>
                                 <li><span class="fa fa-map-marker-alt"></span>
                                     Friedrich-Heller str. 15
                                 </li>
@@ -148,17 +148,17 @@
                     <!--Info Block-->
                     <div class="info-block bg-light-blue col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="inner">
-                            <h3>Emails</h3>
+                            <h3>Uganda</h3>
                             <ul class="info">
-                                <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:info@precious-gift.org">info@precious-gift.org</a></li>
-                                <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:nakiyingiassybahner@gmail.com">Nakiyingiassybahner@gmail.com </a></li>
-
-                                <li><span class="fa fa-envelope-open"></span> <a
-                                        href="mailto:Stevenssenkungu@precious-gift.org">Stevenssenkungu@precious-gift.org</a>
+                              
+                                
+                                <li><span class="fa fa-map-marker-alt"></span>P.O Box 180027 Mityana , Uganda </li>
+                                <li><span class="fa fa-map-marker-alt"></span>
+                                    Bulera, Mityana Uganda
                                 </li>
-
+                                <li><span class="fa fa-phone-alt"></span> 
+                                <a href="tel:+256 (0) 706-897541">Phone :+256(0) 706-897541 </a></li>
+                                <li><a href="tel:+256 (0) 706-897541">Fax : +256 (0) 706-897541</a></li>
 
 
                             </ul>
