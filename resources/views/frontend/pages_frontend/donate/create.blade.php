@@ -57,12 +57,11 @@
                         {{-- German account --}}
                         <h2># Uganda  Account</h2>
                        
-                        <p class="text" style="margin-top:-30px;"><strong>BENEFICIARY NAME </strong>
+                        <p class="text" style="margin-top:-30px;"><strong>BENEFICIARY NAME :</strong>
                         Precious child development Center
                         </p>
-                        <p class="text" style="margin-top:-40px;"><strong>BANK NAME</strong> : Deutsche Postbank AG​</p>
-                        <p class="text" style="margin-top:-40px;"><strong>IBAN</strong>: DE90100100100941776103​</p>
-                        <p class="text" style="margin-top:-40px;"><strong>BIC</strong>: PBNKDEFF​
+                        <p class="text" style="margin-top:-40px;"><strong>BANK NAME</strong> : Equity Bank​</p>
+                        <p class="text" style="margin-top:-40px;"><strong>IBAN</strong>: 101612244659</p>
 
                         </p>
                     </div>x
