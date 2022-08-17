@@ -1,5 +1,6 @@
 @extends('frontend.layouts_frontend.master')
 @section('title')
+Home - Precious Gift
 @endsection
 @section('content')
     <!-- Banner Section -->
