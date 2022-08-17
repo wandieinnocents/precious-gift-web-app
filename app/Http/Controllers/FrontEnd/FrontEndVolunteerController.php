@@ -36,8 +36,8 @@ class FrontEndVolunteerController extends Controller
             'volunteer_photo' => 'required|mimes:doc,pdf,docx,zip,jpeg,jpg,csv,txt,xlx,xls,png',
         ]);
         $volunteer = new Volunteer();
-        $volunteer->volunteer_name       = $request->volunteer_name;
-        $volunteer->volunteer_dob        = $request->volunteer_dob;
+        $volunteer->volunteer_name      = $request->volunteer_name;
+        $volunteer->volunteer_dob       = $request->volunteer_dob;
         $volunteer->volunteer_address    = $request->volunteer_address;
         $volunteer->volunteer_phone    = $request->volunteer_phone;
         $volunteer->volunteer_email    = $request->volunteer_email;
