@@ -1,6 +1,6 @@
 @extends('frontend.layouts_frontend.master')
 @section('title')
-    Gallery
+    Photo Gallery
 @endsection
 @section('extra_styles')
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
