@@ -19,7 +19,7 @@
             <div class="auto-container">
                 <ul class="bread-crumb clearfix">
                     <li><a href="/">Home</a></li>
-                    <li class="active">About</li>
+                    <li class="active">Donate</li>
                 </ul>
             </div>
         </div>
@@ -55,7 +55,7 @@
                     {{-- Uganda account --}}
                     <div class="inner">
                         {{-- German account --}}
-                        <h2># Uganda  Account</h2>
+                        <h2># Uganda  Account</h2><br>
                        
                         <p class="text" style="margin-top:-30px;"><strong>BENEFICIARY NAME :</strong>
                         Precious child development Center
@@ -64,7 +64,7 @@
                         <p class="text" style="margin-top:-40px;"><strong>IBAN</strong>: 101612244659</p>
 
                         </p>
-                    </div>x
+                    </div>
                 </div>
                 <!--Faq Column-->
                 <div class="faq-column col-lg-6 col-md-12 col-sm-12">

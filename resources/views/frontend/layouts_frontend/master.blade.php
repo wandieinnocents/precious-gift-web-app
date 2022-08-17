@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Precious Gift</title>
+    <title>@yield('title')</title>
     <!-- Stylesheets -->
     <link href="{{ asset('assets/frontend_assets/css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/frontend_assets/css/style.css') }}" rel="stylesheet">
