@@ -224,7 +224,7 @@ Home - Precious Gift
                 </div>
                 <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
                     <div class="link-box">
-                        <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Talk to Us
+                        <a href="{{ route('contact.create') }}" class="theme-btn btn-style-one"><span class="btn-title">Talk to Us
                                 Today!</span></a>
                     </div>
                 </div>
@@ -232,98 +232,7 @@ Home - Precious Gift
         </div>
     </section>
     <!--Testimonials Two Section-->
-    <!-- <section class="testimonials-two">
-                <div class="auto-container">
-                    <div class="sec-title centered">
-                        <div class="upper-icon"></div>
-                        <h2>What People Say</h2>
-                        <div class="text">We believe what we achieve</div>
-                    </div>
-                    <div class="carousel-box">
-                        <div class="kausid-carousel owl-theme owl-carousel"
-                            data-options='{"loop": true, "margin": 50, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "2" } , "800":{ "items" : "2" }, "1024":{ "items" : "2" }, "1200":{ "items" : "3" }}}'>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Sandy Thomas</div>
-                                        <div class="designation">Volunteer</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Daowp johns</div>
-                                        <div class="designation">Donator</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Kalim Huzoor</div>
-                                        <div class="designation">Team Member</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Sandy Thomas</div>
-                                        <div class="designation">Volunteer</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Daowp johns</div>
-                                        <div class="designation">Donator</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-block-two">
-                                <div class="inner">
-                                    <div class="top-left-icon"><span class="flaticon-chat"></span></div>
-                                    <div class="text">Magna aliqua. Ut enim and minim veniam quis nostrud exercitation
-                                        ullamco laboris nis aliquip ex ea comodo consequat. Duis aute irure dolor insy
-                                        reprehenderit op luptate velit.</div>
-                                    <div class="info">
-                                        <div class="icon"><span class="flaticon-straight-quotes"></span></div>
-                                        <div class="author">Kalim Huzoor</div>
-                                        <div class="designation">Team Member</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
+   
     <!-- News Section -->
     <section class="news-section">
         <div class="image-layer"
