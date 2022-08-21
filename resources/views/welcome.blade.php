@@ -232,7 +232,6 @@ Home - Precious Gift
         </div>
     </section>
     <!--Testimonials Two Section-->
-   
     <!-- News Section -->
     <section class="news-section">
         <div class="image-layer"
