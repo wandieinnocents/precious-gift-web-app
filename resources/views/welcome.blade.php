@@ -1,6 +1,6 @@
 @extends('frontend.layouts_frontend.master')
 @section('title')
-Home - Precious Gift
+    Home - Precious Gift
 @endsection
 @section('content')
     <!-- Banner Section -->
@@ -18,8 +18,8 @@ Home - Precious Gift
                                 <div class="icon"><span class="flaticon-care"></span></div>
                                 <h3>Mission</h3>
                                 <div class="text">
-                                To Love and Care for the vulnerable Children to develop socially,
-                                physically, Economically and spiritualy into responsible people/ citizens.
+                                    To Love and Care for the vulnerable Children to develop socially,
+                                    physically, Economically and spiritualy into responsible people/ citizens.
                                 </div>
                             </div>
                         </div>
@@ -156,52 +156,53 @@ Home - Precious Gift
     </section>
     <!--Upcoming Events Section-->
     <!-- <section class="coming-events">
-                <div class="icon-one paroller" data-paroller-factor="0.20" data-paroller-factor-lg="0.15"
-                    data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
-                    <span class="flaticon-heart-2"></span>
-                </div>
-                <div class="icon-two paroller" data-paroller-factor="-0.20" data-paroller-factor-lg="-0.15"
-                    data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
-                    <span class="flaticon-gift-box"></span>
-                </div>
-                <div class="auto-container">
-                    <div class="sec-title centered">
-                        <div class="upper-icon"></div>
-                        <h2>Upcoming Events</h2>
-                        <div class="text">Lovely events for everyone to join</div>
+                    <div class="icon-one paroller" data-paroller-factor="0.20" data-paroller-factor-lg="0.15"
+                        data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
+                        <span class="flaticon-heart-2"></span>
                     </div>
-                    <div class="carousel-box">
-                        <div class="kausid-carousel owl-theme owl-carousel"
-                            data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 500, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1024":{ "items" : "2" }}}'>
-                            <div class="slide-item">
-                                <div class="event-block-two">
-                                    <div class="inner-box">
-                                        <figure class="image-box"><a href="event-single.html"><img
-                                                    src="assets/frontend_assets//resource/event-image-1.jpg" alt=""></a></figure>
-                                        <div class="lower-box">
-                                            <div class="date"><span>18</span> Aug <br>2019</div>
-                                            <h3><a href="event-single.html">Water Supply Charity & Fundrising Event For
-                                                    Needy People</a></h3>
-                                            <div class="info clearfix">
-                                                <span class="time">From 4:30 PM to 9:30 PM</span>
-                                                <span class="location">Melbourne, Australia</span>
+                    <div class="icon-two paroller" data-paroller-factor="-0.20" data-paroller-factor-lg="-0.15"
+                        data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal">
+                        <span class="flaticon-gift-box"></span>
+                    </div>
+                    <div class="auto-container">
+                        <div class="sec-title centered">
+                            <div class="upper-icon"></div>
+                            <h2>Upcoming Events</h2>
+                            <div class="text">Lovely events for everyone to join</div>
+                        </div>
+                        <div class="carousel-box">
+                            <div class="kausid-carousel owl-theme owl-carousel"
+                                data-options='{"loop": true, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 500, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1024":{ "items" : "2" }}}'>
+                                <div class="slide-item">
+                                    <div class="event-block-two">
+                                        <div class="inner-box">
+                                            <figure class="image-box"><a href="event-single.html"><img
+                                                        src="assets/frontend_assets//resource/event-image-1.jpg" alt=""></a></figure>
+                                            <div class="lower-box">
+                                                <div class="date"><span>18</span> Aug <br>2019</div>
+                                                <h3><a href="event-single.html">Water Supply Charity & Fundrising Event For
+                                                        Needy People</a></h3>
+                                                <div class="info clearfix">
+                                                    <span class="time">From 4:30 PM to 9:30 PM</span>
+                                                    <span class="location">Melbourne, Australia</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slide-item">
-                                <div class="event-block-two blue-theme">
-                                    <div class="inner-box">
-                                        <figure class="image-box"><a href="event-single.html"><img
-                                                    src="assets/frontend_assets//resource/event-image-2.jpg" alt=""></a></figure>
-                                        <div class="lower-box">
-                                            <div class="date"><span>31</span> Aug<br>2019</div>
-                                            <h3><a href="event-single.html">Grow More Trees And Save Our Planet Fundrising
-                                                    Program</a></h3>
-                                            <div class="info clearfix">
-                                                <span class="time">From 4:30 PM to 9:30 PM</span>
-                                                <span class="location">Kansas City, Newyork</span>
+                                <div class="slide-item">
+                                    <div class="event-block-two blue-theme">
+                                        <div class="inner-box">
+                                            <figure class="image-box"><a href="event-single.html"><img
+                                                        src="assets/frontend_assets//resource/event-image-2.jpg" alt=""></a></figure>
+                                            <div class="lower-box">
+                                                <div class="date"><span>31</span> Aug<br>2019</div>
+                                                <h3><a href="event-single.html">Grow More Trees And Save Our Planet Fundrising
+                                                        Program</a></h3>
+                                                <div class="info clearfix">
+                                                    <span class="time">From 4:30 PM to 9:30 PM</span>
+                                                    <span class="location">Kansas City, Newyork</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -209,8 +210,7 @@ Home - Precious Gift
                             </div>
                         </div>
                     </div>
-                </div>
-            </section> -->
+                </section> -->
     <section class="call-to-action alternate" style="background-color:red;">
         <div class="image-layer"
             style="background-image:url('assets/frontend_assets/images/background/bg-pattern-1.png')"></div>
@@ -224,7 +224,8 @@ Home - Precious Gift
                 </div>
                 <div class="link-column col-xl-3 col-lg-12 col-md-12 col-sm-12">
                     <div class="link-box">
-                        <a href="{{ route('contact.create') }}" class="theme-btn btn-style-one"><span class="btn-title">Talk to Us
+                        <a href="{{ route('contact.create') }}" class="theme-btn btn-style-one"><span
+                                class="btn-title">Talk to Us
                                 Today!</span></a>
                     </div>
                 </div>
