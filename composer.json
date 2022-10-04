@@ -18,7 +18,8 @@
         "spatie/laravel-analytics": "*",
         "spatie/laravel-cookie-consent": "^3.2",
         "spatie/laravel-newsletter": "^4.11",
-        "spatie/laravel-permission": "^5.4"
+        "spatie/laravel-permission": "^5.4",
+        "stichoza/google-translate-php": "^4.1"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

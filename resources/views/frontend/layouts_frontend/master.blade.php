@@ -59,6 +59,9 @@
     <script src="{{ asset('assets/frontend_assets/js/paroller.js')        }}"></script>
     <script src="{{ asset('assets/frontend_assets/js/custom-script.js')   }}"></script>
 
+    {{-- translate --}}
+    
+
     @yield('extra_scripts')
 
 

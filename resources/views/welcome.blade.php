@@ -2,6 +2,13 @@
 @section('title')
     Home - Precious Gift
 @endsection
+
+@section('extra_styles')
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+@endsection
+
+
 @section('content')
     <!-- Banner Section -->
     @include('frontend.includes_frontend.slider')
@@ -18,8 +25,8 @@
                                 <div class="icon"><span class="flaticon-care"></span></div>
                                 <h3>Mission</h3>
                                 <div class="text">
-                                    To Love and Care for the vulnerable Children to develop socially,
-                                    physically, Economically and spiritualy into responsible people/ citizens.
+                                    {{ GoogleTranslate::trans('To Love and Care for the vulnerable Children to develop socially,
+                                    physically, Economically and spiritualy into responsible people/ citizens.', app()->getLocale()) }}
                                 </div>
                             </div>
                         </div>
@@ -30,7 +37,8 @@
                             <div class="inner">
                                 <div class="icon"><span class="flaticon-pigeon"></span></div>
                                 <h3>Vision</h3>
-                                <div class="text">To serve as children advocates to enable them lead better lives.​</div>
+                                <div class="text">{{ GoogleTranslate::trans('To serve as children advocates to enable them lead better lives.​', app()->getLocale()) }}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -40,7 +48,7 @@
                             <div class="inner">
                                 <div class="icon"><span class="flaticon-harvest"></span></div>
                                 <h3>Core Values</h3>
-                                <div class="text">Integrity, Stewardship, Excellence, and Dignity.​</div>
+                                <div class="text"> {{ GoogleTranslate::trans('Integrity, Stewardship, Excellence, and Dignity.​', app()->getLocale()) }}</div>
                             </div>
                         </div>
                     </div>
@@ -48,6 +56,21 @@
             </div>
         </div>
     </section>
+
+
+      <h3>{{ GoogleTranslate::trans('Welcome to ItSolutionStuff.com', app()->getLocale()) }}</h3>
+                <h3>{{ GoogleTranslate::trans('Hello World', app()->getLocale()) }}</h3>
+
+
+
+
+
+
+
+
+
+
+                
     <!--About Section Two-->
     <section class="about-section-two">
         <div class="auto-container">
@@ -310,4 +333,20 @@
             </div>
         </div> --}}
     </section>
+@endsection
+
+
+@section('extra_scripts')
+
+{{-- lang --}}
+<script type="text/javascript">
+    
+    var url = "{{ route('changeLang') }}";
+    
+    $(".changeLang").change(function(){
+        window.location.href = url + "?lang="+ $(this).val();
+    });
+    
+</script>
+
 @endsection

@@ -233,6 +233,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Analytics' => Spatie\Analytics\AnalyticsFacade::class,
         'Rave' => KingFlamez\Rave\Facades\Rave::class,
+        'GoogleTranslate' => Stichoza\GoogleTranslate\GoogleTranslate::class,
+        
 
     ],
 

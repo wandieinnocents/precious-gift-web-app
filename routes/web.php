@@ -26,6 +26,10 @@ Route::get('/', function (Request $request) {
     return view('welcome',compact('posts'));
 });
 
+// lang
+Route::get('lang/home', 'App\Http\Controllers\LangController@index');
+Route::get('lang/change', 'App\Http\Controllers\LangController@change')->name('changeLang');
+
 
 // FRONT END ROUTES
 // about us

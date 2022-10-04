@@ -10,6 +10,29 @@
                                 +49 (0) 15210172509  | +256(0) 706-897541</a></li>
                         <li><span class="fa fa-envelope-open"></span> <a href="mailto:donations@example.org"
                                 style="color:#ffffff;">Nakiyingiassybahner@gmail.com  | info@precious-gifts.org</a></li>
+
+                        <li>
+                        <div class="card">
+         
+          <div class="card-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        <strong>Select Language: </strong>
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-select changeLang">
+                            <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
+                            <option value="fr" {{ session()->get('locale') == 'fr' ? 'selected' : '' }}>France</option>
+                            <option value="es" {{ session()->get('locale') == 'es' ? 'selected' : '' }}>Spanish</option>
+                            <option value="de" {{ session()->get('locale') == 'de' ? 'selected' : '' }}>German</option>
+                        </select>
+                    </div>
+                </div>
+              
+                
+          </div>
+        </div>
+                        </li>
                     </ul>
                 </div>
                 <div class="top-right clearfix">
